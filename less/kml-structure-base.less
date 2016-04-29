@@ -1,0 +1,82 @@
+/*************************************************************************************************|
+|   KI-MOLECULA - LARISSA BENTO/LUIGUI DELYER@KI-MOLECULA - kimolecula@s1x.com.br                 |
+|   GITHUB REPO = https://github.com/qumicambu/quimicambu-game.git                                |
+|   NPM DEPENDENCES: {                                                                            |
+|     "gulp": "^3.9.0",                                                                           |
+|     "gulp-autoprefixer": "^3.1.0",                                                              |
+|     "gulp-concat-css": "^2.2.0",                                                                |
+|     "gulp-cssbeautify": "^0.1.3",                                                               |
+|     "gulp-csscomb": "^3.0.6",                                                                   |
+|     "gulp-csscomb-lint": "0.0.2",                                                               |
+|     "gulp-less": "^3.0.5",                                                                      |
+|     "gulp-minify-css": "^1.2.3",                                                                |
+|     "gulp-rename": "^1.2.2",                                                                    |
+|     "gulp-htmlmin": "^1.3.0",                                                                   |
+|     "gulp-rename": "^1.2.2",                                                                    |
+|     "gulp-watch": "^4.3.5",                                                                     |
+|   }                                                                                             |
+|*************************************************************************************************/
+
+//ALL COLORS
+@import 'kml-color-palette.less';
+
+//FONT STYLES
+@import 'kml-font-style.less';
+
+//ALL FUNCTIONS AND MIXINS
+@import 'kml-basic-functions.less';
+
+//BUTTONS
+@import 'kml-buttons.less';
+
+//MEDIA QUERY SMALL SCREENS
+@media only screen and (max-width: 640px) {
+  //NAV
+  @import 'kml-nav-small.less';
+  //TEMPLATES SECTIONS
+  @import 'kml-templates-styles-small-screen.less';
+}
+
+//MEDIA QUERY MEDIUM SCREENS
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  //NAV
+  @import 'kml-nav-medium.less';
+  //TEMPLATES SECTIONS
+  @import 'kml-templates-styles-medium-screen.less';
+}
+
+//MEDIA QUERY LARGE/BIG SCREENS
+@media only screen and (min-width: 1025px) {
+  //NAV
+  @import 'kml-nav-big.less';
+  //TEMPLATES SECTIONS
+  @import 'kml-templates-styles-big-screen.less';
+}
+
+
+
+html,
+body {
+  position: absolute !important;
+
+  width: 100% !important;
+  min-width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+
+  text-rendering: optimizeLegibility !important;
+}
+
+body {
+  overflow-x: scroll;
+}
+
+section {
+  position: relative;
+
+  width: 100%;
+  padding: @pixel-proportion * 3;
+
+  .border-box;
+  .dont-select;
+}
