@@ -1,0 +1,150 @@
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl1-mol1-img1",
+      "lvl1-mol1-img2",
+      "lvl1-mol1-img3",
+      "lvl1-mol1-img4"
+    ],
+    "rightAnswer": [
+      "NaCl",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Muito utilizado como tempero",
+      "Em excesso causa retenção de líquido e faz mal para saúde",
+      "É extraído da água salgada"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl1-mol2-img1",
+      "lvl1-mol2-img2",
+      "lvl1-mol2-img3",
+      "lvl1-mol2-img4"
+    ],
+    "rightAnswer": [
+      "CO2",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Liberado na queima de combustíveis fosséis",
+      "Um dos gases de efeito estufa",
+      "As plantas o absorvem no processo de fotossíntese"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl1-mol3-img1",
+      "lvl1-mol3-img2",
+      "lvl1-mol3-img3",
+      "lvl1-mol3-img4"
+    ],
+    "rightAnswer": [
+      "HCl",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Está presente em produtos de limpeza para piso sendo chamado por ácido muriático",
+      "Ácido presente no suco gástrico do estômago"
+      "É formado pelo gás cloreto de hidrogênio dissolvido em água",
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl1-mol4-img1",
+      "lvl1-mol4-img2",
+      "lvl1-mol4-img3",
+      "lvl1-mol4-img4"
+    ],
+    "rightAnswer": [
+      "CH4",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Uma de suas fontes é a decomposição anaeróbica de resíduo/lixo orgânico",
+      "Por ter um odor nada agradável e característico quando uma fruta está apodrecendo, é conhecido como gás dos pantânos",
+      "Está presente no processo de digestão de animais herbívoros, carnívoros e onívoros e por isso é conhecido como o 'gás da flatulência da vaca'"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl1-mol5-img1",
+      "lvl1-mol5-img2",
+      "lvl1-mol5-img3",
+      "lvl1-mol5-img4"
+    ],
+    "rightAnswer": [
+      "SO2",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Um dos gases provenientes da queima de combustíveis fósseis",
+      "É um dos mais perigosos poluentes do ar por ser tóxico e causar ardência/irritação em contato com olhos e mucosas",
+      "É um gás que ao reagir com a água, forma o ácido sulfúrico e resulta na chuva ácida"
+    ],
+  }
+],

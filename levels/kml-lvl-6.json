@@ -1,0 +1,150 @@
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl6-mol1-img1",
+      "lvl6-mol1-img2",
+      "lvl6-mol1-img3",
+      "lvl6-mol1-img4"
+    ],
+    "rightAnswer": [
+      "CaCO3",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Aplicado na 'calagem', técnica em que o composto é empregado na agricultura para diminuir a acidez do solo",
+      "Ele é matéria-prima para a produção de cimento, junto com argila e areia",
+      "Principal componente de rochas como os calcários e encontrado no mármore"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl6-mol2-img1",
+      "lvl6-mol2-img2",
+      "lvl6-mol2-img3",
+      "lvl6-mol2-img4"
+    ],
+    "rightAnswer": [
+      "CH2O",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É um agente preservante de produtos cosméticos e de limpeza",
+      "É o aldeído mais simples, bastante usado na conservação de cadáveres",
+      "Conhecido também por formol e muito utilizado no processo de alisamento dos cabelos"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl6-mol3-img1",
+      "lvl6-mol3-img2",
+      "lvl6-mol3-img3",
+      "lvl6-mol3-img4"
+    ],
+    "rightAnswer": [
+      "KNO3",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Usado para fazer bombas de fumaça e principalmente nas pólvoras utilizadas em fogos de artifício",
+      "Usado por indústrias alimentícias que produzem carnes defumadas e embutidos com a finalidade de evitar a proliferação de bactérias",
+      "Serve como ótimo como adubo, sendo grande fonte de nitrogênio e potássio para as plantas"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl6-mol4-img1",
+      "lvl6-mol4-img2",
+      "lvl6-mol4-img3",
+      "lvl6-mol4-img4"
+    ],
+    "rightAnswer": [
+      "NaF",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É usado como preservante de madeira",
+      "Utilizado na fluoretação da água potável",
+      "Usado principalmente na prevenção de cáries dentárias e na fabricação de pastas de dentes"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl6-mol5-img1",
+      "lvl6-mol5-img2",
+      "lvl6-mol5-img3",
+      "lvl6-mol5-img4"
+    ],
+    "rightAnswer": [
+      "C2H4O2",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É um líquido incolor de cheiro irritante e sabor azedo",
+      "Também é usado na produção de acetato de vinila, para se fazer o polímero PVA (polímero de colas e gomas de mascar)",
+      "Ácido constituinte do vinagre"
+    ],
+  }
+],

@@ -1,0 +1,150 @@
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl8-mol1-img1",
+      "lvl8-mol1-img2",
+      "lvl8-mol1-img3",
+      "lvl8-mol1-img4"
+    ],
+    "rightAnswer": [
+      "C7H6O",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É usado como aromatizante e flavorizante de amêndoas em alimentos",
+      "Oxida-se lentamente a ácido benzoico na presença de oxigênio",
+      "É o principal componente do óleo de amêndoas amargas"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl8-mol2-img1",
+      "lvl8-mol2-img2",
+      "lvl8-mol2-img3",
+      "lvl8-mol2-img4"
+    ],
+    "rightAnswer": [
+      "CH4N2O",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Serve como estabilizador em explosivos de nitrocelulose e devido ao seu alto teor de nitrogênio, é utilizado na fabricação de fertilizantes",
+      "É principalmente aplicada na alimentação de ruminantes",
+      "É o principal produto terminal do metabolismo proteico nos mamíferos, sendo formado no fígado, filtrado pelos rins e eliminado na urina ou no suor"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl8-mol3-img1",
+      "lvl8-mol3-img2",
+      "lvl8-mol3-img3",
+      "lvl8-mol3-img4"
+    ],
+    "rightAnswer": [
+      "NH4OH",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É usado como reagente pela indústria química na produção de tinturas de cabelo, shampoos, náilon, sabão amoniacal, detergentes, entre outros",
+      "É altamente volátil, de cheiro amargo e fortemente penetrante, tóxico e corrosivo",
+      "É um produto instável que se decompõe em NH3 e H2O"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl8-mol4-img1",
+      "lvl8-mol4-img2",
+      "lvl8-mol4-img3",
+      "lvl8-mol4-img4"
+    ],
+    "rightAnswer": [
+      "C3H8O",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É o mais apropriado para limpar componentes eletrônicos pois tem menos de 1% de água em sua composição",
+      "É também bastante empregado na indústria gráfica, na composição da solução de molha do processo de impressão offset. Por isso que algumas impressões antigas saiam com o cheiro de álcool",
+      "Também utilizado em produtos de limpeza de superfícies de vidro. Misturando-o com detergente não-iônico é muito utilizado em produtos específicos para limpeza de lentes de óculos, detergentes enzimáticos, etc"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl8-mol5-img1",
+      "lvl8-mol5-img2",
+      "lvl8-mol5-img3",
+      "lvl8-mol5-img4"
+    ],
+    "rightAnswer": [
+      "NaHCO3",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "É utilizado na fabricação de extintores de incêndio com produção de espuma para combater incêndios de Classe A e B",
+      "Também é muito utilizado como fermento químico para o crescimento das massas em receitas culinárias",
+      "É o principal composto usado como antiácido estomacal"
+    ],
+  }
+],

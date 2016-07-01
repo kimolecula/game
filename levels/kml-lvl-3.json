@@ -1,0 +1,150 @@
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl3-mol1-img1",
+      "lvl3-mol1-img2",
+      "lvl3-mol1-img3",
+      "lvl3-mol1-img4"
+    ],
+    "rightAnswer": [
+      "NaOH",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Principal composto utilizado na produção de sabões",
+      "Usado na correção de pH para tratamento de efluentes/resíduos na água",
+      "É a base química mais conhecida. Chamada popularmente de soda"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl3-mol2-img1",
+      "lvl3-mol2-img2",
+      "lvl3-mol2-img3",
+      "lvl3-mol2-img4"
+    ],
+    "rightAnswer": [
+      "CaO",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Tem grande utilidade na construção civil na elaboração de argamassas com que se erguem as paredes e muros",
+      "É obtida por decomposição térmica de calcário",
+      "Usado na agricultura para controle de pH do solo"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "rightAnswer": [
+      "H2O",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Recurso vital a sobrevivência que está ameaçado de esgotamento",
+      "O corpo humano é formado por cerca de 65% desse composto",
+      "Solvente universal"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl3-mol4-img1",
+      "lvl3-mol4-img2",
+      "lvl3-mol4-img3",
+      "lvl3-mol4-img4"
+    ],
+    "rightAnswer": [
+      "CO",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Existe grandes concentrações desse composto quando há um incêndio",
+      "É produzido pela combustão incompleta de materiais ricos em carbono, como derivados de petróleo e carvão",
+      "É um dos componentes liberados por escapamentos de automovéis"
+    ],
+  }
+],
+[
+  {
+    "description": "valor",
+    "imgFile": [
+      "lvl3-mol5-img1",
+      "lvl3-mol5-img2",
+      "lvl3-mol5-img3",
+      "lvl3-mol5-img4"
+    ],
+    "rightAnswer": [
+      "NaI",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "wrongAnswer": [
+      "valor",
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "tips": [
+      "Sólido branco usado da detecção de radiação",
+      "Usado na prevenção e tratamento do bócio endêmico (deficiência de iodo)",
+      "Na sua decomposição, quando aquecido, são emitidas fumaças tóxicas de iodo e óxido de sódio"
+    ],
+  }
+],
