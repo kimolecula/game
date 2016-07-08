@@ -52,6 +52,10 @@ var kimolecula = angular.module('kimolecula', ['ngResource', 'ngRoute', 'ngSanit
         templateUrl: '/templates/tentativas-excedidas.html',
         controller: 'tentativasExcedidasController'
     })
+    .when('/um-pouco-de-quimica', {
+        templateUrl: '/templates/um-pouco-de-quimica.html',
+        controller: 'umPoucoDeQuimicaController'
+    })
     .otherwise({
         redirectTo: '/home'
     });
