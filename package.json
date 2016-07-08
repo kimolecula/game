@@ -1,7 +1,7 @@
 {
   "name": "quimicambu-game",
   "version": "1.0.0",
-  "description": "An HTML5 game to teach chemical skills to everyone ",
+  "description": "An HTML5 game to teach chemical skills to everyone",
   "main": "",
   "scripts": {
     "test": ""
@@ -11,27 +11,31 @@
     "url": "git+https://github.com/qumicambu/quimicambu-game.git"
   },
   "author": "Larissa Bento e Luigui Delyer",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qumicambu/quimicambu-game/issues"
   },
-  "homepage": "http://www.somostodosjao.com.br",
+  "homepage": "",
   "devDependencies": {
+    "angular-h-sweetalert": "^1.4.7",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.0",
     "gulp-concat-css": "^2.2.0",
     "gulp-cssbeautify": "^0.1.3",
     "gulp-csscomb": "^3.0.6",
     "gulp-csscomb-lint": "0.0.2",
-    "gulp-htmlmin": "^1.3.0",
     "gulp-jsvalidate": "^2.1.0",
     "gulp-less": "^3.0.5",
-    "gulp-minify-css": "^1.2.3",
+    "gulp-live-server": "0.0.29",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-minify": "0.0.11",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1",
     "gulp-watch": "^4.3.5",
-    "live-server": "^0.9.1",
-    "normalize.css": "^3.0.3",
-    "sweetalert": "^1.1.3"
+    "ng-l20n": "^0.2.4",
+    "openurl": "^1.1.1",
+    "run-sequence": "^1.2.1"
   }
 }
