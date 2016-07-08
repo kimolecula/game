@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl10-mol1-img1",
       "lvl10-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl10-mol1-img4"
     ],
     "rightAnswer": [
-      "K2Cr2O7",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "K2",
+      "Cr2",
+      "O7"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "I2",
+      "C",
+      "P",
+      "Mn"
     ],
     "tips": [
       "É um dos compostos químicos que pode ser usado nos bafômetros para detectar embriaguez",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl10-mol2-img1",
       "lvl10-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl10-mol2-img4"
     ],
     "rightAnswer": [
-      "C3H8O3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C3",
+      "H8",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Hg",
+      "K",
+      "Ca",
+      "Na",
+      "Li"
     ],
     "tips": [
       "É usado na indústria têxtil para amaciar e flexibilizar as fibras",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl10-mol3-img1",
       "lvl10-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl10-mol3-img4"
     ],
     "rightAnswer": [
-      "C4H10",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C4",
+      "H10"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "P",
+      "S",
+      "I",
+      "K",
+      "Na",
+      "Ca"
     ],
     "tips": [
       "É muito comum nos isqueiros, serve para o aquecimento de saunas e piscinas",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl10-mol4-img1",
       "lvl10-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl10-mol4-img4"
     ],
     "rightAnswer": [
-      "C4H8",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C4",
+      "H8"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Cl",
+      "I3",
+      "P",
+      "F",
+      "B",
+      "N"
     ],
     "tips": [
       "Esse composto é obtido a partir da termólise do petróleo por reação de etileno com tris-etilalumínio",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl10-mol5-img1",
       "lvl10-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl10-mol5-img4"
     ],
     "rightAnswer": [
-      "C6H5NH2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C6",
+      "H5",
+      "NH2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Li",
+      "Na",
+      "O",
+      "He",
+      "Cl"
     ],
     "tips": [
       "É usada para fabricar a espuma de poliuretano",

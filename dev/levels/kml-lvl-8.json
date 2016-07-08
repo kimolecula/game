@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl8-mol1-img1",
       "lvl8-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl8-mol1-img4"
     ],
     "rightAnswer": [
-      "C7H6O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C7",
+      "H6",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O2",
+      "C2",
+      "H",
+      "K",
+      "S"
     ],
     "tips": [
       "É usado como aromatizante e flavorizante de amêndoas em alimentos",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl8-mol2-img1",
       "lvl8-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl8-mol2-img4"
     ],
     "rightAnswer": [
-      "CH4N2O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "H4",
+      "N2",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "K",
+      "Li",
+      "Na",
+      "Al"
     ],
     "tips": [
       "Serve como estabilizador em explosivos de nitrocelulose e devido ao seu alto teor de nitrogênio, é utilizado na fabricação de fertilizantes",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl8-mol3-img1",
       "lvl8-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl8-mol3-img4"
     ],
     "rightAnswer": [
-      "NH4OH",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "N",
+      "H4",
+      "OH"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "(OH)2",
+      "Na",
+      "Mg",
+      "Li",
+      "K"
     ],
     "tips": [
       "É usado como reagente pela indústria química na produção de tinturas de cabelo, shampoos, náilon, sabão amoniacal, detergentes, entre outros",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl8-mol4-img1",
       "lvl8-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl8-mol4-img4"
     ],
     "rightAnswer": [
-      "C3H8O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C3",
+      "H8",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Al",
+      "S",
+      "Ba",
+      "Cl",
+      "He"
     ],
     "tips": [
       "É o mais apropriado para limpar componentes eletrônicos pois tem menos de 1% de água em sua composição",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl8-mol5-img1",
       "lvl8-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl8-mol5-img4"
     ],
     "rightAnswer": [
-      "NaHCO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "H",
+      "C",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Li",
+      "Ca",
+      "K",
+      "I"
     ],
     "tips": [
       "É utilizado na fabricação de extintores de incêndio com produção de espuma para combater incêndios de Classe A e B",

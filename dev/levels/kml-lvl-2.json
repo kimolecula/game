@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl2-mol1-img1",
       "lvl2-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl2-mol1-img4"
     ],
     "rightAnswer": [
-      "H2O2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "O2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Fe",
+      "Au",
+      "H3",
+      "P",
+      "O",
+      "O3"
     ],
     "tips": [
       "Em certas concentrações é usado como desinfetante oxidante matando bactérias e vírus",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl2-mol2-img1",
       "lvl2-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl2-mol2-img4"
     ],
     "rightAnswer": [
-      "NI3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "N",
+      "I3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O3",
+      "K",
+      "O2",
+      "I",
+      "N2",
+      "I2"
     ],
     "tips": [
       "É um explosivo de contato extremamente sensível. Em pequenas quantidades, explode apenas com um leve toque",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl2-mol3-img1",
       "lvl2-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl2-mol3-img4"
     ],
     "rightAnswer": [
-      "KOH",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "K",
+      "OH"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O2",
+      "H2",
+      "Na",
+      "Cl2",
+      "Fe",
+      "(OH)2"
     ],
     "tips": [
       "Atua muito bem na produção de biodiesel por saponificação de gorduras em óleos vegetais, substituindo o NaOH",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl2-mol4-img1",
       "lvl2-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl2-mol4-img4"
     ],
     "rightAnswer": [
-      "HNO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "N",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "N2",
+      "H2",
+      "O",
+      "K",
+      "Ba"
     ],
     "tips": [
       "É um ácido forte e bastante corrosivo",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl2-mol5-img1",
       "lvl2-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl2-mol5-img4"
     ],
     "rightAnswer": [
-      "NH3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "N",
+      "H3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "Cl",
+      "N2",
+      "H",
+      "O2",
+      "C2"
     ],
     "tips": [
       "Seu vapor é extremamente irritante e corrosivo, com um odor picante",

@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl4-mol1-img1",
       "lvl4-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl4-mol1-img4"
     ],
     "rightAnswer": [
-      "C2H6O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C2",
+      "H6",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O3",
+      "C",
+      "H",
+      "H3",
+      "H2"
     ],
     "tips": [
       "Substância orgânica que é obtida através da fermentação de açúcares, da hidratação do etileno ou da redução de acetaldeído",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl4-mol2-img1",
       "lvl4-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl4-mol2-img4"
     ],
     "rightAnswer": [
-      "C2H4",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C2",
+      "H4"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O2",
+      "O",
+      "Na",
+      "K",
+      "P",
+      "Si"
     ],
     "tips": [
       "Pode ser usado como um anestésico moderado em cirurgias",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl4-mol3-img1",
       "lvl4-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl4-mol3-img4"
     ],
     "rightAnswer": [
-      "ZnO",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Zn",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "Ba2",
+      "Ca",
+      "Cr",
+      "Tc",
+      "Po"
     ],
     "tips": [
       "Muito usado como aditivo em suplemento alimentar",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl4-mol4-img1",
       "lvl4-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl4-mol4-img4"
     ],
     "rightAnswer": [
-      "C6H12O6",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C6",
+      "H12",
+      "O6"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C3",
+      "H6",
+      "O3",
+      "Se",
+      "K"
     ],
     "tips": [
       "As células do nosso organismo usam esse composto como fonte de energia",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl4-mol5-img1",
       "lvl4-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl4-mol5-img4"
     ],
     "rightAnswer": [
-      "C2H4O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C2",
+      "H4",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C3",
+      "H2",
+      "O2",
+      "Na",
+      "Cl"
     ],
     "tips": [
       "É um aldeído usado na síntese de compostos orgânicos como o ácido acético e no preparo do etanol",

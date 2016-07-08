@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl9-mol1-img1",
       "lvl9-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl9-mol1-img4"
     ],
     "rightAnswer": [
-      "C9H8O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C9",
+      "H8",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "K",
+      "I2",
+      "Mg",
+      "Mn",
+      "He"
     ],
     "tips": [
       "Sua principal aplicação é como aromatizante alimentar em sorvetes, chicletes e bebidas. Também é utilizado em perfumes que possuam um aroma amadeirado",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl9-mol2-img1",
       "lvl9-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl9-mol2-img4"
     ],
     "rightAnswer": [
-      "NaClO",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "Cl",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "C2",
+      "I",
+      "Ca",
+      "H"
     ],
     "tips": [
       "Seu principal uso é na cloração para o tratamento da água",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl9-mol3-img1",
       "lvl9-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl9-mol3-img4"
     ],
     "rightAnswer": [
-      "Na2CO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na2",
+      "C",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "C2",
+      "O2",
+      "I",
+      "Ba"
     ],
     "tips": [
       "É utilizado para elevar o pH de águas tanto de uso doméstico e urbano quanto industrial",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl9-mol4-img1",
       "lvl9-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl9-mol4-img4"
     ],
     "rightAnswer": [
-      "H3BO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H3",
+      "B",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "I3",
+      "N",
+      "C",
+      "Pb"
     ],
     "tips": [
       "É comumente usado como insecticida não tóxico para matar baratas, cupins, formigas, pulgas e muitos outros insetos. Pode ser utilizado diretamente sob a forma de pó",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl9-mol5-img1",
       "lvl9-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl9-mol5-img4"
     ],
     "rightAnswer": [
-      "N2O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "N2",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Br",
+      "He",
+      "Ca",
+      "Cl",
+      "C",
+      "H2"
     ],
     "tips": [
       "Age como agente anestésico fraco em forma de gás respiratório e é bastante usado pela área médica e odontológica devido seu efeito analgésico e sedativo",

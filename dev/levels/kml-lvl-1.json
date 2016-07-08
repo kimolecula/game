@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl1-mol1-img1",
       "lvl1-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl1-mol1-img4"
     ],
     "rightAnswer": [
-      "NaCl",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "Cl"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "O2",
+      "Cl3",
+      "Na2",
+      "N",
+      "H"
     ],
     "tips": [
       "Muito utilizado como tempero",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl1-mol2-img1",
       "lvl1-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl1-mol2-img4"
     ],
     "rightAnswer": [
-      "CO2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "O2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C2",
+      "Mn3",
+      "Cl4",
+      "Na",
+      "K",
+      "H2"
     ],
     "tips": [
       "Liberado na queima de combustíveis fosséis",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl1-mol3-img1",
       "lvl1-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl1-mol3-img4"
     ],
     "rightAnswer": [
-      "HCl",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "Cl"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "K2",
+      "S",
+      "Cl4",
+      "H6",
+      "Ba"
     ],
     "tips": [
       "Está presente em produtos de limpeza para piso sendo chamado por ácido muriático",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl1-mol4-img1",
       "lvl1-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl1-mol4-img4"
     ],
     "rightAnswer": [
-      "CH4",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "H4"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H5",
+      "Cl",
+      "O3",
+      "N",
+      "C2",
+      "Na3"
     ],
     "tips": [
       "Uma de suas fontes é a decomposição anaeróbica de resíduo/lixo orgânico",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl1-mol5-img1",
       "lvl1-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl1-mol5-img4"
     ],
     "rightAnswer": [
-      "SO2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "S",
+      "O2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "I",
+      "Ba",
+      "H",
+      "O4",
+      "S3",
+      "Na2"
     ],
     "tips": [
       "Um dos gases provenientes da queima de combustíveis fósseis",

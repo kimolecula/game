@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl5-mol1-img1",
       "lvl5-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl5-mol1-img4"
     ],
     "rightAnswer": [
-      "HCN",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "CN"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "C2",
+      "N2",
+      "K",
+      "Li"
+      "(CN)2"
     ],
     "tips": [
       "É usado na fabricação de plástico, corante, acrílico, pesticida, fertilizante agrícola e na extração de ouro e prata",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl5-mol2-img1",
       "lvl5-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl5-mol2-img4"
     ],
     "rightAnswer": [
-      "C3H6O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C3",
+      "H6",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O2",
+      "Cl",
+      "K",
+      "I2",
+      "Cs"
     ],
     "tips": [
       "Um dos compostos que mais volatiliza facilmente",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl5-mol3-img1",
       "lvl5-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl5-mol3-img4gh"
     ],
     "rightAnswer": [
-      "Mg(OH)2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Mg",
+      "(OH)2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "I2",
+      "K",
+      "Pb",
+      "H2",
+      "Na",
+      "OH"
     ],
     "tips": [
       "Esse composto, ao ser misturado com água, é utilizado como redutor da oleosidade da pele, devido à sua adstringência",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl5-mol4-img1",
       "lvl5-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl5-mol4-img4"
     ],
     "rightAnswer": [
-      "H2SO4",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "S",
+      "O4"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "O2",
+      "P",
+      "Li",
+      "He"
     ],
     "tips": [
       "O composto tem várias aplicações industriais. É produzido em quantidades maiores do que qualquer outra substância, perdendo apenas para água",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl5-mol5-img1",
       "lvl5-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl5-mol5-img4"
     ],
     "rightAnswer": [
-      "MgSO4",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Mg",
+      "S",
+      "O4"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "Cl3",
+      "Br",
+      "Na",
+      "C2"
     ],
     "tips": [
       "É empregado na indústria como agente secante",

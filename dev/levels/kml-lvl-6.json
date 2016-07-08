@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl6-mol1-img1",
       "lvl6-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl6-mol1-img4"
     ],
     "rightAnswer": [
-      "CaCO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Ca",
+      "C",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Li",
+      "O2",
+      "P",
+      "Si",
+      "N"
     ],
     "tips": [
       "Aplicado na 'calagem', técnica em que o composto é empregado na agricultura para diminuir a acidez do solo",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl6-mol2-img1",
       "lvl6-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl6-mol2-img4"
     ],
     "rightAnswer": [
-      "CH2O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "H2",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "O2",
+      "C2",
+      "Na",
+      "K",
+      "I"
     ],
     "tips": [
       "É um agente preservante de produtos cosméticos e de limpeza",
@@ -60,7 +54,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl6-mol3-img1",
       "lvl6-mol3-img2",
@@ -68,18 +61,16 @@
       "lvl6-mol3-img4"
     ],
     "rightAnswer": [
-      "KNO3",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "K",
+      "N",
+      "O3"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Br",
+      "I",
+      "Cl",
+      "Ca",
+      "H"
     ],
     "tips": [
       "Usado para fazer bombas de fumaça e principalmente nas pólvoras utilizadas em fogos de artifício",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl6-mol4-img1",
       "lvl6-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl6-mol4-img4"
     ],
     "rightAnswer": [
-      "NaF",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "F"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "I3",
+      "K",
+      "Cl",
+      "Na2",
+      "Pb",
+      "OH"
     ],
     "tips": [
       "É usado como preservante de madeira",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl6-mol5-img1",
       "lvl6-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl6-mol5-img4"
     ],
     "rightAnswer": [
-      "C2H4O2",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C2",
+      "H4",
+      "O2"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "B",
+      "C",
+      "F",
+      "P",
+      "Si"
     ],
     "tips": [
       "É um líquido incolor de cheiro irritante e sabor azedo",

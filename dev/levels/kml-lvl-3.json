@@ -1,6 +1,5 @@
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl3-mol1-img1",
       "lvl3-mol1-img2",
@@ -8,18 +7,16 @@
       "lvl3-mol1-img4"
     ],
     "rightAnswer": [
-      "NaOH",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "OH"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "O2",
+      "Cl",
+      "Na3",
+      "K",
+      "(OH)3"
     ],
     "tips": [
       "Principal composto utilizado na produção de sabões",
@@ -30,7 +27,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl3-mol2-img1",
       "lvl3-mol2-img2",
@@ -38,18 +34,16 @@
       "lvl3-mol2-img4"
     ],
     "rightAnswer": [
-      "CaO",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Ca",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "Na",
+      "Ca3",
+      "O2",
+      "He"
+      "B"
     ],
     "tips": [
       "Tem grande utilidade na construção civil na elaboração de argamassas com que se erguem as paredes e muros",
@@ -60,26 +54,23 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "lvl3-mol3-img1",
+      "lvl3-mol3-img2",
+      "lvl3-mol3-img3",
+      "lvl3-mol3-img4"
     ],
     "rightAnswer": [
-      "H2O",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H2",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "O2",
+      "Na",
+      "K",
+      "Mg",
+      "O3"
     ],
     "tips": [
       "Recurso vital a sobrevivência que está ameaçado de esgotamento",
@@ -90,7 +81,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl3-mol4-img1",
       "lvl3-mol4-img2",
@@ -98,18 +88,16 @@
       "lvl3-mol4-img4"
     ],
     "rightAnswer": [
-      "CO",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "C",
+      "O"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Fe",
+      "B",
+      "I",
+      "F",
+      "H",
+      "Co"
     ],
     "tips": [
       "Existe grandes concentrações desse composto quando há um incêndio",
@@ -120,7 +108,6 @@
 ],
 [
   {
-    "description": "valor",
     "imgFile": [
       "lvl3-mol5-img1",
       "lvl3-mol5-img2",
@@ -128,18 +115,16 @@
       "lvl3-mol5-img4"
     ],
     "rightAnswer": [
-      "NaI",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "Na",
+      "I"
     ],
     "wrongAnswer": [
-      "valor",
-      "valor",
-      "valor",
-      "valor",
-      "valor"
+      "H",
+      "Cl",
+      "Si",
+      "S",
+      "P",
+      "I2"
     ],
     "tips": [
       "Sólido branco usado da detecção de radiação",
