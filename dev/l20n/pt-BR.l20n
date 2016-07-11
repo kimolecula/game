@@ -18,7 +18,7 @@
   Mais conteúdos que forem necessários.">
 
 
-<kmlNomeTitle "Nome">
+<kmlNomeTitle "Insira seu Nome">
 <kmlNomeParagraph "Olá! Sou o Professor Panda e vou acompanhá-lo durante o jogo. Para começarmos, insira seu nome no campo ao lado e clique em Ok.">
 
 
@@ -35,12 +35,12 @@
 
 
 <kmlJogoParagraph1 "Fase 1">
-<kmlJogoButton1 "Trocar">
+<kmlJogoButton1 "Pular">
 <kmlJogoButton2 "Parar">
 <kmlJogoParagraph1 "Informação sobre a molécula abaixo">
 <kmlJogoParagraph2 "Contador de Bambús">
-<kmlJogoButton3 "Dicas">
-<kmlJogoParagraph3 "Lista de Elementos">
+<kmlJogoButton3 "Dica">
+<kmlJogoParagraph3 "Elementos da tabela periódica">
 
 
 <kmlExcTitle "Número máximo de tentativas excedido!">

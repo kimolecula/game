@@ -1,50 +1,117 @@
-<div class="center-content">
-    <div class="">
-        <span>
-            <p data-l20n="kmlJogoParagraph1"></p>
-        </span>
-        <span>
-            <button type="button" name="button" data-l20n="kmlJogoButton1"></button>
-        </span>
-        <span>
-            <button type="button" name="button" data-l20n="kmlJogoButton2"></button>
-        </span>
+<div class="game-disposition container-column row">
+    <div class="center-content column">
+        <div class="game-headerbar">
+            <div class="welcome-player">
+                Olá, Luigui Delyer!
+            </div>
+            <div class="buttons-options">
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" href="#/home"></a>
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton2" ng-click="quitGame()"></a>
+            </div>
+        </div>
+        <div class="center-content game-quiz">
+            <div class="actual-level">
+                FASE 1
+            </div>
+            <div class="game-screen">
+                <div class="pictures">
+                    <div class="row">
+                        <div style="background-image: url('design/lvl1-mol1-img1.jpg')"></div>
+                        <div style="background-image: url('design/lvl1-mol1-img2.jpg')"></div>
+                    </div>
+                    <div class="row">
+                        <div style="background-image: url('design/lvl1-mol1-img3.jpg')"></div>
+                        <div style="background-image: url('design/lvl1-mol1-img4.jpg')"></div>
+                    </div>
+                </div>
+                <div class="answers-selected">
+                    <span>H2</span>
+                    <span>CO2</span>
+                    <span>CU</span>
+                </div>
+                <div class="answers-all">
+                    <span>H2</span>
+                    <span>CO2</span>
+                    <span>CU</span>
+                    <span>H2</span>
+                    <span>CO2</span>
+                </div>
+            </div>
+
+            <div class="game-info">
+                <span class="mini-section">
+                    <span class='mini-section-title' data-l20n="kmlJogoParagraph2"></span>
+                    <div class="bamboo-counter">
+                        <img src="design/panda-bamboo-03.png" />
+                        <img src="design/panda-bamboo-03.png" />
+                        <img src="design/panda-bamboo-03.png" />
+                        <img src="design/panda-bamboo-03.png" />
+                        <img src="design/panda-bamboo-03.png" />
+                        <img src="design/panda-bamboo-03.png" />
+                    </div>
+                </span>
+
+                <div class="buttons-helpers">
+                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="">
-        <p data-l20n="kmlJogoParagraph1"></p>
-    </div>
-    <div class="">
-        <div class="">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-        </div>
-        <div class="">
-            <span>opção</span><span>opção</span><span>opção</span>
-        </div>
-        <div class="">
-            <span>opção</span><span>opção</span><span>opção</span><span>opção</span><span>opção</span>
-            <span>opção</span><span>opção</span><span>opção</span><span>opção</span><span>opção</span>
-        </div>
-        <div class="">
-            <span>
-                <p data-l20n="kmlJogoParagraph2"></p>
-            </span>
-            <span>
-                <button type="button" name="button" data-l20n="kmlJogoButton3"></button>
-            </span>
-        </div>
-        <div class="">
-            <span>
-                <input type="button" name="name" value="">
-                Barra de pesquisa
-            </span>
-        </div>
-        <div class="">
-            <span>
-                <p data-l20n="kmlJogoParagraph3"></p>
-            </span>
-        </div>
+    <div class="game-sidebar center-content column">
+        <span class="mini-section">
+            <span class='mini-section-title' data-l20n="kmlJogoParagraph3"></span>
+            <div class="chemical-search">
+                <input type="text" name="name" value="" class="input input--border-dark" placeholder="Pesquisar elementos">
+            </div>
+            <div class="chemical-elements">
+                <ul>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CO2</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                    <li>CU</li>
+                    <li>H2</li>
+                    <li>CO2</li>
+                </ul>
+            </div>
+        </span>
     </div>
 </div>

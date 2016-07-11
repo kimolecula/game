@@ -1,25 +1,322 @@
 body {
-  .border-box;
-  padding: @pixel-proportion * 2;
-  .flex (column, center, center);
+    padding: @pixel-proportion * 3;
+
+    background-color: @kml-grey-2;
+
+    .border-box;
+    .flex (column, center, center);
+}
+
+.container-row {
+    width: 100%;
+    height: 100%;
+
+    .flex (row, center, center);
+}
+
+.container-column {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .border-box;
 }
 
 .center-content {
-  .flex (column, center, center);
-  height: 100%;
-  width: 100%;
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
 }
 
 .text-full {
-  text-align: center;;
-  width: 50%;
+    width: 50%;
+
+    text-align: center;
 }
 
 .header-buttons {
-  .flex (row, flex-start, center);
-  width: 100%;
+    width: 100%;
+
+    .flex (row, flex-start, center);
 }
 
 .form-user {
-  .flex (row, center, center);
+    .flex (row, center, center);
+}
+
+.mini-section {
+    width: 100%;
+}
+
+.mini-section-title {
+    width: 100%;
+
+    text-align: center;
+
+    color: @kml-white;
+}
+
+.divider-sidebar {
+    margin-top: @pixel-proportion * 3;
+}
+
+.game-disposition {
+    overflow: hidden;
+
+    width: 91%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid @kml-color-4;
+    border-radius: @pixel-proportion * 4;
+    background: @kml-white;
+    box-shadow: 0 0 30px @kml-black-2;
+
+    .border-box;
+
+    .game-headerbar {
+        width: 100%;
+        padding: @pixel-proportion * 1;
+        padding-right: @pixel-proportion * 2;
+        padding-left: @pixel-proportion * 2;
+
+        color: @kml-white;
+        background: @kml-color-1;
+
+        .border-box;
+        .flex(row, flex-start, center);
+
+        & > .welcome-player {
+            .kml-font1;
+            .kml-texts-semi-large;
+        }
+
+        & > .buttons-options {
+            flex: 1 1 auto;
+            .flex(row, flex-end, center);
+
+            & > a {
+                margin: @pixel-proportion / 2;
+                padding: @pixel-proportion * 2;
+
+                .kml-texts-medium;
+            }
+        }
+    }
+
+    .game-sidebar {
+        overflow: hidden;
+
+        width: 30%;
+        height: 100%;
+        padding: @pixel-proportion * 2;
+
+        background: @kml-color-2;
+
+        .border-box;
+        .flex(column, space-between, center);
+
+        & > .mini-section {
+            overflow: hidden;
+
+            .flex(column, center, center);
+            & > .chemical-search {
+                width: 100%;
+                margin-top: @pixel-proportion;
+
+                border-radius: @pixel-proportion * 4 @pixel-proportion * 4 0 0;
+                background: @kml-color-1;
+
+                .flex(row, center, center);
+            }
+        }
+
+        & > .mini-section {
+            & > .chemical-elements {
+                overflow-y: scroll;
+
+                width: 100%;
+                height: 100%;
+
+                border-radius: 0 0 @pixel-proportion * 4 @pixel-proportion;
+                background-color: @kml-white;
+
+                align-self: stretch;
+                .flex(row, center, flex-start);
+                & > ul {
+                    width: 16.9vw;
+                    padding: .65vw;
+
+                    text-align: center;
+
+                    & > li {
+                        float: left;
+
+                        width: 3.72vw;
+                        height: 3.72vw;
+                        margin: .164vw;
+
+                        color: @kml-color-1;
+                        border: 1px solid @kml-color-4;
+                        border-radius: @pixel-proportion;
+                        background: @kml-color-3;
+
+                        .flex(row, center, center);
+                        .kml-font1;
+                        .kml-texts-medium;
+                        .cursor-pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .game-quiz {
+        background-image: url('../design/panda-side-jogo-02.png');
+        background-repeat: no-repeat;
+        background-position: @pixel-proportion * -3 bottom;
+        background-size: 35%;
+
+        .flex(row, flex-end, center);
+
+        & > .actual-level {
+            width: 100%;
+            height: 100%;
+            padding: @pixel-proportion * 2;
+
+            color: @kml-color-1;
+
+            .border-box;
+            .kml-texts-medium;
+        }
+
+        & > .game-info {
+            height: 100%;
+            padding: @pixel-proportion * 2;
+
+            .border-box;
+            & > .buttons-helpers {
+                margin-top: @pixel-proportion;
+
+                .flex(row, center, center);
+
+                & > a {
+                    margin: @pixel-proportion / 2;
+                    padding: 0;
+
+                    .kml-texts-small;
+                }
+            }
+
+            & > .mini-section {
+                display: inline-block;
+
+                width: 100%;
+
+                .flex(column, center, center);
+
+                & > span {
+                    color: @kml-color-1;
+                }
+                & > .bamboo-counter {
+                    overflow: hidden;
+
+                    width: 100%;
+                    min-height: 40px;
+                    padding: @pixel-proportion;
+                    padding-right: @pixel-proportion * 2;
+                    padding-left: @pixel-proportion * 2;
+
+                    border: 1px solid @kml-color-1;
+                    border-radius: @pixel-proportion * 3;
+
+                    .flex(row, flex-start, center);
+                    .border-box;
+
+                    & > img {
+                        height: 30px;
+                        margin-right: @pixel-proportion / 4;
+                        margin-left: @pixel-proportion / 4;
+                    }
+                }
+            }
+        }
+
+        & > .game-screen {
+            width: 46%;
+            height: 90%;
+
+            .flex(column, center, center);
+            & > .pictures {
+                & > div > div {
+                    display: block;
+
+                    width: 15vw;
+                    height: 15vw;
+                    margin: @pixel-proportion / 2;
+
+                    border-radius: @pixel-proportion;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                }
+            }
+
+            & > .answers-selected {
+                width: 100%;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    width: 70px;
+                    height: 70px;
+                    margin: @pixel-proportion / 2;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-4;
+                    border-radius: @pixel-proportion;
+                    background: @kml-white;
+
+                    .kml-texts-semi-large;
+                    .kml-font1;
+                    .flex(row, center, center);
+                    .cursor-pointer;
+                }
+            }
+
+            & > .answers-all {
+                width: 100%;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    width: 50px;
+                    height: 50px;
+                    margin: @pixel-proportion / 2;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-4;
+                    border-radius: @pixel-proportion;
+                    background: @kml-color-3;
+
+                    .kml-font1;
+                    .kml-texts-medium;
+                    .flex(row, center, center);
+                    .cursor-pointer;
+                }
+            }
+        }
+    }
 }

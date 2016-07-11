@@ -1,12 +1,15 @@
 .input {
-  border-radius: @pixel-proportion * 8;
-  padding: @pixel-proportion;
-  margin: @pixel-proportion + 2;
-  .border-box;
-  .open-sans-bold;
-  .kml-texts-small;
-  &--border-dark {
-    color: @kml-color-2;
-    border: 2px solid @kml-color-2;
-  }
+    margin: @pixel-proportion + 2;
+    padding: @pixel-proportion * 1.6;
+    padding-right: @pixel-proportion * 3;
+    padding-left: @pixel-proportion * 3;
+
+    border-radius: @pixel-proportion * 8;
+
+    .border-box;
+    .kml-texts-small;
+    &--border-dark {
+        color: @kml-color-2;
+        border: 1px solid @kml-color-2;
+    }
 }

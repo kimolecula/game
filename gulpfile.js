@@ -120,6 +120,30 @@ gulp.task('start:server', function(done) {
         });
     });
 
+    gulp.watch([filesPaths.images.debug], function (file) {
+        runSequence('copy:design');
+
+        gulp.watch([filesPaths.images.production], function (file) {
+            server.notify.apply(server, [file]);
+        });
+    });
+
+    gulp.watch([filesPaths.extras.languages.src], function (file) {
+        runSequence('copy:languages');
+
+        gulp.watch([filesPaths.extras.languages.dest], function (file) {
+            server.notify.apply(server, [file]);
+        });
+    });
+
+    gulp.watch([filesPaths.extras.css.src], function (file) {
+        runSequence('copy:css');
+
+        gulp.watch([filesPaths.extras.css.dest], function (file) {
+            server.notify.apply(server, [file]);
+        });
+    });
+
     if (filesPaths.libs.debug) {
         gulp.watch([filesPaths.libs.debug], function (file) {
             runSequence('copy:libs');

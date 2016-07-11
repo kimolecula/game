@@ -12,13 +12,13 @@
 |*************************************************************************************************/
 'use strict';
 
-var kimolecula = angular.module('kimolecula', ['ngResource', 'ngRoute', 'ngSanitize', 'ngL20n'])
+var kimolecula = angular.module('kimolecula', ['ngResource', 'ngRoute', 'ngSanitize', 'ngL20n', 'hSweetAlert'])
 .run(['$rootScope', function($rootScope){
     $rootScope.server=function(url){
         return SERVER_URL + url;
     }
 
-    $rootScope.appName = "kimolécula";
+    $rootScope.appName = "Kimolécula";
 
 }])
 
