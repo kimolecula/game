@@ -1,16 +1,18 @@
 <div class="container-column">
     <div class="header-buttons">
         <a class='button button--border-dark button--big-icon' href="#/home"><i class="fa fa-arrow-left"></i></a>
+        <img src="design/panda-logo-05.png"/>
     </div>
-    <div class="center-content">
+    <div id="nome" class="center-content">
         <h1 data-l20n="kmlNomeTitle"></h1>
         <span>
-            <img src="" alt="" />
             <p data-l20n="kmlNomeParagraph"></p>
         </span>
         <span class="form-user">
-            <input type="text" name="name" value="" class="input input--border-dark">
-            <a class='button button--border-dark button--big-icon' href="#/instrucoes"><i class="fa fa-check"></i></a>
+            <form ng-submit="validateUser()">
+                <input type="text" name="name" value="" ng-model="game.user" ng-init="game.user = []" placeholder="Ex: Ana Clara" class="input input--border-dark">
+                <button type='submit' class='button button--border-dark button--big-icon'><i class="fa" ng-class="{'fa-check': game.user.length >= 3, 'fa-times': game.user.length <= 2}"></i></button>
+            </form>
         </span>
     </div>
 </div>

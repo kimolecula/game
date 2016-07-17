@@ -2,10 +2,10 @@
     <div class="center-content column">
         <div class="game-headerbar">
             <div class="welcome-player">
-                Olá, Luigui Delyer!
+                Olá, {{game.user}}!
             </div>
             <div class="buttons-options">
-                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" href="#/home"></a>
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" ng-click="changeMolecule()"></a>
                 <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton2" ng-click="quitGame()"></a>
             </div>
         </div>
@@ -42,19 +42,14 @@
                 <span class="mini-section">
                     <span class='mini-section-title' data-l20n="kmlJogoParagraph2"></span>
                     <div class="bamboo-counter">
-                        <img src="design/panda-bamboo-03.png" />
-                        <img src="design/panda-bamboo-03.png" />
-                        <img src="design/panda-bamboo-03.png" />
-                        <img src="design/panda-bamboo-03.png" />
-                        <img src="design/panda-bamboo-03.png" />
-                        <img src="design/panda-bamboo-03.png" />
+                        <img ng-repeat="bamboo in getBamboo(game.bambooCounter) track by $index" src="design/panda-bamboo-03.png" />
                     </div>
                 </span>
 
                 <div class="buttons-helpers">
-                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
-                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
-                    <a class='button button--border-dark button--super-width' data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 1, 'button--border-dark': game.tipCounter == 1}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 2, 'button--border-dark': game.tipCounter <= 2}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 3, 'button--border-dark': game.tipCounter <= 3}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
                 </div>
             </div>
         </div>
@@ -67,49 +62,64 @@
             </div>
             <div class="chemical-elements">
                 <ul>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CO2</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
-                    <li>CU</li>
-                    <li>H2</li>
-                    <li>CO2</li>
+                    <li class="group-elements"><span>Família 1A/Grupo1</span><br>Metais Alcalinos</li>
+                    <li>Hidrogênio (H), Z = 1<br><span>Único não metal dessa família</span></li>
+                    <li>Lítio (Li), Z = 3</li>
+                    <li>Sódio (Na), Z = 11</li>
+                    <li>Potássio (K), Z = 19</li>
+                    <li>Rubídio (Rb), Z = 37</li>
+                    <li>Césio (Cs), Z = 55</li>
+                    <li>Frâncio (Fr), Z = 87</li>
+                    <li class="group-elements"><span>Família 2A/Grupo 2</span><br>Metais Alcalino-Terrosos</li>
+                    <li>Berílio (Be), Z = 4</li>
+                    <li>Magnésio (Mg), Z = 12</li>
+                    <li>Cálcio (Ca), Z = 20</li>
+                    <li>Estrôncio (Sr), Z = 38</li>
+                    <li>Bário (Ba), Z = 56</li>
+                    <li>Rádio (Ra), Z = 88</li>
+                    <li class="group-elements"><span>Família 3A/Grupo 13</span><br>Família do Boro</li>
+                    <li>Boro (B), Z = 5</li>
+                    <li>Alumínio (Al), Z = 13</li>
+                    <li>Gálio (Ga), Z = 31</li>
+                    <li>Índio (In), Z = 49</li>
+                    <li>Tálio (Po), Z = 81</li>
+                    <li>Ununtrio (Uut), Z = 113</li>
+                    <li class="group-elements"><span>Família 4A/Grupo 14</span><br>Família do Carbono</li>
+                    <li>Carbono (C), Z = 6</li>
+                    <li>Silício (Si), Z = 14</li>
+                    <li>Germânio (Ge), Z = 32</li>
+                    <li>Estanho (Sn), Z = 50</li>
+                    <li>Chumbo (Pb), Z = 82</li>
+                    <li>Fleróvio (Fl), Z = 114</li>
+                    <li class="group-elements"><span>Família 5A/Grupo 15</span><br>Família do Nitrogênio</li>
+                    <li>Nitrogênio (N), Z = 7</li>
+                    <li>Fósforo (P), Z = 15</li>
+                    <li>Arsênio (As), Z = 33</li>
+                    <li>Antimônio (Sb), Z = 51</li>
+                    <li>Bismuto (Bi), Z = 83</li>
+                    <li>Ununpentio (Uup), Z = 115</li>
+                    <li class="group-elements"><span>Família 6A/Grupo 16</span><br>Calcogênios</li>
+                    <li>Oxigênio (O), Z = 8</li>
+                    <li>Enxofre (S), Z = 16</li>
+                    <li>Selênio (Se), Z = 34</li>
+                    <li>Telúrio(Te), Z = 52</li>
+                    <li>Polônio (Po), Z = 84</li>
+                    <li>Livermório (Lv), Z = 116</li>
+                    <li class="group-elements"><span>Família 7A/Grupo 17</span><br>Halogênios</li>
+                    <li>Flúor (F), Z = 9</li>
+                    <li>Cloro (Cl), Z = 17</li>
+                    <li>Bromo (Br), Z = 35</li>
+                    <li>Iodo (I), Z = 53</li>
+                    <li>Astato (At), Z = 85</li>
+                    <li>Ununséptio (Uus), Z = 117</li>
+                    <li class="group-elements"><span>Família 8A/Grupo 18</span><br>Gases Nobres</li>
+                    <li>Hélio (He), Z = 2</li>
+                    <li>Neônio (Ne), Z = 10</li>
+                    <li>Argônio (Ar), Z = 18</li>
+                    <li>Criptônio (kr), Z = 36</li>
+                    <li>Xenônio (Xe), Z = 54</li>
+                    <li>Radônio (Rn), Z = 86</li>
+                    <li>Ununóctio (Uuo), Z = 118</li>
                 </ul>
             </div>
         </span>

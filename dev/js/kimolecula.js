@@ -20,6 +20,10 @@ var kimolecula = angular.module('kimolecula', ['ngResource', 'ngRoute', 'ngSanit
 
     $rootScope.appName = "Kimolécula";
 
+    $rootScope.game = {
+        user: ''
+    };
+
 }])
 
 .config(['$routeProvider', '$httpProvider', 'l20nProvider', function ($routeProvider, $httpProvider, l20nProvider) {

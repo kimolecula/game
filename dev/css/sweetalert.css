@@ -313,8 +313,8 @@ body.stop-scrolling {
     position: relative;
 
     box-sizing: content-box;
-    width: 120px !important;
-    height: 120px !important;
+    width: 80px !important;
+    height: 80px !important;
     margin: 0 auto;
     padding: 0;
 
@@ -516,6 +516,9 @@ body.stop-scrolling {
             transform: rotate(-45deg);
 }
 .sweet-alert .sa-icon.sa-custom {
+    width: 120px !important;
+    height: 120px !important;
+
     border: none;
     border-radius: 0;
     background-repeat: no-repeat;

@@ -5,32 +5,39 @@
 
 
 <kmlSobreTitle "Sobre o Jogo">
-<kmlSobreParagraph1 "Definições sobre o game, quem desenvolveu, porque, com qual objetivo, etc, etc e etc.
-    Definições sobre o game, quem desenvolveu, porque, com qual objetivo, etc, etc e etc.
-      Definições sobre o game, quem desenvolveu, porque, com qual objetivo, etc, etc e etc.
-        Definições sobre o game, quem desenvolveu, porque, com qual objetivo, etc, etc e etc.">
+<kmlSobreParagraph1 "<span>Com o passar dos anos o ensino de ciências encontra cada vez mais dificuldades no aprendizado dos alunos. Os estudantes se sentem amedrontados pelo nível de dificuldade das matérias e acabam perdendo o interesse.</span>
+<span>Procurando criar novas maneiras para ganhar a curiosidade dos jovens e incentivá-los a buscar o conhecimento de uma forma mais fácil e divertida, criamos o jogo com a ideia de levar o ensino ao jogador através de um meio que ele mais se interesse, a internet.</span>
+<span>Ao passo que os alunos vão descobrindo as moléculas de acordo com seus usos baseados em figuras sobre as mesma, ocorre a assimilação nas estruturas cognitivas dos jogadores.</span>
+<span>Desenvolvido por Larissa Bento, programado por Luigui Delyer e ilustrado por Raphael Eckhardth, apresentamos KI-Molécula.</span>">
 
 
-<kmlPoucoTitle "Um pouco de Química">
-<kmlPoucoParagraph1 "Fala sucintamente sobre Química Orgânica (que é a química tratada no jogo).
-  História, cientistas mais importantes, cientista da fórmula molecular,
-  o que é e como funciona uma fórmula molecular.
-  Mais conteúdos que forem necessários.">
+<kmlPoucoTitle "Um pouco<br>de Química">
+<kmlPoucoParagraph1 "<span>A química está presente em tudo que possa ser imaginado, como por exemplo: nas roupas, nos carros, nos computadores, nos alimentos, na composição do organismo, nos cosméticos e entre diversos outros usos. Imagine um mundo sem química. Como seria feito o tratamento e a produção dos tecidos? E como um carro seria utilizado sem os polímeros que compõem toda sua carcaça? E os alimentos sem os conservantes necessários para durarem mais nas prateleiras dos mercados? Nada disso sequer simplesmente existiria.</span>
+<span>Resumidamente, a química é uma ciência que estuda a capacidade de modificar e rearranjar a ordem dos elementos que existem na natureza para assim gerar outros compostos que possam satisfazer diversas necessidades. Além disso, essa ciência está sempre em busca de evolução nos quesitos de pesquisa e tecnologia.</span>
+<span>A química começa nos átomos, que são as menores partes da matéria existentes para compor cada coisa que podemos enxergar e, depois de muito aprofundar nesse estudo, ela se divide em áreas específicas para cada finalidade, tais como: orgânica, inorgânica, termoquímica, bioquímica, físico-química e entre outras.</span>
+<span>O homem vem usando seus conhecimentos de química desde os primórdios da história, utilizando-os, por exemplo nos anos a.C. para fazer tecidos, metais e bebidas. Inicialmente, toda a ciência da química se desenvolveu na Alquimia, uma ciência em que os cientistas buscavam produzir a pedra filosofal e com isso, acabaram descobrindo a utilidade de outras substancias.</span>
+<span>Alguns dos principais cientistas que promoveram descobertas e avanços para a química são: Antoine Lavoisier com sua mais importante contribuição sobre a lei da conservação da matéria, Louis Pasteur com sua descoberta da ação dos micro-organismos e os cientistas John Dalton, Joseph Thomson, Ernest Rutherford e Niels Bohr que são responsáveis pela evolução do modelo atômico.</span>
+
+<b>Referências:</b>
+<b>Sua Pesquisa.com; Disponível em: http://www.suapesquisa.com/quimica; Acesso em: 05 jul. 2016.</b>
+<b>A Graça da Química; Disponível em: http://www.agracadaquimica.com.br/index.php?&ds=1&acao=quimica/ms2&i=12&id=599; Acesso em: 05 jul. 2016.</b>
+<b>FOGAÇA, Jennifer Rocha Vargas; Evolução dos Modelos Atômicos; Disponível em: http://mundoeducacao.bol.uol.com.br/quimica/evolucao-dos-modelos-atomicos.htm; Acesso em: 05 jul. 2016.</b>">
 
 
-<kmlNomeTitle "Insira seu Nome">
+<kmlNomeTitle "quem é você?">
 <kmlNomeParagraph "Olá! Sou o Professor Panda e vou acompanhá-lo durante o jogo. Para começarmos, insira seu nome no campo ao lado e clique em Ok.">
 
 
 <kmlInstruTitle "Instruções">
-<kmlInstruParagraph "Explica como o jogo funciona.
-    Regras
-    monstagem da fórmula
-    tabela de elementos ao lado
-    quantidade de dicas e seus preços
-    quantas vezes pode pular de fase
-    quantas vezes o usuário pode tentar formar a fórmula e errar
-    Objetivo dos bambús">
+<kmlInstruParagraph "<span>1 – Ao iniciar o game, o jogador tem quatro imagens referentes a molécula e seus usos;</span>
+<span>2 – Abaixo das imagens, é encontrado um campo para formar a fórmula molecular1 do composto. Embaixo desse campo, são encontradas as opções de elementos para a formação. Basta clicar em cima da opção desejada que ela será colocada no campo de acordo com a ordem dos cliques do jogador;</span>
+<span>3 – Caso seja necessário, será possível clicar no botão “Dicas” e receber uma ajuda extra sobre a molécula. Lembre-se que elas são compradas com bambus e cada uma tem um valor diferente. Existem três dicas para cada molécula;</span>
+<span>4 – Os bambus servem para comprar dicas e alimentar o Professor Panda. A quantidade de bambus restante no fim do jogo é que vai determinar o desempenho do jogador. No início do game, o jogador recebe 6 bambus e ao passar de fase três bambus. Caso ele use todos os bambus, perderá o jogo e deixará o Professor Panda faminto;</span>
+<span>5 – Em cada fase, o jogador terá um número máximo de doze tentativas que é mostrada ao lado do campo da fórmula. Essa quantidade vai diminuindo conforme usada e ao ser atingida o jogador perde o jogo;</span>
+<span>6 – Durante o jogo, o jogador poderá, se necessário, clicar no botão “pular”, para trocar de molécula permanecendo na mesma fase. Cada ação como esta custará um bambu. Ele também pode clicar no botão “parar” e voltar ao início do jogo, perdendo todos os bambus;</span>
+<span>7 – Ao lado da tela do game, é encontrada uma lista com os elementos representativos da tabela periódica para que o jogador consulte a qualquer hora que for necessário saber o nome, o símbolo e o número atômico (Z) de cada elemento;</span>
+<span>8 – O objetivo do jogo é chegar ao final com o maior número de bambus para alimentar satisfatoriamente o Professor Panda e garantir a existência de sua espécie. Além de proporcionar ao jogador a assimilação das moléculas mais comuns do dia a dia com seus diversos usos. </span>
+<b>1 Fórmula Molecular é aquela indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C23H12O16 (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
 <kmlInstruButton1 "Entendi!">
 
 
