@@ -25,7 +25,7 @@
 
 
 <kmlNomeTitle "quem é você?">
-<kmlNomeParagraph "Olá! Sou o Professor Panda e vou acompanhá-lo durante o jogo. Para começarmos, insira seu nome no campo ao lado e clique em Ok.">
+<kmlNomeParagraph "Para começarmos, insira seu nome no campo abaixo e clique em Ok.">
 
 
 <kmlInstruTitle "Instruções">
@@ -45,7 +45,7 @@
 <kmlJogoButton1 "Pular">
 <kmlJogoButton2 "Parar">
 <kmlJogoParagraph1 "Informação sobre a molécula abaixo">
-<kmlJogoParagraph2 "Contador de Bambús">
+<kmlJogoParagraph2 "Contador de Bambus">
 <kmlJogoButton3 "Dica">
 <kmlJogoParagraph3 "Elementos da tabela periódica">
 
@@ -56,3 +56,73 @@
 
 <kmlFimTitle "Fim">
 <kmlFimParagraph "Mensagem e expressão do Panda referente a pontuação do jogador.">
+
+<kmlWelcomePlayer "Olá,">
+<kmlLevel "Fase">
+<kmlMetaisAlcalinos "Metais Alcalinos">
+<kmlMetaisAlcalinoTerrosos "Metais Alcalino-Terrosos">
+<kmlFamiliaBoro "Família do Boro">
+<kmlFamiliaCarbono "Família do Carbono">
+<kmlFamiliaNitrogenio "Família do Nitrogênio">
+<kmlCalcogenios "Calcogênios">
+<kmlHalogenios "Halogênios">
+<kmlGasesNobres "Gases Nobres">
+<kmlUnique "Único não metal dessa família">
+<kmlFamilyOne "Família 1A/Grupo 1"
+<kmlFamilyTwo "Família 2A/Grupo 2">
+<kmlFamilyThree "Família 3A/Grupo 13">
+<kmlFamilyFour "Família 4A/Grupo 14">
+<kmlFamilyFive "Família 5A/Grupo 15">
+<kmlFamilySix "Família 6A/Grupo 16">
+<kmlFamilySeven "Família 7A/Grupo 17">
+<kmlFamilyEight "Família 8A/Grupo 18">
+<kmlElementH "Hidrogênio (H), Z = 1">
+<kmlElementLi "Lítio (Li), Z = 3">
+<kmlElementNa "Sódio (Na), Z = 11">
+<kmlElementK "Potássio (K), Z = 19">
+<kmlElementRb "Rubídio (Rb), Z = 37">
+<kmlElementCs "Césio (Cs), Z = 55">
+<kmlElementFr "Frâncio (Fr), Z = 87">
+<kmlElementBe "Berílio (Be), Z = 4">
+<kmlElementMg "Magnésio (Mg), Z = 12">
+<kmlElementCa "Cálcio (Ca), Z = 20">
+<kmlElementSr "Estrôncio (Sr), Z = 38">
+<kmlElementBa "Bário (Ba), Z = 56">
+<kmlElementRa "Rádio (Ra), Z = 88">
+<kmlElementB "Boro (B), Z = 5">
+<kmlElementAl "Alumínio (Al), Z = 13">
+<kmlElementGa "Gálio (Ga), Z = 31">
+<kmlElementIn "Índio (In), Z = 49">
+<kmlElementPo "Tálio (Po), Z = 81">
+<kmlElementUut "Ununtrio (Uut), Z = 113">
+<kmlElementC "Carbono (C), Z = 6">
+<kmlElementSi "Silício (Si), Z = 14">
+<kmlElementGe "Germânio (Ge), Z = 32">
+<kmlElementSn "Estanho (Sn), Z = 50">
+<kmlElementPb "Chumbo (Pb), Z = 82">
+<kmlElementFl "Fleróvio (Fl), Z = 114">
+<kmlElementN "Nitrogênio (N), Z = 7">
+<kmlElementP "Fósforo (P), Z = 15">
+<kmlElementAs "Arsênio (As), Z = 33">
+<kmlElementSb "Antimônio (Sb), Z = 51">
+<kmlElementBi "Bismuto (Bi), Z = 83">
+<kmlElementUup "Ununpentio (Uup), Z = 115">
+<kmlElementO "Oxigênio (O), Z = 8">
+<kmlElementS "Enxofre (S), Z = 16">
+<kmlElementSe "Selênio (Se), Z = 34">
+<kmlElementTe "Telúrio(Te), Z = 52">
+<kmlElementPo "Polônio (Po), Z = 84">
+<kmlElementLv "Livermório (Lv), Z = 116">
+<kmlElementF "Flúor (F), Z = 9">
+<kmlElementCl "Cloro (Cl), Z = 17">
+<kmlElementBr "Bromo (Br), Z = 35">
+<kmlElementI "Iodo (I), Z = 53">
+<kmlElementAt "Astato (At), Z = 85">
+<kmlElementUus "Ununséptio (Uus), Z = 117">
+<kmlElementHe "Hélio (He), Z = 2">
+<kmlElementNe "Neônio (Ne), Z = 10">
+<kmlElementAr "Argônio (Ar), Z = 18">
+<kmlElementKr "Criptônio (Kr), Z = 36">
+<kmlElementXe "Xenônio (Xe), Z = 54">
+<kmlElementRn "Radônio (Rn), Z = 86">
+<kmlElementUuo "Ununóctio (Uuo), Z = 118">

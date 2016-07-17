@@ -16,8 +16,8 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
 
     $scope.loseGame = function () {
         sweet.show({
-            title: 'Você não tem mais bambús',
-            text: 'Infelizmente todas os bambús que você tinha acabaram e agora o professor Panda ficará faminto! Comece de novo e ajude o professor a ficar com a barriga cheia!',
+            title: 'Você não tem mais bambus',
+            text: 'Infelizmente todos os bambus acabaram e agora o professor Panda ficará faminto! Comece de novo e ajude o professor a ficar com a barriga cheia!',
             imageUrl: '../design/panda-triste-04.png'
         });
         window.location = '#/instrucoes';
@@ -35,7 +35,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
     $scope.quitGame = function () {
         sweet.show({
             title: 'Tem certeza que deseja abandonar?',
-            text: 'Se você abandonar o game agora todos os seus bambús serão perdidos e o professor Panda ficará faminto!',
+            text: 'Se você abandonar o game agora todos os seus bambus serão perdidos e o professor Panda ficará faminto!',
             imageUrl: '../design/panda-triste-04.png',
             showCancelButton: true,
             confirmButtonText: 'Quero continuar!',
@@ -59,7 +59,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         if ($scope.game.bambooCounter == 0) {
             sweet.show({
                 title: 'Você não pode mais pular',
-                text: 'Todos os bambús que você tinha foram usados te ajudando e professor Panda está faminto! Para continuar, responda a questão para voltar a ganhar bambús ou comece novamente.',
+                text: 'Todos os bambus já foram usados e o professor Panda está faminto! Responda a fórmula molecular para ganhar bambus ou comece novamente.',
                 imageUrl: '../design/panda-triste-04.png',
                 showCancelButton: true,
                 confirmButtonText: 'Vou responder!',
@@ -80,7 +80,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         else {
             sweet.show({
                 title: 'Tem certeza que deseja pular?',
-                text: 'Se você escolher que sim, um bambú será usado para encontrar outra molécular. Quanto menos bambús você tiver, mais fome o professor Panda ficará!',
+                text: 'Se você escolher que sim, 1 bambu será usado para encontrar outro composto. Quanto menos bambus você tiver, mais fome o professor Panda ficará!',
                 imageUrl: '../design/panda-triste-04.png',
                 showCancelButton: true,
                 confirmButtonText: 'Não quero pular!',
@@ -114,7 +114,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         if ($scope.game.tipCounter <= 3) {
             sweet.show({
                 title: 'Tá precisando de uma dica?',
-                text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' será usado para comprar a dica. Quanto menos bambús você tiver, mais fome o professor Panda ficará!',
+                text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' será usado para comprar a dica. Quanto menos bambus você tiver, mais fome o professor Panda ficará!',
                 imageUrl: '../design/panda-bamboo-03.png',
                 showCancelButton: true,
                 confirmButtonColor: '#388E3C',
