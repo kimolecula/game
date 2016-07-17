@@ -1,135 +1,129 @@
-[
-  {
-    "imgFile": [
-      "lvl3-mol1-img1",
-      "lvl3-mol1-img2",
-      "lvl3-mol1-img3",
-      "lvl3-mol1-img4"
-    ],
-    "rightAnswer": [
-      "Na",
-      "OH"
-    ],
-    "wrongAnswer": [
-      "H2",
-      "O2",
-      "Cl",
-      "Na3",
-      "K",
-      "(OH)3"
-    ],
-    "tips": [
-      "Principal composto utilizado na produção de sabões",
-      "Usado na correção de pH para tratamento de efluentes/resíduos na água",
-      "É a base química mais conhecida. Chamada popularmente de soda"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl3-mol2-img1",
-      "lvl3-mol2-img2",
-      "lvl3-mol2-img3",
-      "lvl3-mol2-img4"
-    ],
-    "rightAnswer": [
-      "Ca",
-      "O"
-    ],
-    "wrongAnswer": [
-      "H",
-      "Na",
-      "Ca3",
-      "O2",
-      "He"
-      "B"
-    ],
-    "tips": [
-      "Tem grande utilidade na construção civil na elaboração de argamassas com que se erguem as paredes e muros",
-      "É obtida por decomposição térmica de calcário",
-      "Usado na agricultura para controle de pH do solo"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl3-mol3-img1",
-      "lvl3-mol3-img2",
-      "lvl3-mol3-img3",
-      "lvl3-mol3-img4"
-    ],
-    "rightAnswer": [
-      "H2",
-      "O"
-    ],
-    "wrongAnswer": [
-      "H",
-      "O2",
-      "Na",
-      "K",
-      "Mg",
-      "O3"
-    ],
-    "tips": [
-      "Recurso vital a sobrevivência que está ameaçado de esgotamento",
-      "O corpo humano é formado por cerca de 65% desse composto",
-      "Solvente universal"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl3-mol4-img1",
-      "lvl3-mol4-img2",
-      "lvl3-mol4-img3",
-      "lvl3-mol4-img4"
-    ],
-    "rightAnswer": [
-      "C",
-      "O"
-    ],
-    "wrongAnswer": [
-      "Fe",
-      "B",
-      "I",
-      "F",
-      "H",
-      "Co"
-    ],
-    "tips": [
-      "Existe grandes concentrações desse composto quando há um incêndio",
-      "É produzido pela combustão incompleta de materiais ricos em carbono, como derivados de petróleo e carvão",
-      "É um dos componentes liberados por escapamentos de automovéis"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl3-mol5-img1",
-      "lvl3-mol5-img2",
-      "lvl3-mol5-img3",
-      "lvl3-mol5-img4"
-    ],
-    "rightAnswer": [
-      "Na",
-      "I"
-    ],
-    "wrongAnswer": [
-      "H",
-      "Cl",
-      "Si",
-      "S",
-      "P",
-      "I2"
-    ],
-    "tips": [
-      "Sólido branco usado da detecção de radiação",
-      "Usado na prevenção e tratamento do bócio endêmico (deficiência de iodo)",
-      "Na sua decomposição, quando aquecido, são emitidas fumaças tóxicas de iodo e óxido de sódio"
-    ],
-  }
-],
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl3-mol1-img1",
+                "lvl3-mol1-img2",
+                "lvl3-mol1-img3",
+                "lvl3-mol1-img4"
+            ],
+            "rightAnswer": [
+                "Na",
+                "OH"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "O2",
+                "Cl",
+                "Na3",
+                "K",
+                "(OH)3"
+            ],
+            "tips": [
+                "Principal composto utilizado na produção de sabões",
+                "Usado na correção de pH para tratamento de efluentes/resíduos na água",
+                "É a base química mais conhecida. Chamada popularmente de soda"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl3-mol2-img1",
+                "lvl3-mol2-img2",
+                "lvl3-mol2-img3",
+                "lvl3-mol2-img4"
+            ],
+            "rightAnswer": [
+                "Ca",
+                "O"
+            ],
+            "wrongAnswer": [
+                "H",
+                "Na",
+                "Ca3",
+                "O2",
+                "He",
+                "B"
+            ],
+            "tips": [
+                "Tem grande utilidade na construção civil na elaboração de argamassas com que se erguem as paredes e muros",
+                "É obtida por decomposição térmica de calcário",
+                "Usado na agricultura para controle de pH do solo"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl3-mol3-img1",
+                "lvl3-mol3-img2",
+                "lvl3-mol3-img3",
+                "lvl3-mol3-img4"
+            ],
+            "rightAnswer": [
+                "H2",
+                "O"
+            ],
+            "wrongAnswer": [
+                "H",
+                "O2",
+                "Na",
+                "K",
+                "Mg",
+                "O3"
+            ],
+            "tips": [
+                "Recurso vital a sobrevivência que está ameaçado de esgotamento",
+                "O corpo humano é formado por cerca de 65% desse composto",
+                "Solvente universal"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl3-mol4-img1",
+                "lvl3-mol4-img2",
+                "lvl3-mol4-img3",
+                "lvl3-mol4-img4"
+            ],
+            "rightAnswer": [
+                "C",
+                "O"
+            ],
+            "wrongAnswer": [
+                "Fe",
+                "B",
+                "I",
+                "F",
+                "H",
+                "Co"
+            ],
+            "tips": [
+                "Existe grandes concentrações desse composto quando há um incêndio",
+                "É produzido pela combustão incompleta de materiais ricos em carbono, como derivados de petróleo e carvão",
+                "É um dos componentes liberados por escapamentos de automovéis"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl3-mol5-img1",
+                "lvl3-mol5-img2",
+                "lvl3-mol5-img3",
+                "lvl3-mol5-img4"
+            ],
+            "rightAnswer": [
+                "Na",
+                "I"
+            ],
+            "wrongAnswer": [
+                "H",
+                "Cl",
+                "Si",
+                "S",
+                "P",
+                "I2"
+            ],
+            "tips": [
+                "Sólido branco usado da detecção de radiação",
+                "Usado na prevenção e tratamento do bócio endêmico (deficiência de iodo)",
+                "Na sua decomposição, quando aquecido, são emitidas fumaças tóxicas de iodo e óxido de sódio"
+            ]
+        }
+    ]
+}

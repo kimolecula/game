@@ -1,135 +1,129 @@
-[
-  {
-    "imgFile": [
-      "lvl5-mol1-img1",
-      "lvl5-mol1-img2",
-      "lvl5-mol1-img3",
-      "lvl5-mol1-img4"
-    ],
-    "rightAnswer": [
-      "H",
-      "CN"
-    ],
-    "wrongAnswer": [
-      "H2",
-      "C2",
-      "N2",
-      "K",
-      "Li"
-      "(CN)2"
-    ],
-    "tips": [
-      "É usado na fabricação de plástico, corante, acrílico, pesticida, fertilizante agrícola e na extração de ouro e prata",
-      "Foi muito utilizado como arma química durante as Guerras Mundiais devido ao seu poder altamente letal como asfixiante e inflamável que durava por dias",
-      "É um ácido sintetizado principalmente pela reação do metano com amônia e oxigênio, a altas temperaturas e tendo a platina como catalisador, produzindo água e o próprio ácido"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl5-mol2-img1",
-      "lvl5-mol2-img2",
-      "lvl5-mol2-img3",
-      "lvl5-mol2-img4"
-    ],
-    "rightAnswer": [
-      "C3",
-      "H6",
-      "O"
-    ],
-    "wrongAnswer": [
-      "O2",
-      "Cl",
-      "K",
-      "I2",
-      "Cs"
-    ],
-    "tips": [
-      "Um dos compostos que mais volatiliza facilmente",
-      "Depois da água, é o produto mais usado como solvente",
-      "É usado como solvente principalmente de esmalte, tinta e verniz; na extração de óleos e na fabricação de fármacos"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl5-mol3-img1",
-      "lvl5-mol3-img2",
-      "lvl5-mol3-img3",
-      "lvl5-mol3-img4gh"
-    ],
-    "rightAnswer": [
-      "Mg",
-      "(OH)2"
-    ],
-    "wrongAnswer": [
-      "I2",
-      "K",
-      "Pb",
-      "H2",
-      "Na",
-      "OH"
-    ],
-    "tips": [
-      "Esse composto, ao ser misturado com água, é utilizado como redutor da oleosidade da pele, devido à sua adstringência",
-      "Também é usado como maneira alternativa para neutralizar maus odores do suor",
-      "Quando ingerido em pequenas quantidades, serve de antiácido estomacal. Já em grandes quantidades, tem efeito laxativo no organismo"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl5-mol4-img1",
-      "lvl5-mol4-img2",
-      "lvl5-mol4-img3",
-      "lvl5-mol4-img4"
-    ],
-    "rightAnswer": [
-      "H2",
-      "S",
-      "O4"
-    ],
-    "wrongAnswer": [
-      "H",
-      "O2",
-      "P",
-      "Li",
-      "He"
-    ],
-    "tips": [
-      "O composto tem várias aplicações industriais. É produzido em quantidades maiores do que qualquer outra substância, perdendo apenas para água",
-      "Há algum tempo, o nível de força industrial de uma nação era medido baseado na quantidade de produção desse produto",
-      "Esse composto serve como eletrólito para as baterias de chumbo-ácido dos automóveis. É extremamente perigoso e corrosivo"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl5-mol5-img1",
-      "lvl5-mol5-img2",
-      "lvl5-mol5-img3",
-      "lvl5-mol5-img4"
-    ],
-    "rightAnswer": [
-      "Mg",
-      "S",
-      "O4"
-    ],
-    "wrongAnswer": [
-      "H2",
-      "Cl3",
-      "Br",
-      "Na",
-      "C2"
-    ],
-    "tips": [
-      "É empregado na indústria como agente secante",
-      "Na agricultura, ele é empregado como corretor da deficiência de magnésio no solo",
-      "Esse composto é o princípio ativo de um medicamento conhecido como Sal Amargo ou Sal de Epson"
-    ],
-  }
-],
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl5-mol1-img1",
+                "lvl5-mol1-img2",
+                "lvl5-mol1-img3",
+                "lvl5-mol1-img4"
+            ],
+            "rightAnswer": [
+                "H",
+                "CN"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "C2",
+                "N2",
+                "K",
+                "Li",
+                "(CN)2"
+            ],
+            "tips": [
+                "É usado na fabricação de plástico, corante, acrílico, pesticida, fertilizante agrícola e na extração de ouro e prata",
+                "Foi muito utilizado como arma química durante as Guerras Mundiais devido ao seu poder altamente letal como asfixiante e inflamável que durava por dias",
+                "É um ácido sintetizado principalmente pela reação do metano com amônia e oxigênio, a altas temperaturas e tendo a platina como catalisador, produzindo água e o próprio ácido"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl5-mol2-img1",
+                "lvl5-mol2-img2",
+                "lvl5-mol2-img3",
+                "lvl5-mol2-img4"
+            ],
+            "rightAnswer": [
+                "C3",
+                "H6",
+                "O"
+            ],
+            "wrongAnswer": [
+                "O2",
+                "Cl",
+                "K",
+                "I2",
+                "Cs"
+            ],
+            "tips": [
+                "Um dos compostos que mais volatiliza facilmente",
+                "Depois da água, é o produto mais usado como solvente",
+                "É usado como solvente principalmente de esmalte, tinta e verniz; na extração de óleos e na fabricação de fármacos"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl5-mol3-img1",
+                "lvl5-mol3-img2",
+                "lvl5-mol3-img3",
+                "lvl5-mol3-img4gh"
+            ],
+            "rightAnswer": [
+                "Mg",
+                "(OH)2"
+            ],
+            "wrongAnswer": [
+                "I2",
+                "K",
+                "Pb",
+                "H2",
+                "Na",
+                "OH"
+            ],
+            "tips": [
+                "Esse composto, ao ser misturado com água, é utilizado como redutor da oleosidade da pele, devido à sua adstringência",
+                "Também é usado como maneira alternativa para neutralizar maus odores do suor",
+                "Quando ingerido em pequenas quantidades, serve de antiácido estomacal. Já em grandes quantidades, tem efeito laxativo no organismo"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl5-mol4-img1",
+                "lvl5-mol4-img2",
+                "lvl5-mol4-img3",
+                "lvl5-mol4-img4"
+            ],
+            "rightAnswer": [
+                "H2",
+                "S",
+                "O4"
+            ],
+            "wrongAnswer": [
+                "H",
+                "O2",
+                "P",
+                "Li",
+                "He"
+            ],
+            "tips": [
+                "O composto tem várias aplicações industriais. É produzido em quantidades maiores do que qualquer outra substância, perdendo apenas para água",
+                "Há algum tempo, o nível de força industrial de uma nação era medido baseado na quantidade de produção desse produto",
+                "Esse composto serve como eletrólito para as baterias de chumbo-ácido dos automóveis. É extremamente perigoso e corrosivo"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl5-mol5-img1",
+                "lvl5-mol5-img2",
+                "lvl5-mol5-img3",
+                "lvl5-mol5-img4"
+            ],
+            "rightAnswer": [
+                "Mg",
+                "S",
+                "O4"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "Cl3",
+                "Br",
+                "Na",
+                "C2"
+            ],
+            "tips": [
+                "É empregado na indústria como agente secante",
+                "Na agricultura, ele é empregado como corretor da deficiência de magnésio no solo",
+                "Esse composto é o princípio ativo de um medicamento conhecido como Sal Amargo ou Sal de Epson"
+            ]
+        }
+    ]
+}

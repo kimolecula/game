@@ -56,7 +56,7 @@ var filesPaths = {
     extras: {
         levels: {
             src: appPaths.debug + 'levels/**/**',
-            dest: appPaths.production + 'lelvels'
+            dest: appPaths.production + 'levels'
         },
         languages: {
             src: appPaths.debug + 'l20n/**/**',
