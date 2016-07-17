@@ -1,135 +1,129 @@
-[
-  {
-    "imgFile": [
-      "lvl7-mol1-img1",
-      "lvl7-mol1-img2",
-      "lvl7-mol1-img3",
-      "lvl7-mol1-img4"
-    ],
-    "rightAnswer": [
-      "H3",
-      "P",
-      "O4"
-    ],
-    "wrongAnswer": [
-      "H",
-      "Na",
-      "Al",
-      "Ca",
-      "Mg"
-    ],
-    "tips": [
-      "Uma das suas principais utilizações é em produtos para remover ferrugem",
-      "Pode ser produzido a partir do fósforo ou da apatita e é usado para fabricar vidros, tintas, fertilizantes, alimentos e fármacos",
-      "É utilizado principalmente como acidulante de bebidas, ou seja, refrigerantes"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl7-mol2-img1",
-      "lvl7-mol2-img2",
-      "lvl7-mol2-img3",
-      "lvl7-mol2-img4"
-    ],
-    "rightAnswer": [
-      "H",
-      "F"
-    ],
-    "wrongAnswer": [
-      "O",
-      "Co",
-      "He",
-      "H2",
-      "I2",
-      "Br"
-    ],
-    "tips": [
-      "Usado no enriquecimento do urânio para fins de geração de energia nuclear",
-      "Esse ácido tem facilidade em atacar materiais silicáticos (principalmente o vidro)",
-      "É produzido a partir da reação do ácido sulfúrico concentrado com o minério fluorita (CaF2), à temperatura de 250 ºC"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl7-mol3-img1",
-      "lvl7-mol3-img2",
-      "lvl7-mol3-img3",
-      "lvl7-mol3-img4"
-    ],
-    "rightAnswer": [
-      "Ca",
-      "S",
-      "O4"
-    ],
-    "wrongAnswer": [
-      "Si",
-      "Cl",
-      "O",
-      "K",
-      "Al"
-    ],
-    "tips": [
-      "Esse sal está presente na natureza sob a forma de anidrita e gipsita",
-      "É matéria-prima para fabricação de giz escolar",
-      "Esse composto é o gesso usado na construção civil e na ortopedia para imobilização"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl7-mol4-img1",
-      "lvl7-mol4-img2",
-      "lvl7-mol4-img3",
-      "lvl7-mol4-img4"
-    ],
-    "rightAnswer": [
-      "K",
-      "Mn",
-      "O4"
-    ],
-    "wrongAnswer": [
-      "H",
-      "Li",
-      "Mg",
-      "C",
-      "C2"
-    ],
-    "tips": [
-      "Muito usado como agente oxidante em  reações químicas no laboratório e na indústria",
-      "Quando dissolvido em água, fica com a coloração violeta",
-      "É principalmente utilizado como cicatrizante para os ferimentos causados por catapora, por exemplo"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl7-mol5-img1",
-      "lvl7-mol5-img2",
-      "lvl7-mol5-img3",
-      "lvl7-mol5-img4"
-    ],
-    "rightAnswer": [
-      "C8",
-      "H8",
-      "O3"
-    ],
-    "wrongAnswer": [
-      "K",
-      "He",
-      "Na",
-      "I",
-      "C2"
-    ],
-    "tips": [
-      "As principais aplicações desse produto são nas indústrias alimentares em bolos, doces, sorvetes, chocolates e bebidas e em outras indústrias de produtos como tabacos, perfumes e fármacos",
-      "É um composto branco e cristalino obtido das vagens secas da orquídea Vanilla planifolia",
-      "É o principal compenente da essência ou aroma de baunilha"
-    ],
-  }
-],
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl7-mol1-img1",
+                "lvl7-mol1-img2",
+                "lvl7-mol1-img3",
+                "lvl7-mol1-img4"
+            ],
+            "rightAnswer": [
+                "H3",
+                "P",
+                "O4"
+            ],
+            "wrongAnswer": [
+                "H",
+                "Na",
+                "Al",
+                "Ca",
+                "Mg"
+            ],
+            "tips": [
+                "Uma das suas principais utilizações é em produtos para remover ferrugem",
+                "Pode ser produzido a partir do fósforo ou da apatita e é usado para fabricar vidros, tintas, fertilizantes, alimentos e fármacos",
+                "É utilizado principalmente como acidulante de bebidas, ou seja, refrigerantes"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl7-mol2-img1",
+                "lvl7-mol2-img2",
+                "lvl7-mol2-img3",
+                "lvl7-mol2-img4"
+            ],
+            "rightAnswer": [
+                "H",
+                "F"
+            ],
+            "wrongAnswer": [
+                "O",
+                "Co",
+                "He",
+                "H2",
+                "I2",
+                "Br"
+            ],
+            "tips": [
+                "Usado no enriquecimento do urânio para fins de geração de energia nuclear",
+                "Esse ácido tem facilidade em atacar materiais silicáticos (principalmente o vidro)",
+                "É produzido a partir da reação do ácido sulfúrico concentrado com o minério fluorita (CaF2), à temperatura de 250 ºC"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl7-mol3-img1",
+                "lvl7-mol3-img2",
+                "lvl7-mol3-img3",
+                "lvl7-mol3-img4"
+            ],
+            "rightAnswer": [
+                "Ca",
+                "S",
+                "O4"
+            ],
+            "wrongAnswer": [
+                "Si",
+                "Cl",
+                "O",
+                "K",
+                "Al"
+            ],
+            "tips": [
+                "Esse sal está presente na natureza sob a forma de anidrita e gipsita",
+                "É matéria-prima para fabricação de giz escolar",
+                "Esse composto é o gesso usado na construção civil e na ortopedia para imobilização"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl7-mol4-img1",
+                "lvl7-mol4-img2",
+                "lvl7-mol4-img3",
+                "lvl7-mol4-img4"
+            ],
+            "rightAnswer": [
+                "K",
+                "Mn",
+                "O4"
+            ],
+            "wrongAnswer": [
+                "H",
+                "Li",
+                "Mg",
+                "C",
+                "C2"
+            ],
+            "tips": [
+                "Muito usado como agente oxidante em  reações químicas no laboratório e na indústria",
+                "Quando dissolvido em água, fica com a coloração violeta",
+                "É principalmente utilizado como cicatrizante para os ferimentos causados por catapora, por exemplo"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl7-mol5-img1",
+                "lvl7-mol5-img2",
+                "lvl7-mol5-img3",
+                "lvl7-mol5-img4"
+            ],
+            "rightAnswer": [
+                "C8",
+                "H8",
+                "O3"
+            ],
+            "wrongAnswer": [
+                "K",
+                "He",
+                "Na",
+                "I",
+                "C2"
+            ],
+            "tips": [
+                "As principais aplicações desse produto são nas indústrias alimentares em bolos, doces, sorvetes, chocolates e bebidas e em outras indústrias de produtos como tabacos, perfumes e fármacos",
+                "É um composto branco e cristalino obtido das vagens secas da orquídea Vanilla planifolia",
+                "É o principal compenente da essência ou aroma de baunilha"
+            ]
+        }
+    ]
+}

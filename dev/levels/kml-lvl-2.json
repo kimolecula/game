@@ -1,135 +1,129 @@
-[
-  {
-    "imgFile": [
-      "lvl2-mol1-img1",
-      "lvl2-mol1-img2",
-      "lvl2-mol1-img3",
-      "lvl2-mol1-img4"
-    ],
-    "rightAnswer": [
-      "H2",
-      "O2"
-    ],
-    "wrongAnswer": [
-      "Fe",
-      "Au",
-      "H3",
-      "P",
-      "O",
-      "O3"
-    ],
-    "tips": [
-      "Em certas concentrações é usado como desinfetante oxidante matando bactérias e vírus",
-      "Sua reação de decomposição pela enzima Catalase presente no nosso organismo resulta em água (H2O) e oxigênio (O2)",
-      "É muito utilizado em misturas para descolorir cabelos e roupas e até em tratamentos de clareamento dental"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl2-mol2-img1",
-      "lvl2-mol2-img2",
-      "lvl2-mol2-img3",
-      "lvl2-mol2-img4"
-    ],
-    "rightAnswer": [
-      "N",
-      "I3"
-    ],
-    "wrongAnswer": [
-      "O3",
-      "K",
-      "O2",
-      "I",
-      "N2",
-      "I2"
-    ],
-    "tips": [
-      "É um explosivo de contato extremamente sensível. Em pequenas quantidades, explode apenas com um leve toque",
-      "Quando explode, libera uma fumaça cor púrpura devido ao Iodo presente em sua composição",
-      "É obtido através da reação entre Iodo e Amônia, conhecido como expderimento do 'Pó Nervosinho'"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl2-mol3-img1",
-      "lvl2-mol3-img2",
-      "lvl2-mol3-img3",
-      "lvl2-mol3-img4"
-    ],
-    "rightAnswer": [
-      "K",
-      "OH"
-    ],
-    "wrongAnswer": [
-      "O2",
-      "H2",
-      "Na",
-      "Cl2",
-      "Fe",
-      "(OH)2"
-    ],
-    "tips": [
-      "Atua muito bem na produção de biodiesel por saponificação de gorduras em óleos vegetais, substituindo o NaOH",
-      "É útil como um suplemento alimentar mais barato para a pecuária",
-      "Ao saponificar as gorduras com esse composto, prepara-se os chamados 'sabões de potássio', sendo mais macios que os comuns sabões derivados do NaOH, por exemplo a espuma de barbear"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl2-mol4-img1",
-      "lvl2-mol4-img2",
-      "lvl2-mol4-img3",
-      "lvl2-mol4-img4"
-    ],
-    "rightAnswer": [
-      "H",
-      "N",
-      "O3"
-    ],
-    "wrongAnswer": [
-      "N2",
-      "H2",
-      "O",
-      "K",
-      "Ba"
-    ],
-    "tips": [
-      "É um ácido forte e bastante corrosivo",
-      "Ácido produzido industrialmente pelo processo Ostwald",
-      "Os diferentes sais desse ácido são fortemente empregados na fabricação de pólvora e fertilizantes"
-    ],
-  }
-],
-[
-  {
-    "imgFile": [
-      "lvl2-mol5-img1",
-      "lvl2-mol5-img2",
-      "lvl2-mol5-img3",
-      "lvl2-mol5-img4"
-    ],
-    "rightAnswer": [
-      "N",
-      "H3"
-    ],
-    "wrongAnswer": [
-      "Na",
-      "Cl",
-      "N2",
-      "H",
-      "O2",
-      "C2"
-    ],
-    "tips": [
-      "Seu vapor é extremamente irritante e corrosivo, com um odor picante",
-      "É muito usado em ciclos refrigeração por fábricas e indústrias devido ao seu elevado calor de vaporização e temperatura crítica",
-      "Possui derivados como ureia e nitrato de amônio"
-    ],
-  }
-],
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl2-mol1-img1",
+                "lvl2-mol1-img2",
+                "lvl2-mol1-img3",
+                "lvl2-mol1-img4"
+            ],
+            "rightAnswer": [
+                "H2",
+                "O2"
+            ],
+            "wrongAnswer": [
+                "Fe",
+                "Au",
+                "H3",
+                "P",
+                "O",
+                "O3"
+            ],
+            "tips": [
+                "Em certas concentrações é usado como desinfetante oxidante matando bactérias e vírus",
+                "Sua reação de decomposição pela enzima Catalase presente no nosso organismo resulta em água (H2O) e oxigênio (O2)",
+                "É muito utilizado em misturas para descolorir cabelos e roupas e até em tratamentos de clareamento dental"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl2-mol2-img1",
+                "lvl2-mol2-img2",
+                "lvl2-mol2-img3",
+                "lvl2-mol2-img4"
+            ],
+            "rightAnswer": [
+                "N",
+                "I3"
+            ],
+            "wrongAnswer": [
+                "O3",
+                "K",
+                "O2",
+                "I",
+                "N2",
+                "I2"
+            ],
+            "tips": [
+                "É um explosivo de contato extremamente sensível. Em pequenas quantidades, explode apenas com um leve toque",
+                "Quando explode, libera uma fumaça cor púrpura devido ao Iodo presente em sua composição",
+                "É obtido através da reação entre Iodo e Amônia, conhecido como expderimento do 'Pó Nervosinho'"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl2-mol3-img1",
+                "lvl2-mol3-img2",
+                "lvl2-mol3-img3",
+                "lvl2-mol3-img4"
+            ],
+            "rightAnswer": [
+                "K",
+                "OH"
+            ],
+            "wrongAnswer": [
+                "O2",
+                "H2",
+                "Na",
+                "Cl2",
+                "Fe",
+                "(OH)2"
+            ],
+            "tips": [
+                "Atua muito bem na produção de biodiesel por saponificação de gorduras em óleos vegetais, substituindo o NaOH",
+                "É útil como um suplemento alimentar mais barato para a pecuária",
+                "Ao saponificar as gorduras com esse composto, prepara-se os chamados 'sabões de potássio', sendo mais macios que os comuns sabões derivados do NaOH, por exemplo a espuma de barbear"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl2-mol4-img1",
+                "lvl2-mol4-img2",
+                "lvl2-mol4-img3",
+                "lvl2-mol4-img4"
+            ],
+            "rightAnswer": [
+                "H",
+                "N",
+                "O3"
+            ],
+            "wrongAnswer": [
+                "N2",
+                "H2",
+                "O",
+                "K",
+                "Ba"
+            ],
+            "tips": [
+                "É um ácido forte e bastante corrosivo",
+                "Ácido produzido industrialmente pelo processo Ostwald",
+                "Os diferentes sais desse ácido são fortemente empregados na fabricação de pólvora e fertilizantes"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl2-mol5-img1",
+                "lvl2-mol5-img2",
+                "lvl2-mol5-img3",
+                "lvl2-mol5-img4"
+            ],
+            "rightAnswer": [
+                "N",
+                "H3"
+            ],
+            "wrongAnswer": [
+                "Na",
+                "Cl",
+                "N2",
+                "H",
+                "O2",
+                "C2"
+            ],
+            "tips": [
+                "Seu vapor é extremamente irritante e corrosivo, com um odor picante",
+                "É muito usado em ciclos refrigeração por fábricas e indústrias devido ao seu elevado calor de vaporização e temperatura crítica",
+                "Possui derivados como ureia e nitrato de amônio"
+            ]
+        }
+    ]
+}
