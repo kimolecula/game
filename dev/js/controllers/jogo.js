@@ -56,7 +56,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
                 allAnswers: shuffle(allAnswers),
                 tips: newData[$scope.game.actualMolecule].tips
             };
-            // console.log("level loaded", $scope.game.levelData);
+            console.log("level loaded", $scope.game.levelData);
             if(!$scope.game.levelData){
                 sweet.show({
                     title: 'Ooops...',
@@ -135,21 +135,35 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
     $scope.checkAnswer = function () {
         // console.log($scope.game.answerChoice, $scope.game.levelData.rightAnswer);
         if (JSON.stringify($scope.game.answerChoice) === JSON.stringify($scope.game.levelData.rightAnswer)) {
-            sweet.show({
-                title: 'Resposta certa!',
-                text: 'Você acertou! Vamos para a próxima fase!',
-                imageUrl: '../design/panda-feliz-08.png',
-                showCancelButton: false,
-                confirmButtonText: 'Continuar!',
-                closeOnConfirm: true
-            }, function(isConfirm) {
-                $scope.game.bambooCounter += 3;
-                $scope.game.tipCounter = 1;
-                $scope.game.answerChoice = [];
-                $scope.game.levelNow++;
-                $scope.game.attemptsAnswer = 1;
-                $scope.getLevel($scope.game.levelNow);
-            });
+            if ($scope.game.levelNow + 1 > 10) {
+                sweet.show({
+                    title: 'PARABÉNS!',
+                    text: 'Você conseguiu passar por todos os desafios e alimentou o professor Panda! Agora convide os seus amigos para que o professor não fique com fome nunca mais!',
+                    imageUrl: '../design/panda-feliz-08.png',
+                    showCancelButton: false,
+                    confirmButtonText: 'Recomeçar!',
+                    closeOnConfirm: true
+                }, function(isConfirm) {
+                    window.location = '#/home';
+                });
+            }
+            else {
+                sweet.show({
+                    title: 'Resposta certa!',
+                    text: 'Você acertou! Vamos para a próxima fase!',
+                    imageUrl: '../design/panda-feliz-08.png',
+                    showCancelButton: false,
+                    confirmButtonText: 'Continuar!',
+                    closeOnConfirm: true
+                }, function(isConfirm) {
+                    $scope.game.bambooCounter += 3;
+                    $scope.game.tipCounter = 1;
+                    $scope.game.answerChoice = [];
+                    $scope.game.levelNow++;
+                    $scope.game.attemptsAnswer = 1;
+                    $scope.getLevel($scope.game.levelNow);
+                });
+            }
         }
         else {
             if ($scope.game.attemptsAnswer + 1 > $scope.game.maxAttemptsAnswer) {
