@@ -56,7 +56,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
                 allAnswers: shuffle(allAnswers),
                 tips: newData[$scope.game.actualMolecule].tips
             };
-            console.log("level loaded", $scope.game.levelData);
+            // console.log("level loaded", $scope.game.levelData);
             if(!$scope.game.levelData){
                 sweet.show({
                     title: 'Ooops...',
@@ -282,7 +282,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
                     closeOnCancel: true
                 }, function(isConfirm) {
                     if (isConfirm) {
-                        sweet.show('Monóxido de carbono', 'O Monóxido de Carbono (CO) é um gás levemente inflamável, incolor, inodoro e muito perigoso devido à sua grande toxicidade. É produzido pela queima em condições de pouco oxigênio (combustão incompleta) e/ou alta temperatura de carvão ou outros materiais ricos em carbono, como derivados de petróleo.\nO monóxido de carbono é um agente redutor, retirando oxigênio de muitos compostos em processos industriais (formando CO2), como na produção de ferro e outros metais a partir de seus minérios e hidrogênio a partir da água. Também se combina com o níquel metálico produzindo um composto volátil que é usado na purificação deste metal (processo Mond). Também é usado na síntese de vários compostos orgânicos, como ácido acético (processo Monsanto), plásticos, metanol e formatos.', 'success');
+                        sweet.show('Dica rápida', $scope.game.levelData.tips[$scope.game.tipCounter - 1], 'success');
                         $scope.game.bambooCounter = $scope.game.bambooCounter - $scope.game.tipCounter;
                         $scope.getBamboo($scope.game.bambooCounter);
                         $scope.game.tipCounter++;
