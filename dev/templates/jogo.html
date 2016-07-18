@@ -2,7 +2,7 @@
     <div class="center-content column">
         <div class="game-headerbar">
             <div class="welcome-player">
-<span data-l20n="kmlWelcomePlayer"></span> {{game.user}}!
+                <span data-l20n="kmlWelcomePlayer"></span> {{game.user}}!
             </div>
             <div class="buttons-options">
                 <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" ng-click="changeMolecule()"></a>
@@ -11,30 +11,18 @@
         </div>
         <div class="center-content game-quiz">
             <div class="actual-level">
-<span data-l20n="kmlLevel"></span>
+                <div><span data-l20n="kmlLevel"></span> {{game.levelNow}}</div>
+                <div class="actual-attempt">Tentativa {{game.attemptsAnswer}}/{{game.maxAttemptsAnswer}}</div>
             </div>
             <div class="game-screen">
-                <div class="pictures">
-                    <div class="row">
-                        <div style="background-image: url('design/lvl1-mol1-img1.jpg')"></div>
-                        <div style="background-image: url('design/lvl1-mol1-img2.jpg')"></div>
-                    </div>
-                    <div class="row">
-                        <div style="background-image: url('design/lvl1-mol1-img3.jpg')"></div>
-                        <div style="background-image: url('design/lvl1-mol1-img4.jpg')"></div>
-                    </div>
+                <div class="pictures" ng-if="game.levelData.images">
+                    <div ng-repeat="image in game.levelData.images" style="background-image: url('design/{{image}}.jpg')"></div>
                 </div>
-                <div class="answers-selected">
-                    <span>H2</span>
-                    <span>CO2</span>
-                    <span>CU</span>
+                <div class="answers-selected" ng-if="game.levelData.rightAnswer" ng-init="game.answerChoice = []">
+                    <span ng-repeat="right in game.levelData.rightAnswer">{{game.answerChoice[$index]}}</span>
                 </div>
-                <div class="answers-all">
-                    <span>H2</span>
-                    <span>CO2</span>
-                    <span>CU</span>
-                    <span>H2</span>
-                    <span>CO2</span>
+                <div class="answers-all" ng-if="game.levelData.allAnswers">
+                    <span ng-repeat="answer in game.levelData.allAnswers" ng-click="letAnswer(answer)">{{answer}}</span>
                 </div>
             </div>
 
@@ -57,9 +45,6 @@
     <div class="game-sidebar center-content column">
         <span class="mini-section">
             <span class='mini-section-title' data-l20n="kmlJogoParagraph3"></span>
-            <div class="chemical-search">
-                <input type="text" name="name" value="" class="input input--border-dark" placeholder="Pesquisar elementos">
-            </div>
             <div class="chemical-elements">
                 <ul>
                     <li class="group-elements"><span data-l20n="kmlFamilyOne"></span><br><div data-l20n="kmlMetaisAlcalinos"></div></li>

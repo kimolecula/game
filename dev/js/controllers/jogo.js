@@ -21,11 +21,15 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             tipCounter: '1',
             levelData: '',
             levelNow: '1',
-            actualMolecule: '0'
+            actualMolecule: '0',
+            attemptsAnswer: '1',
+            maxAttemptsAnswer: '12',
+            answerChoice: [],
+            lastTip: ''
         };
 
         if (!$rootScope.game.user) {
-            // window.location = '#/insira-seu-nome';
+            window.location = '#/insira-seu-nome';
         }
         else {
             $scope.game.user = $rootScope.game.user;
@@ -37,42 +41,138 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
     $scope.getLevel = function (levelNow) {
         KimoleculaModel.getLevel(levelNow).then(function (data) {
             var newData = shuffle(data.level);
-            $scope.game.levelData = newData[$scope.game.actualMolecule];
-            console.log("level loaded", $scope.game.levelData);
+
+            if ($scope.game.lastTip == newData[$scope.game.actualMolecule].tips[0]) {
+                $scope.game.lastTip = newData[$scope.game.actualMolecule].tips[0];
+                $scope.getLevel($scope.game.levelNow);
+                return;
+            }
+
+            var allAnswers = newData[$scope.game.actualMolecule].rightAnswer.concat(newData[$scope.game.actualMolecule].wrongAnswer);
+
+            $scope.game.levelData = {
+                images: shuffle(newData[$scope.game.actualMolecule].imgFile),
+                rightAnswer: shuffle(newData[$scope.game.actualMolecule].rightAnswer),
+                allAnswers: shuffle(allAnswers),
+                tips: newData[$scope.game.actualMolecule].tips
+            };
+            // console.log("level loaded", $scope.game.levelData);
             if(!$scope.game.levelData){
                 sweet.show({
                     title: 'Ooops...',
                     text: 'Algum erro aconteceu no processamento da fase que você está... Tente novamente, por favor!',
-                    imageUrl: '../design/panda-triste-04.png'
+                    imageUrl: '../design/panda-triste-04.png',
+                    showCancelButton: false,
+                    confirmButtonText: 'Começar de novo!',
+                    closeOnConfirm: true
+                }, function(isConfirm) {
+                    window.location = '#/instrucoes';
                 });
-                window.location = '#/instrucoes';
             }
         }, function (err) {
             sweet.show({
                 title: 'Ooops...',
                 text: 'Não consegui encontrar a fase que você está jogando... Tente novamente, por favor!',
-                imageUrl: '../design/panda-triste-04.png'
+                imageUrl: '../design/panda-triste-04.png',
+                showCancelButton: false,
+                confirmButtonText: 'Começar de novo!',
+                closeOnConfirm: true
+            }, function(isConfirm) {
+                window.location = '#/instrucoes';
             });
-            window.location = '#/instrucoes';
         });
     };
 
-    $scope.loseGame = function () {
-        sweet.show({
-            title: 'Você não tem mais bambus',
-            text: 'Infelizmente todos os bambus acabaram e agora o professor Panda ficará faminto! Comece de novo e ajude o professor a ficar com a barriga cheia!',
-            imageUrl: '../design/panda-triste-04.png'
-        });
-        window.location = '#/instrucoes';
+    $scope.loseGame = function (type) {
+        if (type == 1) {
+            sweet.show({
+                title: 'Você não tem mais bambus',
+                text: 'Infelizmente todos os bambus acabaram e agora o professor Panda ficará faminto! Comece de novo e ajude o professor a ficar com a barriga cheia!',
+                imageUrl: '../design/panda-triste-04.png',
+                showCancelButton: false,
+                confirmButtonText: 'Começar de novo!',
+                closeOnConfirm: true
+            }, function(isConfirm) {
+                window.location = '#/instrucoes';
+            });
+        }
+        else if (type == 2) {
+            sweet.show({
+                title: 'Suas chances acabaram...',
+                text: 'Você utilizou todas as suas chances em tentar responder qual é a molécula apresentada... O professor Panda está morrendo de fome! Comece novamente e alimente o professor...',
+                imageUrl: '../design/panda-triste-04.png',
+                showCancelButton: false,
+                confirmButtonText: 'Começar de novo!',
+                closeOnConfirm: true
+            }, function(isConfirm) {
+                window.location = '#/instrucoes';
+            });
+        }
     };
 
     $scope.getBamboo = function(num) {
         if(num < 0){
-            $scope.loseGame();
+            $scope.loseGame(1);
             return;
         }
         return new Array(num);
     };
+
+    $scope.letAnswer = function (molecule) {
+        for (var i = 0; i < $scope.game.levelData.rightAnswer.length; i++) {
+            if ($scope.game.answerChoice[i] == '' || !$scope.game.answerChoice[i]) {
+                $scope.game.answerChoice[i] = molecule;
+
+                if (i == $scope.game.levelData.rightAnswer.length - 1) {
+                    $scope.checkAnswer();
+                    return;
+                }
+                return;
+            }
+        }
+    };
+
+    $scope.checkAnswer = function () {
+        // console.log($scope.game.answerChoice, $scope.game.levelData.rightAnswer);
+        if (JSON.stringify($scope.game.answerChoice) === JSON.stringify($scope.game.levelData.rightAnswer)) {
+            sweet.show({
+                title: 'Resposta certa!',
+                text: 'Você acertou! Vamos para a próxima fase!',
+                imageUrl: '../design/panda-feliz-08.png',
+                showCancelButton: false,
+                confirmButtonText: 'Continuar!',
+                closeOnConfirm: true
+            }, function(isConfirm) {
+                $scope.game.bambooCounter += 3;
+                $scope.game.tipCounter = 1;
+                $scope.game.answerChoice = [];
+                $scope.game.levelNow++;
+                $scope.game.attemptsAnswer = 1;
+                $scope.getLevel($scope.game.levelNow);
+            });
+        }
+        else {
+            if ($scope.game.attemptsAnswer + 1 > $scope.game.maxAttemptsAnswer) {
+                $scope.loseGame(2);
+                return;
+            }
+            else {
+                sweet.show({
+                    title: 'Quaaaase!',
+                    text: 'A resposta que você colocou está incorreta!',
+                    imageUrl: '../design/panda-triste-04.png',
+                    showCancelButton: false,
+                    confirmButtonText: 'Tentar novamente',
+                    closeOnConfirm: true
+                }, function(isConfirm) {
+                    $scope.game.attemptsAnswer++;
+                    $scope.game.answerChoice = [];
+                    $scope.$apply();
+                });
+
+            }
+        }
+    }
 
     $scope.quitGame = function () {
         sweet.show({
@@ -134,6 +234,8 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
                 if (isConfirm) {
                 }
                 else {
+                    $scope.getLevel($scope.game.levelNow);
+                    $scope.game.attemptsAnswer = 1;
                     --$scope.game.bambooCounter;
                     $scope.getBamboo($scope.game.bambooCounter);
                     $scope.$apply();
@@ -146,39 +248,17 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         var pluralBamboo = $scope.game.tipCounter;
 
         if(pluralBamboo > 1){
-            pluralBamboo = "bambús";
+            pluralBamboo = "bambus serão usados";
         }
         else {
-            pluralBamboo = "bambú";
+            pluralBamboo = "bambu será usado";
         }
-<<<<<<< HEAD
 
         if ($scope.game.tipCounter <= 3) {
-            sweet.show({
-                title: 'Tá precisando de uma dica?',
-                text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' será usado para comprar a dica. Quanto menos bambus você tiver, mais fome o professor Panda ficará!',
-                imageUrl: '../design/panda-bamboo-03.png',
-                showCancelButton: true,
-                confirmButtonColor: '#388E3C',
-                confirmButtonText: 'Sim, quero a dica!',
-                cancelButtonText: 'Não, obrigado.',
-                closeOnConfirm: false,
-                closeOnCancel: true
-            }, function(isConfirm) {
-                if (isConfirm) {
-                    sweet.show('Monóxido de carbono', 'O Monóxido de Carbono (CO) é um gás levemente inflamável, incolor, inodoro e muito perigoso devido à sua grande toxicidade. É produzido pela queima em condições de pouco oxigênio (combustão incompleta) e/ou alta temperatura de carvão ou outros materiais ricos em carbono, como derivados de petróleo.\nO monóxido de carbono é um agente redutor, retirando oxigênio de muitos compostos em processos industriais (formando CO2), como na produção de ferro e outros metais a partir de seus minérios e hidrogênio a partir da água. Também se combina com o níquel metálico produzindo um composto volátil que é usado na purificação deste metal (processo Mond). Também é usado na síntese de vários compostos orgânicos, como ácido acético (processo Monsanto), plásticos, metanol e formatos.', 'success');
-                    $scope.game.bambooCounter = $scope.game.bambooCounter - $scope.game.tipCounter;
-                    $scope.getBamboo($scope.game.bambooCounter);
-                    $scope.game.tipCounter++;
-                    $scope.$apply();
-                }
-            });
-=======
-        if ($scope.game.bambooCounter >= $scope.game.tipCounter) {
-            if ($scope.game.tipCounter <= 3) {
+            if ($scope.game.bambooCounter >= $scope.game.tipCounter) {
                 sweet.show({
                     title: 'Tá precisando de uma dica?',
-                    text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' será usado para comprar a dica. Quanto menos bambús você tiver, mais fome o professor Panda ficará!',
+                    text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' para comprar a dica. Quanto menos bambús você tiver, mais fome o professor Panda ficará!',
                     imageUrl: '../design/panda-bamboo-03.png',
                     showCancelButton: true,
                     confirmButtonColor: '#388E3C',
@@ -198,17 +278,16 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             }
             else {
                 sweet.show({
-                    title: 'Você não tem mais dicas',
-                    text: 'Infelizmente todas as suas dicas acabaram, se concentre, não é difícil!',
+                    title: 'Você não tem bambus suficientes',
+                    text: 'A quantidade de bambu que você tem não é suficiente para comprar dicas agora, o professor Panda está ficando faminto! Para continuar, responda a questão para voltar a ganhar bambús ou comece novamente.',
                     imageUrl: '../design/panda-triste-04.png'
                 });
             }
->>>>>>> origin/master
         }
         else {
             sweet.show({
-                title: 'Você não tem bambus suficientes',
-                text: 'A quantidade de bambu que você tem não é suficiente para comprar dicas agora, o professor Panda está ficando faminto! Para continuar, responda a questão para voltar a ganhar bambús ou comece novamente.',
+                title: 'Você não tem mais dicas',
+                text: 'Infelizmente todas as suas dicas acabaram, se concentre, não é difícil!',
                 imageUrl: '../design/panda-triste-04.png'
             });
         }

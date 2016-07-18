@@ -188,7 +188,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 
-    border: 1px solid @kml-color-4;
+    border: 1px solid @kml-color-3;
     border-radius: @pixel-proportion * 4;
     background: @kml-white;
     box-shadow: 0 0 30px @kml-black-2;
@@ -210,6 +210,10 @@ body {
         & > .welcome-player {
             .kml-font1;
             .kml-texts-semi-large;
+            & > span {
+                .kml-font1;
+                .kml-texts-semi-large;
+            }
         }
 
         & > .buttons-options {
@@ -249,6 +253,10 @@ body {
                 background: @kml-color-1;
 
                 .flex(row, center, center);
+
+                & > input {
+                    width: 100%;
+                }
             }
         }
 
@@ -258,8 +266,9 @@ body {
 
                 width: 100%;
                 height: 100%;
+                margin-top: @pixel-proportion;
 
-                border-radius: 0 0 @pixel-proportion * 4 @pixel-proportion;
+                border-radius: @pixel-proportion @pixel-proportion @pixel-proportion * 4 @pixel-proportion;
                 background-color: @kml-white;
 
                 align-self: stretch;
@@ -293,7 +302,7 @@ body {
                         padding: @pixel-proportion / 2;
 
                         color: @kml-color-1;
-                        border: 1px solid @kml-color-4;
+                        border: 1px solid @kml-color-2;
                         background: @kml-color-3;
 
                         .border-box;
@@ -322,20 +331,39 @@ body {
     .game-quiz {
         background-image: url('../design/panda-side-jogo-02.png');
         background-repeat: no-repeat;
-        background-position: @pixel-proportion * -3 bottom;
-        background-size: 35%;
+        background-position: @pixel-proportion * -3 @pixel-proportion * 10;
+        background-size: contain;
 
         .flex(row, flex-end, center);
 
         & > .actual-level {
-            width: 100%;
-            height: 100%;
-            padding: @pixel-proportion * 2;
+            width: 160px;
+            min-height: 40px;
+            margin: @pixel-proportion * 2;
+            padding: @pixel-proportion;
+            padding-right: @pixel-proportion * 2;
+            padding-left: @pixel-proportion * 2;
 
             color: @kml-color-1;
+            border: 1px solid @kml-color-3;
+            border-radius: @pixel-proportion * 5;
 
+            align-self: flex-start;
+            .flex(column, flex-start, flex-start);
             .border-box;
             .kml-texts-medium;
+
+            & > .actual-attempt {
+                position: relative;
+
+                display: block;
+
+                margin-top: @pixel-proportion * -.5;
+
+                color: @kml-color-2;
+
+                .kml-texts-small;
+            }
         }
 
         & > .game-info {
@@ -375,7 +403,7 @@ body {
                     padding-right: @pixel-proportion * 2;
                     padding-left: @pixel-proportion * 2;
 
-                    border: 1px solid @kml-color-1;
+                    border: 1px solid @kml-color-3;
                     border-radius: @pixel-proportion * 3;
 
                     .flex(row, flex-start, center);
@@ -391,18 +419,24 @@ body {
         }
 
         & > .game-screen {
-            width: 46%;
-            height: 90%;
+            width: auto;
+            height: 80%;
+            margin-left: @pixel-proportion * 6;
 
+            flex: 1 1 auto;
             .flex(column, center, center);
             & > .pictures {
-                & > div > div {
-                    display: block;
+                display: inline-block;
 
-                    width: 15vw;
-                    height: 15vw;
-                    margin: @pixel-proportion / 2;
+                width: calc(~"54vh + " 6px);
+                & > div {
+                    display: inline-block;
 
+                    width: 25vh;
+                    height: 25vh;
+                    margin: 1vh;
+
+                    border: 1px solid @kml-grey-1;
                     border-radius: @pixel-proportion;
                     background-repeat: no-repeat;
                     background-position: center center;
@@ -418,19 +452,18 @@ body {
                 & > span {
                     display: block;
 
-                    width: 70px;
-                    height: 70px;
+                    width: 9vh;
+                    height: 9vh;
                     margin: @pixel-proportion / 2;
 
                     color: @kml-color-1;
-                    border: 1px solid @kml-color-4;
+                    border: 1px solid @kml-color-3;
                     border-radius: @pixel-proportion;
                     background: @kml-white;
 
                     .kml-texts-semi-large;
                     .kml-font1;
                     .flex(row, center, center);
-                    .cursor-pointer;
                 }
             }
 
@@ -442,12 +475,12 @@ body {
                 & > span {
                     display: block;
 
-                    width: 50px;
-                    height: 50px;
+                    width: 6vh;
+                    height: 6vh;
                     margin: @pixel-proportion / 2;
 
                     color: @kml-color-1;
-                    border: 1px solid @kml-color-4;
+                    border: 1px solid @kml-color-2;
                     border-radius: @pixel-proportion;
                     background: @kml-color-3;
 
