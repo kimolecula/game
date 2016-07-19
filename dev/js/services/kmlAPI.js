@@ -6,7 +6,7 @@ kimolecula.factory('kmlAPI', function ($http) {
 
         return $http({
             method: 'GET',
-            url: '/levels/' + url,
+            url: 'levels/' + url,
             data: data
         }).then(function (response) {
             return response.data;
