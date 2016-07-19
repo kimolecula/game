@@ -29,35 +29,35 @@ var kimolecula = angular.module('kimolecula', ['ngResource', 'ngRoute', 'ngSanit
 .config(['$routeProvider', '$httpProvider', 'l20nProvider', function ($routeProvider, $httpProvider, l20nProvider) {
     $routeProvider
     .when('/home', {
-        templateUrl: '/templates/home.html',
+        templateUrl: 'templates/home.html',
         controller: 'homeController'
     })
     .when('/fim-do-jogo', {
-        templateUrl: '/templates/fim-do-jogo.html',
+        templateUrl: 'templates/fim-do-jogo.html',
         controller: 'fimDoJogoController'
     })
     .when('/insira-seu-nome', {
-        templateUrl: '/templates/insira-seu-nome.html',
+        templateUrl: 'templates/insira-seu-nome.html',
         controller: 'insiraSeuNomeController'
     })
     .when('/instrucoes', {
-        templateUrl: '/templates/instrucoes.html',
+        templateUrl: 'templates/instrucoes.html',
         controller: 'instrucoesController'
     })
     .when('/jogo', {
-        templateUrl: '/templates/jogo.html',
+        templateUrl: 'templates/jogo.html',
         controller: 'jogoController'
     })
     .when('/sobre', {
-        templateUrl: '/templates/sobre.html',
+        templateUrl: 'templates/sobre.html',
         controller: 'sobreController'
     })
     .when('/tentativas-excedidas', {
-        templateUrl: '/templates/tentativas-excedidas.html',
+        templateUrl: 'templates/tentativas-excedidas.html',
         controller: 'tentativasExcedidasController'
     })
     .when('/um-pouco-de-quimica', {
-        templateUrl: '/templates/um-pouco-de-quimica.html',
+        templateUrl: 'templates/um-pouco-de-quimica.html',
         controller: 'umPoucoDeQuimicaController'
     })
     .otherwise({
