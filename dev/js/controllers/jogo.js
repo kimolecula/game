@@ -23,7 +23,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             levelNow: 1,
             actualMolecule: '0',
             attemptsAnswer: '1',
-            maxAttemptsAnswer: '12',
+            maxAttemptsAnswer: '6',
             answerChoice: [],
             lastTip: ''
         };
@@ -272,7 +272,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             if ($scope.game.bambooCounter >= $scope.game.tipCounter) {
                 sweet.show({
                     title: 'Tá precisando de uma dica?',
-                    text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' para comprar a dica. Quanto menos bambús você tiver, mais fome o professor Panda ficará!',
+                    text: 'Se você escolher que sim, ' + $scope.game.tipCounter + ' ' + pluralBamboo + ' para comprar a dica. Quanto menos bambus você tiver, mais fome o professor Panda ficará!',
                     imageUrl: '../design/panda-bamboo-03.png',
                     showCancelButton: true,
                     confirmButtonColor: '#388E3C',
