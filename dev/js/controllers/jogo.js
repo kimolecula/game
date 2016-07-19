@@ -20,7 +20,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             bambooCounter: 6,
             tipCounter: '1',
             levelData: '',
-            levelNow: '1',
+            levelNow: 1,
             actualMolecule: '0',
             attemptsAnswer: '1',
             maxAttemptsAnswer: '12',
@@ -52,7 +52,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
 
             $scope.game.levelData = {
                 images: shuffle(newData[$scope.game.actualMolecule].imgFile),
-                rightAnswer: shuffle(newData[$scope.game.actualMolecule].rightAnswer),
+                rightAnswer: newData[$scope.game.actualMolecule].rightAnswer,
                 allAnswers: shuffle(allAnswers),
                 tips: newData[$scope.game.actualMolecule].tips
             };
