@@ -5,18 +5,23 @@
 
 
 <kmlSobreTitle "Sobre o Jogo">
-<kmlSobreParagraph1 "<span>Com o passar dos anos, o ensino de ciências encontra cada vez mais dificuldades no aprendizado dos alunos. Os estudantes se sentem amedrontados pelo nível de dificuldade das matérias e acabam perdendo o interesse.</span>
-<span>Procurando criar novas maneiras para ganhar a curiosidade dos jovens e incentivá-los a buscar o conhecimento de uma forma mais fácil e divertida, criamos o jogo com a ideia de levar o ensino ao jogador através de um meio que ele mais se interesse, a internet.</span>
-<span>Ao passo que os alunos vão descobrindo os compostos de acordo com seus usos baseados em figuras sobre os mesmos, ocorre a assimilação nas estruturas cognitivas dos jogadores.</span>
-<span>Desenvolvido por Larissa Bento, programado por Luigui Delyer e ilustrado por Raphael Eckhardth, apresentamos KI-Molécula.</span>">
+<kmlSobreParagraph1 "<span>Este jogo tem por objetivo apresentar novas maneiras de atrair a curiosidade dos jovens e incentivá-los a buscar conhecimento de maneira empolgante e desafiadora. O jogador tem a oportunidade de reunir diversão e conhecimento em um só lugar.</span>
+<span>Ele é formado por dez fases e a cada etapa o jogador terá que analisar diversas figuras que apresentarão diferentes usos de um mesmo composto, descobrindo assim de qual composto se trata.</span>
+<span>Esse é o KI-Molécula. Maneiro, né?</span>
+<span>Divirtam-se e bom jogo!</span>">
+<div>Desenvolvimento: Larissa Bento</div>
+<div>Programação: Luigui Delyer</div>
+<div>Ilustração: Raphael Eckhard</div>
+
 
 
 <kmlPoucoTitle "Um pouco<br>de Química">
-<kmlPoucoParagraph1 "<span>A química está presente em tudo que possa ser imaginado, como por exemplo: nas roupas, nos carros, nos computadores, nos alimentos, na composição do organismo, nos cosméticos e entre diversos outros usos. Imagine um mundo sem química. Como seria feito o tratamento e a produção dos tecidos? E como um carro seria utilizado sem os polímeros que compõem toda sua carcaça? E os alimentos sem os conservantes necessários para durarem mais nas prateleiras dos mercados? Nada disso sequer existiria.</span>
-<span>Resumidamente, a química é uma ciência que estuda a capacidade de modificar e rearranjar a ordem dos elementos que existem na natureza para assim gerar outros compostos que possam satisfazer diversas necessidades. Além disso, essa ciência está sempre em busca de evolução nos quesitos de pesquisa e tecnologia.</span>
-<span>A química começa nos átomos, que são as menores partes da matéria existentes para compor cada coisa que podemos enxergar e, depois de muito aprofundar nesse estudo, ela se divide em áreas específicas para cada finalidade, tais como: orgânica, inorgânica, termoquímica, bioquímica, físico-química e entre outras.</span>
-<span>O homem vem usando seus conhecimentos de química desde os primórdios da história, utilizando-os, por exemplo nos anos a.C. para fazer tecidos, metais e bebidas. Inicialmente, toda a ciência da química se desenvolveu na Alquimia, uma ciência em que os estudiosos buscavam produzir a pedra filosofal e com isso, acabaram descobrindo a utilidade de outras substâncias.</span>
-<span>Alguns dos principais cientistas que promoveram descobertas e avanços para a química são: Antoine Lavoisier com sua mais importante contribuição sobre a lei da conservação da matéria, Louis Pasteur com sua descoberta da ação dos micro-organismos e os cientistas John Dalton, Joseph Thomson, Ernest Rutherford e Niels Bohr que são responsáveis pela evolução do modelo atômico.</span>
+<kmlPoucoParagraph1 "<span>A química está em tudo: roupas, carros, computadores, alimentos, cosméticos, nosso organismo e por aí vai. Consegue imaginar um mundo sem química? Como seriam possíveis o tratamento e a produção dos tecidos? Como um carro seria produzido sem os polímeros que compõem toda sua carcaça? E os alimentos resistiriam nas prateleiras dos mercados de que maneira sem os conservantes necessários?</span>
+<span>O homem, desde o início de sua existência, utiliza conhecimentos químicos para seu desenvolvimento, produzindo tecidos, alimentos, bebidas e manipulando metais para produção de armamentos, por exemplo.</span>
+<span>Essa ciência estuda a capacidade de modificar e rearranjar a ordem dos elementos existentes na natureza gerando outros compostos que satisfaçam diversas necessidades. É uma ciência em constante pesquisa e desenvolvimento, que utiliza tecnologia de ponta nos diversos estudos.</span>
+<span>A química começa nos átomos, que são as menores partes existentes da matéria e compõem tudo que podemos enxergar. Diversas são as áreas específicas da química, tais como: orgânica, inorgânica, termoquímica, bioquímica, físico-química, dentre outras.</span>
+<span>Os primórdios da química se deram por meio dos estudos da alquimia. Estes estudiosos antigos queriam produzir a pedra filosofal, que prolongaria a vida eternamente e transformaria tudo em ouro, e o que conseguiram no decorrer desse caminho foi a descoberta de muitas substâncias essenciais para a vida humana.</span>
+<span>Temos dentre os principais cientistas que promoveram descobertas e avanços para a química: Antoine Lavoisier, que desenvolveu a lei da conservação da matéria; Louis Pasteur, que descobriu a ação dos micro-organismos; John Dalton, Joseph Thomson, Ernest Rutherford e Niels Bohr que são responsáveis pela evolução do modelo atômico.</span>
 
 <b>Referências:</b>
 <b>Sua Pesquisa.com; Disponível em: http://www.suapesquisa.com/quimica; Acesso em: 05 jul. 2016.</b>
@@ -29,14 +34,12 @@
 
 
 <kmlInstruTitle "Instruções">
-<kmlInstruParagraph "<span>1 – Ao iniciar o game, o jogador tem quatro imagens referentes a molécula e seus usos;</span>
-<span>2 – Abaixo das imagens, é encontrado um campo para formar a fórmula molecular1 do composto. Embaixo desse campo, são encontradas as opções de elementos para a formação. Basta clicar em cima da opção desejada que ela será colocada no campo de acordo com a ordem dos cliques do jogador;</span>
-<span>3 – Caso seja necessário, será possível clicar no botão “Dicas” e receber uma ajuda extra sobre a molécula. Lembre-se que elas são compradas com bambus e cada uma tem um valor diferente. Existem três dicas para cada molécula;</span>
-<span>4 – Os bambus servem para comprar dicas e alimentar o Professor Panda. A quantidade de bambus restante no fim do jogo é que vai determinar o desempenho do jogador. No início do game, o jogador recebe 6 bambus e ao passar de fase três bambus. Caso ele use todos os bambus, perderá o jogo e deixará o Professor Panda faminto;</span>
-<span>5 – Em cada fase, o jogador terá um número máximo de seis tentativas que é mostrada ao lado do campo da fórmula. Essa quantidade vai diminuindo conforme usada e ao ser atingida o jogador perde o jogo;</span>
-<span>6 – Durante o jogo, o jogador poderá, se necessário, clicar no botão “pular”, para trocar de molécula permanecendo na mesma fase. Cada ação como esta custará um bambu. Ele também pode clicar no botão “parar” e voltar ao início do jogo, perdendo todos os bambus;</span>
-<span>7 – Ao lado da tela do game, é encontrada uma lista com os elementos representativos da tabela periódica para que o jogador consulte a qualquer hora que for necessário saber o nome, o símbolo e o número atômico (Z) de cada elemento;</span>
-<span>8 – O objetivo do jogo é chegar ao final com o maior número de bambus para alimentar satisfatoriamente o Professor Panda e garantir a existência de sua espécie. Além de proporcionar ao jogador a assimilação das moléculas mais comuns do dia a dia com seus diversos usos. </span>
+<kmlInstruParagraph "<span>1 – Ao iniciar o game, você verá 4 imagens referentes a um composto específico e seus usos;</span>
+<span>2 – Seu objetivo é descobrir a fórmula molecular1 do composto apresentado nas imagens. Os elementos serão organizados no campo da fórmula de acordo com a ordem dos cliques. Tome cuidado pois você terá 6 tentativas por fase para descobrir cada composto;</span>
+<span>3 – As moedas nesse jogo são bambus. Eles alimentam o Professor Panda e compram dicas. As “Dicas” são utilizadas para receber ajuda extra sobre a fórmula molecular que precisa ser descoberta. A primeira dica vale 1, a segunda vale 2 e a terceira 3 bambus;</span>
+<span>4 – Dentro da mesma fase você tem a opção de “Pular” o composto químico, trocando por um outro. Mas cada vez que fizer isso perderá 1 bambu;</span>
+<span>5 – Uma lista com elementos da tabela periódica estará disponível para consulta a qualquer hora. Ela te ajudará a lembrar o nome, símbolo e o número atômico (Z) de cada elemento;</span>
+<span>6 – Quanto mais bambus acumulados ao terminar o jogo maior sua pontuação. Você começa o jogo com 6 bambus e ganha 3 a cada fase que passar. O jogo tem 10 fases. Cuidado para não deixar o Professor Panda faminto e perder o jogo!</span>
 <b>1 Fórmula Molecular é aquela indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C23H12O16 (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
 <kmlInstruButton1 "Entendi!">
 
