@@ -80,6 +80,15 @@ body {
         margin-top: @pixel-proportion;
 
         .kml-texts-small;
+
+        & > b {
+            font-size: @hSize * .15;
+
+            position: relative;
+            top: -3px;
+
+            color: @kml-color-2;
+        }
     }
 
     & > b {
@@ -90,6 +99,10 @@ body {
         color: @kml-color-1;
 
         .kml-texts-mini;
+
+        & > u {
+            font-size: @hSize * .13;
+        }
 
         &:first-of-type {
             font-weight: bold;
@@ -138,6 +151,10 @@ body {
 #sobre {
     & > .height-content {
         height: auto;
+
+        & > h1 {
+            margin-bottom: @pixel-proportion * 5;
+        }
     }
 }
 
@@ -465,6 +482,15 @@ body {
                     .kml-texts-semi-large;
                     .kml-font1;
                     .flex(row, center, center);
+
+                    & > b {
+                        font-size: @hSize * .30;
+
+                        position: relative;
+                        top: 4px;
+
+                        .kml-font1;
+                    }
                 }
             }
 
@@ -491,6 +517,15 @@ body {
                     .kml-texts-medium;
                     .flex(row, center, center);
                     .cursor-pointer;
+
+                    & > b {
+                        font-size: @hSize * .22;
+
+                        position: relative;
+                        top: 3px;
+
+                        .kml-font1;
+                    }
                 }
             }
         }

@@ -19,10 +19,10 @@
                     <div ng-repeat="image in game.levelData.images" style="background-image: url('design/{{image}}.jpg')"></div>
                 </div>
                 <div class="answers-selected" ng-if="game.levelData.rightAnswer" ng-init="game.answerChoice = []">
-                    <span ng-repeat="right in game.levelData.rightAnswer">{{game.answerChoice[$index]}}</span>
+                    <span ng-repeat="right in game.levelData.rightAnswer" ng-bind-html="game.answerChoice[$index]"></span>
                 </div>
                 <div class="answers-all" ng-if="game.levelData.allAnswers">
-                    <span ng-repeat="answer in game.levelData.allAnswers" ng-click="letAnswer(answer)">{{answer}}</span>
+                    <span ng-repeat="answer in game.levelData.allAnswers" ng-click="letAnswer(answer)" ng-bind-html="answer"></span>
                 </div>
             </div>
 
