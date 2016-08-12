@@ -1,10 +1,11 @@
 <div class="game-disposition container-column row">
-    <div class="center-content column">
+    <div id="game-body" class="top-content">
         <div class="game-headerbar">
             <div class="welcome-player">
                 <span data-l20n="kmlWelcomePlayer"></span> {{game.user}}!
             </div>
             <div class="buttons-options">
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton4" ng-click="instructions()"></a>
                 <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" ng-click="changeMolecule()"></a>
                 <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton2" ng-click="quitGame()"></a>
             </div>
@@ -28,7 +29,7 @@
 
             <div class="game-info">
                 <span class="mini-section">
-                    <span class='mini-section-title' data-l20n="kmlJogoParagraph2"></span>
+                    <span class='mini-section-title'>Contador de Bambus: {{game.bambooCounter}}</span>
                     <div class="bamboo-counter">
                         <img ng-repeat="bamboo in getBamboo(game.bambooCounter) track by $index" src="design/panda-bamboo-03.png" />
                     </div>
@@ -41,6 +42,16 @@
                 </div>
             </div>
         </div>
+
+        <div class="center-content game-help">
+            <div id="instrucoes-interna" class="center-content">
+                <div class="height-content">
+                    <h1 data-l20n="kmlInstruTitle"></h1>
+                    <p data-l20n="kmlInstruParagraph" class="text-full"></p>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="game-sidebar center-content column">
         <span class="mini-section">

@@ -35,6 +35,13 @@ body {
     .flex (column, center, center);
 }
 
+.top-content {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, flex-start, center);
+}
+
 .height-content {
     width: 100%;
     height: 100%;
@@ -109,6 +116,16 @@ body {
 
             margin-top: @pixel-proportion * 2;
         }
+    }
+
+    & > i {
+        font-style: normal;
+
+        position: relative;
+
+        display: block;
+
+        text-align: right;
     }
 }
 
@@ -214,6 +231,9 @@ body {
 
     .game-headerbar {
         width: 100%;
+        height: @pixel-proportion * 9;
+        min-height: @pixel-proportion * 9;
+        max-height: @pixel-proportion * 9;
         padding: @pixel-proportion * 1;
         padding-right: @pixel-proportion * 2;
         padding-left: @pixel-proportion * 2;
@@ -246,10 +266,14 @@ body {
         }
     }
 
+    #game-body {
+        width: 79%;
+    }
+
     .game-sidebar {
         overflow: hidden;
 
-        width: 30%;
+        width: 21%;
         height: 100%;
         padding: @pixel-proportion * 2;
 
@@ -345,6 +369,8 @@ body {
     }
 
     .game-quiz {
+        overflow: hidden;
+
         background-image: url('../design/panda-side-jogo-02.png');
         background-repeat: no-repeat;
         background-position: @pixel-proportion * -3 @pixel-proportion * 10;
@@ -408,6 +434,8 @@ body {
                 .flex(column, center, center);
 
                 & > span {
+                    font-size: 14px;
+
                     color: @kml-color-1;
                 }
                 & > .bamboo-counter {
@@ -526,6 +554,51 @@ body {
 
                         .kml-font1;
                     }
+                }
+            }
+        }
+    }
+
+    .game-help {
+        display: none;
+        overflow-x: hidden;
+
+        width: 100%;
+        height: 100%;
+
+        background: #fff;
+
+        & > #instrucoes-interna {
+            overflow-y: scroll;
+
+            width: calc(~"100% + " @pixel-proportion * 6);
+            & > div {
+                .flex(column, center, center);
+                & > h1 {
+                    font-size: @pixel-proportion * 10;
+
+                    margin-top: @pixel-proportion;
+                    margin-bottom: @pixel-proportion;
+                }
+                & > p {
+                    width: 80%;
+                    padding: 0;
+                    & > span {
+                        font-size: 14px;
+
+                        margin-top: 2px;
+                    }
+                    & > b {
+                        line-height: @pixel-proportion * 2;
+
+                        margin-top: 4px;
+                        margin-bottom: @pixel-proportion * 2;
+                    }
+                }
+
+                & > a {
+                    margin-top: 0;
+                    margin-bottom: @pixel-proportion * 2;
                 }
             }
         }

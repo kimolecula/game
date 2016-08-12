@@ -28,12 +28,12 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             lastTip: ''
         };
 
-        if (!$rootScope.game.user) {
-            window.location = '#/insira-seu-nome';
-        }
-        else {
-            $scope.game.user = $rootScope.game.user;
-        }
+        // if (!$rootScope.game.user) {
+        //     window.location = '#/insira-seu-nome';
+        // }
+        // else {
+        //     $scope.game.user = $rootScope.game.user;
+        // }
 
         $scope.getLevel($scope.game.levelNow);
     };
@@ -140,8 +140,17 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
     };
 
     $scope.checkAnswer = function () {
-        // console.log($scope.game.answerChoice, $scope.game.levelData.rightAnswer);
-        if (JSON.stringify($scope.game.answerChoice) === JSON.stringify($scope.game.levelData.rightAnswer)) {
+        var regex = /<[^>]*>/g;
+        var answerChoice = $scope.game.answerChoice;
+
+        for (var i = 0; i < answerChoice.length; i++) {
+            var regexStr = answerChoice[i];
+            var regexReplace = regexStr.replace(regex, '');
+            answerChoice[i] = regexReplace;
+        }
+
+        // console.log(answerChoice, $scope.game.levelData.rightAnswer);
+        if (JSON.stringify(answerChoice) === JSON.stringify($scope.game.levelData.rightAnswer)) {
             if ($scope.game.levelNow + 1 > 10) {
                 sweet.show({
                     title: 'PARABÉNS!',
@@ -192,6 +201,18 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
                 });
 
             }
+        }
+    }
+
+    $scope.instructions = function () {
+        var gameBody = document.getElementById('game-body');
+        if (gameBody.querySelector(".game-quiz").style.display == "flex") {
+            gameBody.querySelector(".game-quiz").style.display = "none";
+            gameBody.querySelector(".game-help").style.display = "block";
+        }
+        else {
+            gameBody.querySelector(".game-quiz").style.display = "flex";
+            gameBody.querySelector(".game-help").style.display = "none";
         }
     }
 

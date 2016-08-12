@@ -9,9 +9,9 @@
 <span>Ele é formado por dez fases e a cada etapa o jogador terá que analisar diversas figuras que apresentarão diferentes usos de uma mesma substância química, descobrindo assim de qual composto se trata.</span>
 <span>Esse é o KI-Molécula. Maneiro, né?</span>
 <span>Divirtam-se e bom jogo!</span>
-<span>Desenvolvimento: Larissa Bento</span>
-<span>Programação: Luigui Delyer</span>
-<span>Ilustração: Raphael Eckhard</span>">
+<i>Desenvolvimento: Larissa Bento</i>
+<i>Programação: Luigui Delyer</i>
+<i>Ilustração: Raphael Eckhard</i>">
 
 
 
@@ -35,7 +35,7 @@
 
 <kmlInstruTitle "Instruções">
 <kmlInstruParagraph "<span>1 – Ao iniciar o game, você verá 4 imagens referentes a um composto específico e seus usos;</span>
-<span>2 – Seu objetivo é descobrir a fórmula molecular1 do composto apresentado nas imagens. Os elementos serão organizados no campo da fórmula de acordo com a ordem dos cliques. Tome cuidado pois você terá 6 tentativas por fase para descobrir cada composto;</span>
+<span>2 – Seu objetivo é descobrir a fórmula molecular<b>1</b> do composto apresentado nas imagens. Os elementos serão organizados no campo da fórmula de acordo com a ordem dos cliques. Tome cuidado pois você terá 6 tentativas por fase para descobrir cada composto;</span>
 <span>3 – As moedas nesse jogo são bambus. Eles alimentam o Professor Panda e compram dicas. As “Dicas” são utilizadas para receber ajuda extra sobre a fórmula molecular que precisa ser descoberta. A primeira dica vale 1, a segunda vale 2 e a terceira 3 bambus;</span>
 <span>4 – Dentro da mesma fase você tem a opção de “Pular” o composto químico, trocando por um outro. Mas cada vez que fizer isso perderá 1 bambu;</span>
 <span>5 – Uma lista com elementos da tabela periódica estará disponível para consulta a qualquer hora. Ela te ajudará a lembrar o nome, símbolo e o número atômico (Z) de cada elemento;</span>
