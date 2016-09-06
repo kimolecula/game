@@ -106,7 +106,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         else if (type == 2) {
             sweet.show({
                 title: 'Suas chances acabaram...',
-                text: 'Você utilizou todas as suas chances em tentar responder qual é a molécula apresentada... O professor Panda está morrendo de fome! Comece novamente e alimente o professor...',
+                text: 'Você utilizou todas as suas chances em tentar responder qual é a molécula apresentada... Assim o professor Panda ficará morrendo de fome! Comece novamente e alimente o professor com os bambus respondendo corretamente as questões...',
                 imageUrl: 'design/panda-triste-04.png',
                 showCancelButton: false,
                 confirmButtonText: 'Começar de novo!',

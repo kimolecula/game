@@ -110,13 +110,13 @@
             "rightAnswer": [
                 "C6",
                 "H5",
-                "NH2"
+                "N",
+                "H2"
             ],
             "wrongAnswer": [
                 "Li",
                 "Na",
                 "O",
-                "He",
                 "Cl"
             ],
             "tips": [

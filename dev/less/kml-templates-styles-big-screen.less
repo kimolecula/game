@@ -573,12 +573,14 @@ body {
 
             width: calc(~"100% + " @pixel-proportion * 6);
             & > div {
-                .flex(column, center, center);
+                // .flex(column, center, center);
                 & > h1 {
                     font-size: @pixel-proportion * 10;
 
                     margin-top: @pixel-proportion;
                     margin-bottom: @pixel-proportion;
+
+                    letter-spacing: -2px;
                 }
                 & > p {
                     width: 80%;
