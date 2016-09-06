@@ -1,0 +1,628 @@
+body {
+    padding: @pixel-proportion * 2;
+
+    background-color: @kml-grey-2;
+
+    .border-box;
+    .flex (column, center, center);
+}
+
+.container-row {
+    width: 100%;
+    height: 100%;
+
+    .flex (row, center, center);
+}
+
+.container-column {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .border-box;
+}
+
+.center-content {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
+}
+
+.top-content {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, flex-start, center);
+}
+
+.height-content {
+    width: 100%;
+    height: 100%;
+
+    & > h1 {
+        width: 100%;
+        margin-bottom: @pixel-proportion * 4;
+
+        text-align: center;
+    }
+
+    & > .text-full {
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: @pixel-proportion * 5;
+    }
+
+    & > a {
+        position: relative;
+
+        max-width: @pixel-proportion * 20;
+        margin-right: auto;
+        margin-bottom: @pixel-proportion * 5;
+        margin-left: auto;
+    }
+}
+
+.margin-center {
+    display: inline-block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-full {
+    width: 80%;
+
+    text-align: left;
+
+    & > span {
+        display: block;
+
+        margin-top: @pixel-proportion;
+
+        .kml-texts-small;
+
+        & > b {
+            font-size: @hSize * .15;
+
+            position: relative;
+            top: -3px;
+
+            color: @kml-color-2;
+        }
+    }
+
+    & > b {
+        font-weight: normal;
+
+        display: block;
+
+        color: @kml-color-1;
+
+        .kml-texts-mini;
+
+        & > u {
+            font-size: @hSize * .13;
+        }
+
+        &:first-of-type {
+            font-weight: bold;
+
+            margin-top: @pixel-proportion * 2;
+        }
+    }
+
+    & > i {
+        font-style: normal;
+
+        position: relative;
+
+        display: block;
+
+        text-align: right;
+    }
+}
+
+.header-buttons {
+    position: fixed;
+    top: @pixel-proportion * 3;
+    left: @pixel-proportion * 3;
+
+    width: 100%;
+
+    .flex (row, flex-start, center);
+
+    & > img {
+        // height: @pixel-proportion * 10;
+        display: none;
+    }
+}
+
+.form-user {
+    & > form {
+        .flex (row, center, center);
+    }
+}
+
+.mini-section {
+    width: 100%;
+}
+
+.mini-section-title {
+    width: 100%;
+
+    text-align: center;
+
+    color: @kml-white;
+}
+
+.divider-sidebar {
+    margin-top: @pixel-proportion * 3;
+}
+
+#sobre {
+    & > .height-content {
+        height: auto;
+
+        & > h1 {
+            font-size: 7rem;
+
+            margin-bottom: @pixel-proportion * 5;
+        }
+    }
+}
+
+#nome {
+    & > h1 {
+        text-align: center;
+    }
+
+    & > h1 {
+        width: 100%;
+        margin-bottom: @pixel-proportion * 4;
+
+        text-align: center;
+    }
+}
+
+#home {
+    width: calc(~"100% + " @pixel-proportion * 6);
+    height: calc(~"100% + " @pixel-proportion * 6);
+    margin-top: @pixel-proportion * -3;
+    margin-left: @pixel-proportion * -3;
+
+    background-image: url('../design/panda-background-07.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    & > .home-welcome {
+        width: 100%;
+        height: 100%;
+
+        background-image: url('../design/panda-capa-06.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 580px;
+
+        & > .home-buttons {
+            margin-top: @pixel-proportion * 25;
+        }
+    }
+}
+
+.game-disposition {
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid @kml-color-3;
+    border-radius: @pixel-proportion * 4;
+    background: @kml-white;
+    box-shadow: 0 0 30px @kml-black-2;
+
+    .border-box;
+
+    .game-headerbar {
+        width: 100%;
+        height: @pixel-proportion * 9;
+        min-height: @pixel-proportion * 9;
+        max-height: @pixel-proportion * 9;
+        padding: @pixel-proportion * 1;
+        padding-right: @pixel-proportion * 2;
+        padding-left: @pixel-proportion * 2;
+
+        color: @kml-white;
+        background: @kml-color-1;
+
+        .border-box;
+        .flex(row, flex-start, center);
+
+        & > .welcome-player {
+            white-space: nowrap;
+
+            .kml-font1;
+            .kml-texts-medium;
+            & > span {
+                .kml-font1;
+                .kml-texts-medium;
+            }
+        }
+
+        & > .buttons-options {
+            flex: 1 1 auto;
+            .flex(row, flex-end, center);
+
+            & > a {
+                margin: @pixel-proportion / 3;
+                padding: @pixel-proportion;
+
+                .kml-texts-small;
+            }
+        }
+    }
+
+    #game-body {
+        width: 70%;
+    }
+
+    .game-sidebar {
+        overflow: hidden;
+
+        width: 30%;
+        height: 100%;
+        padding: @pixel-proportion * 2;
+
+        background: @kml-color-2;
+
+        .border-box;
+        .flex(column, space-between, center);
+
+        & > .mini-section {
+            overflow: hidden;
+
+            .flex(column, center, center);
+            & > .chemical-search {
+                width: 100%;
+                margin-top: @pixel-proportion;
+
+                border-radius: @pixel-proportion * 4 @pixel-proportion * 4 0 0;
+                background: @kml-color-1;
+
+                .flex(row, center, center);
+
+                & > input {
+                    width: 100%;
+                }
+            }
+        }
+
+        & > .mini-section {
+            & > .chemical-elements {
+                overflow-x: hidden;
+
+                width: 100%;
+                height: 100%;
+                margin-top: @pixel-proportion;
+
+                border-radius: @pixel-proportion @pixel-proportion @pixel-proportion * 4 @pixel-proportion;
+                background-color: @kml-white;
+
+                align-self: stretch;
+
+                & > ul {
+                    overflow-y: scroll;
+
+                    width: calc(~"100% + " @pixel-proportion * 4);
+                    height: 100%;
+                    padding: @pixel-proportion;
+                    padding-right: @pixel-proportion * 5;
+
+                    text-align: left;
+
+                    .border-box;
+
+                    .group-elements {
+                        margin-top: @pixel-proportion * 2;
+                        margin-bottom: -1px;
+
+                        color: @kml-black;
+                        border: 1px solid @kml-grey-1;
+                        border-radius: @pixel-proportion @pixel-proportion 0 0;
+                        background: @kml-grey-2;
+                    }
+
+                    & > li {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: -1px;
+                        padding: @pixel-proportion / 2;
+
+                        color: @kml-color-1;
+                        border: 1px solid @kml-color-2;
+                        background: @kml-color-3;
+
+                        .border-box;
+                        .kml-font2;
+                        .kml-texts-small;
+
+                        & > span {
+                            font-weight: bold;
+
+                            .kml-texts-mini;
+                        }
+
+                        &:last-of-type {
+                            margin-bottom: @pixel-proportion;
+                        }
+
+                        &:first-of-type {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .game-quiz {
+        overflow: hidden;
+        // background-image: url('../design/panda-side-jogo-02.png');
+        // background-repeat: no-repeat;
+        // background-position: @pixel-proportion * -3 @pixel-proportion * 10;
+        // background-size: contain;
+
+        .flex(column, flex-end, center);
+
+        & > .actual-level {
+            position: absolute;
+            left: @pixel-proportion * 2;
+
+            width: 140px;
+            min-height: 40px;
+            margin: @pixel-proportion * 2;
+            padding: @pixel-proportion;
+            padding-right: @pixel-proportion * 2;
+            padding-left: @pixel-proportion * 2;
+
+            color: @kml-color-1;
+            border: 1px solid @kml-color-3;
+            border-radius: @pixel-proportion * 5;
+
+            align-self: flex-start;
+            .flex(column, flex-start, flex-start);
+            .border-box;
+            .kml-texts-medium;
+
+            & > .actual-attempt {
+                position: relative;
+
+                display: block;
+
+                margin-top: @pixel-proportion * -.5;
+
+                color: @kml-color-2;
+
+                .kml-texts-small;
+            }
+        }
+
+        & > .game-info {
+            min-height: 40px;
+            padding: @pixel-proportion * 1.4;
+
+            align-self: flex-end;
+            .flex(row, center, flex-end);
+            order: 0;
+            .border-box;
+
+            & > .buttons-helpers {
+                .flex(row, center, center);
+
+                & > a {
+                    margin: 0;
+                    margin-right: @pixel-proportion / 2;
+                    margin-left: @pixel-proportion / 2;
+                    padding: 0;
+
+                    .kml-texts-small;
+                }
+            }
+
+            & > .mini-section {
+                display: inline-block;
+
+                width: 100%;
+
+                .flex(column, center, center);
+
+                & > span {
+                    font-size: 14px;
+
+                    color: @kml-color-1;
+                }
+                & > .bamboo-counter {
+                    overflow: hidden;
+
+                    width: @pixel-proportion * 21;
+                    min-height: 40px;
+                    padding: @pixel-proportion;
+                    padding-right: @pixel-proportion * 2;
+                    padding-left: @pixel-proportion * 2;
+
+                    border: 1px solid @kml-color-3;
+                    border-radius: @pixel-proportion * 3;
+
+                    .flex(row, flex-start, center);
+                    .border-box;
+
+                    & > img {
+                        height: 30px;
+                        margin-right: @pixel-proportion / 4;
+                        margin-left: @pixel-proportion / 4;
+                    }
+                }
+            }
+        }
+
+        & > .game-screen {
+            width: auto;
+            height: 80%;
+            // margin-left: @pixel-proportion * 6;
+
+            order: 1;
+            flex: 1 1 auto;
+            .flex(column, center, center);
+
+            & > .pictures {
+                display: inline-block;
+
+                width: calc(~"382px + " 6px);
+                & > div {
+                    display: inline-block;
+
+                    min-width: 180px;
+                    min-height: 180px;
+                    margin: 6px;
+
+                    border: 1px solid @kml-grey-1;
+                    border-radius: @pixel-proportion;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                }
+            }
+
+            & > .answers-selected {
+                width: 100%;
+                // min-height: 9vw;
+                // margin: 1vw;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    min-width: 7vw;
+                    max-width: 4vh;
+                    min-height: 7vw;
+                    max-height: 4vh;
+                    margin: @pixel-proportion / 2;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-3;
+                    border-radius: @pixel-proportion;
+                    background: @kml-white;
+
+                    .kml-texts-semi-large;
+                    .kml-font1;
+                    .flex(row, center, center);
+
+                    & > b {
+                        font-size: @hSize * .30;
+
+                        position: relative;
+                        top: 4px;
+
+                        .kml-font1;
+                    }
+                }
+            }
+
+            & > .answers-all {
+                width: 100%;
+                // min-height: 6vw;
+                // margin: 1vw;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    min-width: 5vw;
+                    max-width: 6vw;
+                    min-height: 5vw;
+                    max-height: 6vw;
+                    margin: @pixel-proportion / 2;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-2;
+                    border-radius: @pixel-proportion;
+                    background: @kml-color-3;
+
+                    .kml-font1;
+                    .kml-texts-medium;
+                    .flex(row, center, center);
+                    .cursor-pointer;
+
+                    & > b {
+                        font-size: @hSize * .22;
+
+                        position: relative;
+                        top: 3px;
+
+                        .kml-font1;
+                    }
+                }
+            }
+        }
+    }
+
+    .game-help {
+        display: none;
+        overflow-x: hidden;
+
+        width: 100%;
+        height: 100%;
+
+        background: #fff;
+
+        & > #instrucoes-interna {
+            overflow-y: scroll;
+
+            width: calc(~"100% + " @pixel-proportion * 6);
+
+            & > div {
+                margin-left: @pixel-proportion * -6;
+                // .flex(column, center, center);
+                & > h1 {
+                    font-size: @pixel-proportion * 10;
+
+                    margin-top: @pixel-proportion;
+                    margin-bottom: @pixel-proportion;
+
+                    letter-spacing: -2px;
+                }
+                & > p {
+                    width: 80%;
+                    padding: 0;
+                    & > span {
+                        font-size: 14px;
+
+                        margin-top: 2px;
+                    }
+                    & > b {
+                        line-height: @pixel-proportion * 2;
+
+                        margin-top: 4px;
+                        margin-bottom: @pixel-proportion * 2;
+                    }
+                }
+
+                & > a {
+                    margin-top: 0;
+                    margin-bottom: @pixel-proportion * 2;
+                }
+            }
+        }
+    }
+}

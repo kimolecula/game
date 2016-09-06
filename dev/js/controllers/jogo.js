@@ -28,12 +28,12 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             lastTip: ''
         };
 
-        if (!$rootScope.game.user) {
-            window.location = '#/insira-seu-nome';
-        }
-        else {
+        // if (!$rootScope.game.user) {
+        //     window.location = '#/insira-seu-nome';
+        // }
+        // else {
             $scope.game.user = $rootScope.game.user;
-        }
+        // }
 
         $scope.getLevel($scope.game.levelNow);
     };

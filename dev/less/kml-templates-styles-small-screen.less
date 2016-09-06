@@ -1,0 +1,709 @@
+body {
+    // padding: @pixel-proportion * 2;
+    background-color: @kml-grey-2;
+
+    .border-box;
+    .flex (column, center, center);
+}
+
+.sweet-alert {
+    top: @pixel-proportion !important;
+
+    margin-top: 0 !important;
+
+    & > h2 {
+        line-height: 28px !important;
+
+        margin: 0 !important;
+    }
+
+    & > .sa-button-container {
+        & > button {
+            margin: 8px 8px auto !important;
+        }
+        & > .sa-confirm-button-container {
+            & > button {
+                margin: 8px 8px auto !important;
+            }
+        }
+    }
+}
+
+.container-row {
+    width: 100%;
+    height: 100%;
+
+    .flex (row, center, center);
+}
+
+.container-column {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
+}
+
+.app-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .border-box;
+}
+
+.center-content {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, center, center);
+}
+
+.top-content {
+    width: 100%;
+    height: 100%;
+
+    .flex (column, flex-start, center);
+}
+
+.height-content {
+    width: 100%;
+    height: 100%;
+
+    & > h1 {
+        width: 100%;
+        margin-bottom: @pixel-proportion * 4;
+
+        text-align: center;
+    }
+
+    & > .text-full {
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: @pixel-proportion * 5;
+    }
+
+    & > a {
+        position: relative;
+
+        max-width: @pixel-proportion * 20;
+        margin-right: auto;
+        margin-bottom: @pixel-proportion * 5;
+        margin-left: auto;
+    }
+}
+
+.margin-center {
+    display: inline-block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-full {
+    width: 80%;
+
+    text-align: left;
+
+    & > span {
+        display: block;
+
+        margin-top: @pixel-proportion;
+
+        .kml-texts-small;
+
+        & > b {
+            font-size: @hSize * .15;
+
+            position: relative;
+            top: -3px;
+
+            color: @kml-color-2;
+        }
+    }
+
+    & > b {
+        font-weight: normal;
+
+        display: block;
+
+        color: @kml-color-1;
+
+        .kml-texts-mini;
+
+        & > u {
+            font-size: @hSize * .13;
+        }
+
+        &:first-of-type {
+            font-weight: bold;
+
+            margin-top: @pixel-proportion * 2;
+        }
+    }
+
+    & > i {
+        font-style: normal;
+
+        position: relative;
+
+        display: block;
+
+        text-align: right;
+    }
+}
+
+.header-buttons {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    .flex (row, flex-start, center);
+
+    & > img {
+        // height: @pixel-proportion * 10;
+        display: none;
+    }
+}
+
+.form-user {
+    & > form {
+        .flex (row, center, center);
+    }
+}
+
+.mini-section {
+    width: 100%;
+}
+
+.mini-section-title {
+    width: 100%;
+
+    text-align: center;
+
+    color: @kml-white;
+}
+
+.divider-sidebar {
+    margin-top: @pixel-proportion * 3;
+}
+
+#sobre {
+    & > .height-content {
+        height: auto;
+
+        & > h1 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+
+            margin-top: 250px;
+            margin-bottom: @pixel-proportion * 2;
+
+            letter-spacing: -1px;
+        }
+    }
+}
+
+#instrucoes {
+    & > .height-content {
+        height: auto;
+
+        & > h1 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+
+            margin-top: 1050px;
+            margin-bottom: @pixel-proportion * 2;
+
+            letter-spacing: -1px;
+        }
+    }
+}
+
+#um-pouco-de-quimica {
+    & > .height-content {
+        height: auto;
+
+        & > h1 {
+            font-size: 3rem;
+            line-height: 3.5rem;
+
+            margin-top: 1450px;
+            margin-bottom: @pixel-proportion * 2;
+
+            letter-spacing: -1px;
+        }
+    }
+}
+
+#nome {
+    & > h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+
+        margin-bottom: @pixel-proportion * 2;
+
+        text-align: center;
+        letter-spacing: -1px;
+    }
+
+    & > span {
+        width: 90%;
+
+        text-align: center;
+        & > p {
+            text-align: center;
+            text-indent: 0;
+        }
+    }
+}
+
+#home {
+    // width: calc(~"100% + " @pixel-proportion * 6);
+    // height: calc(~"100% + " @pixel-proportion * 6);
+    // margin-top: @pixel-proportion * -3;
+    // margin-left: @pixel-proportion * -3;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../design/panda-background-07.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    & > .home-welcome {
+        width: 100%;
+        height: 100%;
+
+        background-image: url('../design/panda-capa-09.png');
+        background-repeat: no-repeat;
+        background-position: center @pixel-proportion * 8;
+        background-size: 100%;
+
+        & > .home-buttons {
+            margin-top: @pixel-proportion * 25;
+        }
+    }
+}
+
+.game-disposition {
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    // border: 1px solid @kml-color-3;
+    // border-radius: @pixel-proportion * 4;
+
+    background: @kml-white;
+    // box-shadow: 0 0 30px @kml-black-2;
+
+    .border-box;
+
+    .game-headerbar {
+        width: 100%;
+        height: @pixel-proportion * 13;
+        min-height: @pixel-proportion * 13;
+        padding: @pixel-proportion * 1;
+        padding-right: @pixel-proportion * 2;
+        padding-left: @pixel-proportion * 2;
+
+        color: @kml-white;
+        background: @kml-color-1;
+
+        .border-box;
+        .flex(column, flex-start, center);
+
+        & > .welcome-player {
+            white-space: nowrap;
+
+            .kml-font1;
+            .kml-texts-semi-large;
+            & > span {
+                .kml-font1;
+                .kml-texts-semi-large;
+            }
+        }
+
+        & > .buttons-options {
+            margin-top: @pixel-proportion + 4;
+
+            flex: 1 1 auto;
+            .flex(row, flex-end, center);
+
+            & > a {
+                min-height: 0;
+                margin: @pixel-proportion / 2;
+                padding: @pixel-proportion / 2;
+                padding-right: @pixel-proportion;
+                padding-left: @pixel-proportion;
+
+                .kml-texts-small;
+            }
+        }
+    }
+
+    #game-body {
+        width: 100%;
+    }
+
+    .game-sidebar {
+        display: none;
+        overflow: hidden;
+
+        width: 30%;
+        height: 100%;
+        padding: @pixel-proportion * 2;
+
+        background: @kml-color-2;
+
+        .border-box;
+        // .flex(column, space-between, center);
+
+        & > .mini-section {
+            overflow: hidden;
+
+            .flex(column, center, center);
+            & > .chemical-search {
+                width: 100%;
+                margin-top: @pixel-proportion;
+
+                border-radius: @pixel-proportion * 4 @pixel-proportion * 4 0 0;
+                background: @kml-color-1;
+
+                .flex(row, center, center);
+
+                & > input {
+                    width: 100%;
+                }
+            }
+        }
+
+        & > .mini-section {
+            & > .chemical-elements {
+                overflow-x: hidden;
+
+                width: 100%;
+                height: 100%;
+                margin-top: @pixel-proportion;
+
+                border-radius: @pixel-proportion @pixel-proportion @pixel-proportion * 4 @pixel-proportion;
+                background-color: @kml-white;
+
+                align-self: stretch;
+
+                & > ul {
+                    overflow-y: scroll;
+
+                    width: calc(~"100% + " @pixel-proportion * 4);
+                    height: 100%;
+                    padding: @pixel-proportion;
+                    padding-right: @pixel-proportion * 5;
+
+                    text-align: left;
+
+                    .border-box;
+
+                    .group-elements {
+                        margin-top: @pixel-proportion * 2;
+                        margin-bottom: -1px;
+
+                        color: @kml-black;
+                        border: 1px solid @kml-grey-1;
+                        border-radius: @pixel-proportion @pixel-proportion 0 0;
+                        background: @kml-grey-2;
+                    }
+
+                    & > li {
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: -1px;
+                        padding: @pixel-proportion / 2;
+
+                        color: @kml-color-1;
+                        border: 1px solid @kml-color-2;
+                        background: @kml-color-3;
+
+                        .border-box;
+                        .kml-font2;
+                        .kml-texts-small;
+
+                        & > span {
+                            font-weight: bold;
+
+                            .kml-texts-mini;
+                        }
+
+                        &:last-of-type {
+                            margin-bottom: @pixel-proportion;
+                        }
+
+                        &:first-of-type {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .game-quiz {
+        overflow: hidden;
+        // background-image: url('../design/panda-side-jogo-02.png');
+        // background-repeat: no-repeat;
+        // background-position: @pixel-proportion * -3 @pixel-proportion * 10;
+        // background-size: contain;
+
+        .flex(column, flex-end, center);
+
+        & > .actual-level {
+            position: absolute;
+            top: @pixel-proportion * 5 + 4;
+            left: 0;
+
+            width: 100%;
+
+            text-align: center;
+            // width: auto;
+            // min-height: 40px;
+            // margin: @pixel-proportion * 2;
+            // padding: @pixel-proportion;
+            // padding-right: @pixel-proportion * 2;
+            // padding-left: @pixel-proportion * 2;
+
+            color: @kml-white;
+            // border: 1px solid @kml-color-3;
+            // border-radius: @pixel-proportion * 5;
+
+            align-self: flex-start;
+            .flex(row, center, center);
+            .border-box;
+            .kml-texts-mini;
+
+            & > .actual-attempt {
+                position: relative;
+                // display: block;
+
+                margin-left: @pixel-proportion;
+
+                color: @kml-white;
+
+                .kml-texts-mini;
+            }
+        }
+
+        & > .game-info {
+            // min-height: 40px;
+            margin-top: @pixel-proportion;
+            // margin-bottom: @pixel-proportion;
+            // padding: @pixel-proportion / 2;
+            // align-self: flex-end;
+
+            .flex(row, center, flex-end);
+            order: 0;
+            .border-box;
+
+            & > .buttons-helpers {
+                .flex(row, center, center);
+
+                & > a {
+                    min-height: 0;
+                    margin: 0;
+                    margin-right: @pixel-proportion / 4;
+                    margin-left: @pixel-proportion / 4;
+                    padding: 0;
+                    padding-top: @pixel-proportion / 3;
+                    padding-bottom: @pixel-proportion / 3;
+
+                    .kml-texts-small;
+                }
+            }
+
+            & > .mini-section {
+                display: inline-block;
+
+                width: 80%;
+
+                .flex(column, center, center);
+
+                & > span {
+                    font-size: 10px;
+
+                    color: @kml-color-1;
+                }
+                & > .bamboo-counter {
+                    overflow: hidden;
+
+                    width: @pixel-proportion * 16;
+                    min-height: 30px;
+                    padding: @pixel-proportion / 2;
+                    padding-right: @pixel-proportion;
+                    padding-left: @pixel-proportion;
+
+                    border: 1px solid @kml-color-3;
+                    border-radius: @pixel-proportion * 3;
+
+                    .flex(row, flex-start, center);
+                    .border-box;
+
+                    & > img {
+                        height: 20px;
+                        margin-right: @pixel-proportion / 4;
+                        margin-left: @pixel-proportion / 4;
+                    }
+                }
+            }
+        }
+
+        & > .game-screen {
+            width: auto;
+            height: 100%;
+            // margin-left: @pixel-proportion * 6;
+
+            order: 1;
+            flex: 1 1 auto;
+            .flex(column, center, center);
+
+            & > .pictures {
+                display: inline-block;
+
+                width: calc(~"232px + " 6px);
+                height: auto;
+                & > div {
+                    display: inline-block;
+
+                    min-width: 110px;
+                    min-height: 110px;
+                    margin: 3px;
+
+                    border: 1px solid @kml-grey-1;
+                    border-radius: @pixel-proportion;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                }
+            }
+
+            & > .answers-selected {
+                width: 100%;
+                margin-top: @pixel-proportion * -.6;
+                // min-height: 9vw;
+                // margin: 1vw;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    width: 40px;
+                    height: 40px;
+                    margin: @pixel-proportion / 2;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-3;
+                    border-radius: @pixel-proportion;
+                    background: @kml-white;
+
+                    .kml-texts-semi-large;
+                    .kml-font1;
+                    .flex(row, center, center);
+
+                    & > b {
+                        font-size: @hSize * .30;
+
+                        position: relative;
+                        top: 4px;
+
+                        .kml-font1;
+                    }
+                }
+            }
+
+            & > .answers-all {
+                width: 80%;
+                // min-height: 6vw;
+                // margin: 1vw;
+
+                .flex(row, center, center);
+
+                & > span {
+                    display: block;
+
+                    min-width: 30px;
+                    min-height: 30px;
+                    margin: @pixel-proportion / 4;
+
+                    color: @kml-color-1;
+                    border: 1px solid @kml-color-2;
+                    border-radius: @pixel-proportion;
+                    background: @kml-color-3;
+
+                    .kml-font1;
+                    .kml-texts-small;
+                    .flex(row, center, center);
+                    .cursor-pointer;
+
+                    & > b {
+                        font-size: @hSize * .22;
+
+                        position: relative;
+                        top: 3px;
+
+                        .kml-font1;
+                    }
+                }
+            }
+        }
+    }
+
+    .game-help {
+        display: none;
+        overflow-x: hidden;
+
+        width: 100%;
+        height: 100%;
+
+        background: #fff;
+
+        & > #instrucoes-interna {
+            overflow-y: scroll;
+
+            width: calc(~"100% + " @pixel-proportion * 6);
+
+            & > div {
+                margin-left: @pixel-proportion * -5;
+                // .flex(column, center, center);
+                & > h1 {
+                    font-size: 3rem;
+                    line-height: 3.5rem;
+
+                    margin-top: @pixel-proportion;
+                    margin-bottom: @pixel-proportion;
+
+                    letter-spacing: -1px;
+                }
+                & > p {
+                    width: 70%;
+                    padding: 0;
+                    & > span {
+                        font-size: 14px;
+
+                        margin-top: 2px;
+                    }
+                    & > b {
+                        line-height: @pixel-proportion * 2;
+
+                        margin-top: 4px;
+                        margin-bottom: @pixel-proportion * 2;
+                    }
+                }
+
+                & > a {
+                    margin-top: 0;
+                    margin-bottom: @pixel-proportion * 2;
+                }
+            }
+        }
+    }
+}
