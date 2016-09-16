@@ -84,6 +84,8 @@ body {
     & > a {
         position: relative;
 
+        display: block;
+
         max-width: @pixel-proportion * 20;
         margin-right: auto;
         margin-bottom: @pixel-proportion * 5;
@@ -124,6 +126,8 @@ body {
         font-weight: normal;
 
         display: block;
+
+        word-wrap: break-word;
 
         color: @kml-color-1;
 
@@ -169,6 +173,16 @@ body {
 .form-user {
     & > form {
         .flex (row, center, center);
+
+        & > button {
+            .flex (row, center, center);
+            & > i {
+                margin-right: auto;
+                margin-left: auto;
+
+                .flex (row, center, center);
+            }
+        }
     }
 }
 
@@ -189,6 +203,10 @@ body {
 }
 
 #sobre {
+    display: inherit !important;
+
+    justify-content: flex-start !important;
+
     & > .height-content {
         height: auto;
 
@@ -196,7 +214,7 @@ body {
             font-size: 3rem;
             line-height: 3.5rem;
 
-            margin-top: 250px;
+            margin-top: @pixel-proportion * 6;
             margin-bottom: @pixel-proportion * 2;
 
             letter-spacing: -1px;
@@ -205,14 +223,20 @@ body {
 }
 
 #instrucoes {
+    display: inherit !important;
+
+    justify-content: flex-start !important;
+
     & > .height-content {
         height: auto;
+        padding-bottom: @pixel-proportion * 2;
+
 
         & > h1 {
             font-size: 3rem;
             line-height: 3.5rem;
 
-            margin-top: 1050px;
+            margin-top: @pixel-proportion * 6;
             margin-bottom: @pixel-proportion * 2;
 
             letter-spacing: -1px;
@@ -221,6 +245,10 @@ body {
 }
 
 #um-pouco-de-quimica {
+    display: inherit !important;
+
+    justify-content: flex-start !important;
+
     & > .height-content {
         height: auto;
 
@@ -228,7 +256,7 @@ body {
             font-size: 3rem;
             line-height: 3.5rem;
 
-            margin-top: 1450px;
+            margin-top: @pixel-proportion * 6;
             margin-bottom: @pixel-proportion * 2;
 
             letter-spacing: -1px;
@@ -277,11 +305,11 @@ body {
 
         background-image: url('../design/panda-capa-09.png');
         background-repeat: no-repeat;
-        background-position: center @pixel-proportion * 8;
+        background-position: center @pixel-proportion * 11;
         background-size: 100%;
 
         & > .home-buttons {
-            margin-top: @pixel-proportion * 25;
+            margin-top: @pixel-proportion * 31;
         }
     }
 }
@@ -303,10 +331,11 @@ body {
 
     .game-headerbar {
         width: 100%;
-        height: @pixel-proportion * 13;
-        min-height: @pixel-proportion * 13;
-        padding: @pixel-proportion * 1;
+        height: @pixel-proportion * 12;
+        min-height: @pixel-proportion * 12;
+        padding-top: @pixel-proportion / 2;
         padding-right: @pixel-proportion * 2;
+        padding-bottom: @pixel-proportion / 2;
         padding-left: @pixel-proportion * 2;
 
         color: @kml-white;
@@ -340,6 +369,12 @@ body {
                 padding-left: @pixel-proportion;
 
                 .kml-texts-small;
+            }
+
+            & > a:hover {
+                color: inherit !important;
+                // border: inherit !important;
+                background-color: inherit !important;
             }
         }
     }
@@ -459,7 +494,7 @@ body {
 
         & > .actual-level {
             position: absolute;
-            top: @pixel-proportion * 5 + 4;
+            top: @pixel-proportion * 5;
             left: 0;
 
             width: 100%;
@@ -494,11 +529,9 @@ body {
         }
 
         & > .game-info {
-            // min-height: 40px;
-            margin-top: @pixel-proportion;
-            // margin-bottom: @pixel-proportion;
-            // padding: @pixel-proportion / 2;
-            // align-self: flex-end;
+            width: 100%;
+            height: @pixel-proportion * 6;
+            margin-top: @pixel-proportion * 2n;
 
             .flex(row, center, flex-end);
             order: 0;
@@ -523,7 +556,7 @@ body {
             & > .mini-section {
                 display: inline-block;
 
-                width: 80%;
+                width: auto;
 
                 .flex(column, center, center);
 
@@ -559,23 +592,28 @@ body {
         & > .game-screen {
             width: auto;
             height: 100%;
-            // margin-left: @pixel-proportion * 6;
+            margin-top: @pixel-proportion;
 
             order: 1;
             flex: 1 1 auto;
-            .flex(column, center, center);
+            .flex(column, flex-start, center);
 
             & > .pictures {
                 display: inline-block;
 
-                width: calc(~"232px + " 6px);
+                width: 207px;
                 height: auto;
+
+                & > div:nth-child(1),
+                & > div:nth-child(3) {
+                    margin-right: 3px;
+                }
+
                 & > div {
                     display: inline-block;
 
-                    min-width: 110px;
-                    min-height: 110px;
-                    margin: 3px;
+                    min-width: 100px;
+                    min-height: 100px;
 
                     border: 1px solid @kml-grey-1;
                     border-radius: @pixel-proportion;
@@ -670,6 +708,7 @@ body {
             overflow-y: scroll;
 
             width: calc(~"100% + " @pixel-proportion * 6);
+            margin-bottom: @pixel-proportion * 2;
 
             & > div {
                 margin-left: @pixel-proportion * -5;

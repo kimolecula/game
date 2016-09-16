@@ -28,12 +28,12 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             lastTip: ''
         };
 
-        // if (!$rootScope.game.user) {
-        //     window.location = '#/insira-seu-nome';
-        // }
-        // else {
+        if (!$rootScope.game.user) {
+            window.location = '#/insira-seu-nome';
+        }
+        else {
             $scope.game.user = $rootScope.game.user;
-        // }
+        }
 
         $scope.getLevel($scope.game.levelNow);
     };
@@ -49,7 +49,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             }
 
             var allAnswers = newData[$scope.game.actualMolecule].rightAnswer.concat(newData[$scope.game.actualMolecule].wrongAnswer);
-            var regex = /[0-9]/g;
+            var regex = /[0-9]\S/g;
             for (var i = 0; i < allAnswers.length; i++) {
                 var regexStr = allAnswers[i];
                 var regexMatch = regexStr.match(regex);
@@ -206,7 +206,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
 
     $scope.instructions = function () {
         var gameBody = document.getElementById('game-body');
-        if (gameBody.querySelector(".game-quiz").style.display == "flex") {
+        if (window.getComputedStyle(gameBody.querySelector(".game-quiz"), null).getPropertyValue("display") == "flex") {
             gameBody.querySelector(".game-quiz").style.display = "none";
             gameBody.querySelector(".game-help").style.display = "block";
         }
