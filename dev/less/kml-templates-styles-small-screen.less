@@ -286,6 +286,41 @@ body {
     }
 }
 
+#fim-do-jogo {
+    background-image: url('../design/panda-background-07.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: calc(~"100% + " @pixel-proportion * 1);
+    height: calc(~"100% + " @pixel-proportion * 1);
+    margin-top: @pixel-proportion * -1;
+    margin-left: @pixel-proportion * -1;
+
+    & > img {
+        max-height: 250px;
+    }
+
+    & > .end-text {
+        background-color: @kml-white;
+        padding: @pixel-proportion;
+        border-radius: @pixel-proportion * 2;
+        min-width: 70%;
+        max-width: 80%;
+        text-align: center;
+        line-height: 1.1em;
+        font-size: .9em;
+    }
+
+    & > .end-buttons {
+        .flex(column, center, ceter);
+
+        > a:last-child {
+            display: none;
+        }
+    }
+}
+
 #home {
     // width: calc(~"100% + " @pixel-proportion * 6);
     // height: calc(~"100% + " @pixel-proportion * 6);

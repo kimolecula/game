@@ -152,16 +152,22 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
         // console.log(answerChoice, $scope.game.levelData.rightAnswer);
         if (JSON.stringify(answerChoice) === JSON.stringify($scope.game.levelData.rightAnswer)) {
             if ($scope.game.levelNow + 1 > 10) {
-                sweet.show({
-                    title: 'PARABÉNS!',
-                    text: 'Você conseguiu passar por todos os desafios e alimentou o professor Panda! Agora convide os seus amigos para que o professor não fique com fome nunca mais!',
-                    imageUrl: 'design/panda-feliz-08.png',
-                    showCancelButton: false,
-                    confirmButtonText: 'Recomeçar!',
-                    closeOnConfirm: true
-                }, function(isConfirm) {
-                    window.location = '#/home';
-                });
+                // sweet.show({
+                //     title: 'PARABÉNS!',
+                //     text: 'Você conseguiu passar por todos os desafios e alimentou o professor Panda! Agora convide os seus amigos para que o professor não fique com fome nunca mais!',
+                //     imageUrl: 'design/panda-feliz-08.png',
+                //     showCancelButton: false,
+                //     confirmButtonText: 'Recomeçar!',
+                //     closeOnConfirm: true
+                // }, function(isConfirm) {
+                //     window.location = '#/home';
+                // });
+
+                $rootScope.levelScore = {
+                    bamboo: $scope.game.bambooCounter
+                };
+
+                window.location = '#/fim-do-jogo';
             }
             else {
                 sweet.show({

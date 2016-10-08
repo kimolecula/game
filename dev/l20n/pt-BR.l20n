@@ -30,7 +30,7 @@
 
 
 <kmlNomeTitle "quem é você?">
-<kmlNomeParagraph "Para começarmos, insira seu nome no campo abaixo e confirme.">
+<kmlNomeParagraph "Para começarmos, insira seu nome no campo abaixo e clique em Ok.">
 
 
 <kmlInstruTitle "Instruções">
@@ -40,9 +40,8 @@
 <span>4 – Dentro da mesma fase você tem a opção de “Pular” o composto químico, trocando por um outro. Mas cada vez que fizer isso perderá 1 bambu;</span>
 <span>5 – Uma lista com elementos da tabela periódica estará disponível para consulta a qualquer hora. Ela te ajudará a lembrar o nome, símbolo e o número atômico (Z) de cada elemento;</span>
 <span>6 – Quanto mais bambus acumulados ao terminar o jogo maior sua pontuação. Você começa o jogo com 6 bambus e ganha 3 a cada fase que passar. O jogo tem 10 fases. Cuidado para não deixar o Professor Panda faminto e perder o jogo! Quanto mais acertos, mais bambus você acumula e ajuda a alimentar o Panda, salvando-o da extinção.</span>
-<b>1 Fórmula Molecular é aquela indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C<u>23</u>H<u>12</u>O<u>16</u> (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
+<b>1 Fórmula Molecular é aquela que indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C<u>23</u>H<u>12</u>O<u>16</u> (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
 <kmlInstruButton1 "Entendi!">
-<kmlInstruButton2 "Voltar">
 
 
 <kmlJogoParagraph1 "Fase 1">
@@ -131,3 +130,6 @@
 <kmlElementXe "Xenônio (Xe), Z = 54">
 <kmlElementRn "Radônio (Rn), Z = 86">
 <kmlElementUuo "Ununóctio (Uuo), Z = 118">
+
+<kmlEndButton1 "Voltar ao início">
+<kmlEndButton2 "Jogar de novo">
