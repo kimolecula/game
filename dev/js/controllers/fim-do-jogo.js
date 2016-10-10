@@ -10,8 +10,9 @@ kimolecula.controller('fimDoJogoController', function ($http, $rootScope, $scope
         }
         else {
             if ($rootScope.levelScore.bamboo <= 10) {
+                var bambu = $rootScope.levelScore.bamboo == 1 ? 'bambú' : 'bambús';
                 $scope.finalPanda.image = 'panda-final-12.png';
-                $scope.finalPanda.text = 'Seu resultado foi insatisfatório e você conseguiu só ' + $rootScope.levelScore.bamboo + ' bambús... Assim o Professor Panda fica com fome! Vamos estudar mais?';
+                $scope.finalPanda.text = 'Seu resultado foi insatisfatório e você conseguiu só ' + $rootScope.levelScore.bamboo + ' ' + bambu + '... Assim o Professor Panda fica com fome! Vamos estudar mais?';
             }
             else if ($rootScope.levelScore.bamboo > 10 && $rootScope.levelScore.bamboo <= 18) {
                 $scope.finalPanda.image = 'panda-final-11.png';
