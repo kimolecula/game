@@ -5,7 +5,7 @@ kimolecula.controller('fimDoJogoController', function ($http, $rootScope, $scope
     };
 
     $scope.init = function() {
-        if (!$rootScope.game.user || !$rootScope.levelScore.bamboo) {
+        if (!$rootScope.game.user) {
             window.location = '#/insira-seu-nome';
         }
         else {
