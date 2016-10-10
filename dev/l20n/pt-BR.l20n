@@ -42,6 +42,7 @@
 <span>6 – Quanto mais bambus acumulados ao terminar o jogo maior sua pontuação. Você começa o jogo com 6 bambus e ganha 3 a cada fase que passar. O jogo tem 10 fases. Cuidado para não deixar o Professor Panda faminto e perder o jogo! Quanto mais acertos, mais bambus você acumula e ajuda a alimentar o Panda, salvando-o da extinção.</span>
 <b>1 Fórmula Molecular é aquela que indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C<u>23</u>H<u>12</u>O<u>16</u> (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
 <kmlInstruButton1 "Entendi!">
+<kmlInstruButton2 "Voltar">
 
 
 <kmlJogoParagraph1 "Fase 1">
