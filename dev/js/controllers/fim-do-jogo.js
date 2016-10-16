@@ -10,7 +10,7 @@ kimolecula.controller('fimDoJogoController', function ($http, $rootScope, $scope
         }
         else {
             if ($rootScope.levelScore.bamboo <= 10) {
-                var bambu = $rootScope.levelScore.bamboo == 1 ? 'bambú' : 'bambús';
+                var bambu = $rootScope.levelScore.bamboo == 1 ? 'bambu' : 'bambus';
                 $scope.finalPanda.image = 'panda-final-12.png';
                 $scope.finalPanda.text = 'Seu resultado foi insatisfatório e você conseguiu só ' + $rootScope.levelScore.bamboo + ' ' + bambu + '... Assim o Professor Panda fica com fome! Vamos estudar mais?';
             }

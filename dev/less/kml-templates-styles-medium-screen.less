@@ -1,5 +1,5 @@
 body {
-    padding: @pixel-proportion * 2;
+    padding: @pixel-proportion * 3;
 
     background-color: @kml-grey-2;
 
@@ -407,14 +407,15 @@ body {
         overflow: hidden;
         // background-image: url('../design/panda-side-jogo-02.png');
         // background-repeat: no-repeat;
-        // background-position: @pixel-proportion * -3 @pixel-proportion * 10;
-        // background-size: contain;
+        // background-position: left bottom;
+        // background-size: 40%;
 
         .flex(column, flex-end, center);
 
         & > .actual-level {
             position: absolute;
-            left: @pixel-proportion * 2;
+            left: @pixel-proportion * 3;
+            top: @pixel-proportion * 12.4;
 
             width: 140px;
             min-height: 40px;
@@ -519,9 +520,9 @@ body {
                 & > div {
                     display: inline-block;
 
-                    min-width: 180px;
-                    min-height: 180px;
-                    margin: 6px;
+                    min-width: 160px;
+                    min-height: 160px;
+                    margin: 4px;
 
                     border: 1px solid @kml-grey-1;
                     border-radius: @pixel-proportion;
@@ -541,9 +542,9 @@ body {
                 & > span {
                     display: block;
 
-                    min-width: 7vw;
+                    min-width: 6vw;
                     max-width: 4vh;
-                    min-height: 7vw;
+                    min-height: 6vw;
                     max-height: 4vh;
                     margin: @pixel-proportion / 2;
 
@@ -577,9 +578,9 @@ body {
                 & > span {
                     display: block;
 
-                    min-width: 5vw;
+                    min-width: 4vw;
                     max-width: 6vw;
-                    min-height: 5vw;
+                    min-height: 4vw;
                     max-height: 6vw;
                     margin: @pixel-proportion / 2;
 
