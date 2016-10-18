@@ -1,0 +1,129 @@
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl10-mol1-img1",
+                "lvl10-mol1-img2",
+                "lvl10-mol1-img3",
+                "lvl10-mol1-img4"
+            ],
+            "rightAnswer": [
+                "K2",
+                "Cr2",
+                "O7"
+            ],
+            "wrongAnswer": [
+                "H",
+                "I2",
+                "C",
+                "P",
+                "Mn"
+            ],
+            "tips": [
+                "É um dos compostos químicos que pode ser usado nos bafômetros para detectar embriaguez",
+                "É usado industrialmente na produção de corantes, em eletrogalvanização e pirotécnica. Também serve como um agente oxidante na indústria química",
+                "É preparado por acidificação de solução de cromato de potássio puro"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl10-mol2-img1",
+                "lvl10-mol2-img2",
+                "lvl10-mol2-img3",
+                "lvl10-mol2-img4"
+            ],
+            "rightAnswer": [
+                "C3",
+                "H8",
+                "O3"
+            ],
+            "wrongAnswer": [
+                "Hg",
+                "K",
+                "Ca",
+                "Na",
+                "Li"
+            ],
+            "tips": [
+                "É usado na indústria têxtil para amaciar e flexibilizar as fibras",
+                "É principalmente usado nos cosméticos (como cremes e loções) para manter a maciez e umidade da pele",
+                "Os derivados desse composto, como a nitroglicerina, são utilizados como tranquilizantes e agentes para controle da pressão"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl10-mol3-img1",
+                "lvl10-mol3-img2",
+                "lvl10-mol3-img3",
+                "lvl10-mol3-img4"
+            ],
+            "rightAnswer": [
+                "C4",
+                "H10"
+            ],
+            "wrongAnswer": [
+                "P",
+                "S",
+                "I",
+                "K",
+                "Na",
+                "Ca"
+            ],
+            "tips": [
+                "É muito comum nos isqueiros, serve para o aquecimento de saunas e piscinas",
+                "É um gás altamente inflamável e, historicamente, foi o combustível usado nos motores dos dirigíveis Zeppelin",
+                "Depois do propano, esse composto é o componente mais conhecido do botijão de gás de cozinha (gás liquefeito de petróleo)"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl10-mol4-img1",
+                "lvl10-mol4-img2",
+                "lvl10-mol4-img3",
+                "lvl10-mol4-img4"
+            ],
+            "rightAnswer": [
+                "C4",
+                "H8"
+            ],
+            "wrongAnswer": [
+                "Cl",
+                "I3",
+                "P",
+                "F",
+                "B",
+                "N"
+            ],
+            "tips": [
+                "Esse composto é obtido a partir da termólise do petróleo por reação de etileno com tris-etilalumínio",
+                "Seu principal uso é na síntese do butadieno (monômero) para a borracha artificial",
+                "Esse composto é o reagente necessário para formação do 2-butanol na reação com água em presença de ácido"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl10-mol5-img1",
+                "lvl10-mol5-img2",
+                "lvl10-mol5-img3",
+                "lvl10-mol5-img4"
+            ],
+            "rightAnswer": [
+                "C6",
+                "H5",
+                "N",
+                "H2"
+            ],
+            "wrongAnswer": [
+                "Li",
+                "Na",
+                "O",
+                "Cl"
+            ],
+            "tips": [
+                "É usada para fabricar a espuma de poliuretano",
+                "Serve como estabilizadores para a indústria do látex, herbicidas, vernizes e explosivos",
+                "É usada principalmente como matéria prima para corantes. Até mesmo acabam por usar o nome da substância como sinônimo de corante"
+            ]
+        }
+    ]
+}

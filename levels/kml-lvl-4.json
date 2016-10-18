@@ -1,0 +1,129 @@
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl4-mol1-img1",
+                "lvl4-mol1-img2",
+                "lvl4-mol1-img3",
+                "lvl4-mol1-img4"
+            ],
+            "rightAnswer": [
+                "C2",
+                "H6",
+                "O"
+            ],
+            "wrongAnswer": [
+                "O3",
+                "C",
+                "H",
+                "H3",
+                "H2"
+            ],
+            "tips": [
+                "Substância orgânica que é obtida através da fermentação de açúcares, da hidratação do etileno ou da redução de acetaldeído",
+                "É muito utilizado como combustível de motores de explosão",
+                "É encontrado em bebidas como vinho, cerveja e aguardente"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl4-mol2-img1",
+                "lvl4-mol2-img2",
+                "lvl4-mol2-img3",
+                "lvl4-mol2-img4"
+            ],
+            "rightAnswer": [
+                "C2",
+                "H4"
+            ],
+            "wrongAnswer": [
+                "O2",
+                "O",
+                "Na",
+                "K",
+                "P",
+                "Si"
+            ],
+            "tips": [
+                "Pode ser usado como um anestésico moderado em cirurgias",
+                "É produzido naturalmente em plantas sendo responsável pelo amadurecimento dos frutos",
+                "É usado na fabricação do polímero polietileno"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl4-mol3-img1",
+                "lvl4-mol3-img2",
+                "lvl4-mol3-img3",
+                "lvl4-mol3-img4"
+            ],
+            "rightAnswer": [
+                "Zn",
+                "O"
+            ],
+            "wrongAnswer": [
+                "H",
+                "Ba2",
+                "Ca",
+                "Cr",
+                "Tc",
+                "Po"
+            ],
+            "tips": [
+                "Muito usado como aditivo em suplemento alimentar",
+                "Serve como inibidor do crescimento de fungos em pinturas e por isso é usado em tintas/pigmentos para tela",
+                "É utilizado em pomadas na medicina, como por exemplo no Hipoglós"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl4-mol4-img1",
+                "lvl4-mol4-img2",
+                "lvl4-mol4-img3",
+                "lvl4-mol4-img4"
+            ],
+            "rightAnswer": [
+                "C6",
+                "H12",
+                "O6"
+            ],
+            "wrongAnswer": [
+                "C3",
+                "H6",
+                "O3",
+                "Se",
+                "K"
+            ],
+            "tips": [
+                "As células do nosso organismo usam esse composto como fonte de energia",
+                "Essa molécula tem função de regulador de energia, participar das vias metabólicas e ser precursora de outras importantes moléculas",
+                "Se os níveis dessa molécula estiverem muito altos no nosso organismo, ocorre a hiperglicemia e deve ser feito um controle com insulina"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl4-mol5-img1",
+                "lvl4-mol5-img2",
+                "lvl4-mol5-img3",
+                "lvl4-mol5-img4"
+            ],
+            "rightAnswer": [
+                "C2",
+                "H4",
+                "O"
+            ],
+            "wrongAnswer": [
+                "C3",
+                "H2",
+                "O2",
+                "Na",
+                "Cl"
+            ],
+            "tips": [
+                "É um aldeído usado na síntese de compostos orgânicos como o ácido acético e no preparo do etanol",
+                "Também é usado como redutor de sais de prata na fabricação de espelhos (reativo de Tollens)",
+                "É um dos aldeídos de menor massa molar, apresentando cheiro forte e desagradável"
+            ]
+        }
+    ]
+}

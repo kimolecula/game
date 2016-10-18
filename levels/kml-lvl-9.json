@@ -1,0 +1,129 @@
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl9-mol1-img1",
+                "lvl9-mol1-img2",
+                "lvl9-mol1-img3",
+                "lvl9-mol1-img4"
+            ],
+            "rightAnswer": [
+                "C9",
+                "H8",
+                "O"
+            ],
+            "wrongAnswer": [
+                "K",
+                "I2",
+                "Mg",
+                "Mn",
+                "He"
+            ],
+            "tips": [
+                "Sua principal aplicação é como aromatizante alimentar em sorvetes, chicletes e bebidas. Também é utilizado em perfumes que possuam um aroma amadeirado",
+                "Também pode ser usado como fungicida, sendo, por norma, aplicado nos sistemas radiculares das plantas",
+                "Composto orgânico responsável pelo sabor e odor da canela que se encontra presente na casca das espécies do género Cinnamomum"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl9-mol2-img1",
+                "lvl9-mol2-img2",
+                "lvl9-mol2-img3",
+                "lvl9-mol2-img4"
+            ],
+            "rightAnswer": [
+                "Na",
+                "Cl",
+                "O"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "C2",
+                "I",
+                "Ca",
+                "H"
+            ],
+            "tips": [
+                "Seu principal uso é na cloração para o tratamento da água",
+                "Agente de limpeza presente na água sanitária",
+                "É produzido pela reação do cloro com o hidróxido de sódio"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl9-mol3-img1",
+                "lvl9-mol3-img2",
+                "lvl9-mol3-img3",
+                "lvl9-mol3-img4"
+            ],
+            "rightAnswer": [
+                "Na2",
+                "C",
+                "O3"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "C2",
+                "O2",
+                "I",
+                "Ba"
+            ],
+            "tips": [
+                "É utilizado para elevar o pH de águas tanto de uso doméstico e urbano quanto industrial",
+                "Atua como emulsificante em sabões e detergentes",
+                "Seu principal uso, misturado com sílica e calcário, é na fabricação de vidros do tipo 'soda-cal', utilizado principalmente em embalagens"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl9-mol4-img1",
+                "lvl9-mol4-img2",
+                "lvl9-mol4-img3",
+                "lvl9-mol4-img4"
+            ],
+            "rightAnswer": [
+                "H3",
+                "B",
+                "O3"
+            ],
+            "wrongAnswer": [
+                "Na",
+                "I3",
+                "N",
+                "C",
+                "Pb"
+            ],
+            "tips": [
+                "É comumente usado como insecticida não tóxico para matar baratas, cupins, formigas, pulgas e muitos outros insetos. Pode ser utilizado diretamente sob a forma de pó",
+                "É um ácido utilizado como um anti-séptico apenas em pequenas feridas ou queimaduras. Também serve como adubo e retardante de chamas",
+                "É produzido normalmente de minerais contendo boratos pela reação com ácido sulfúrico"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl9-mol5-img1",
+                "lvl9-mol5-img2",
+                "lvl9-mol5-img3",
+                "lvl9-mol5-img4"
+            ],
+            "rightAnswer": [
+                "N2",
+                "O"
+            ],
+            "wrongAnswer": [
+                "Br",
+                "He",
+                "Ca",
+                "Cl",
+                "C",
+                "H2"
+            ],
+            "tips": [
+                "Age como agente anestésico fraco em forma de gás respiratório e é bastante usado pela área médica e odontológica devido seu efeito analgésico e sedativo",
+                "É o composto utilizado em motores de combustão interna a fim de obter um aumento de potência. Conhecido popularmente por 'Nitro'",
+                "Conhecido principalmente como gás hilariante "
+            ]
+        }
+    ]
+}

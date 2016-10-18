@@ -1,0 +1,136 @@
+<kmlIndexTitle "KI-Molécula">
+<kmlIndexButton1 "Sobre o Jogo">
+<kmlIndexButton2 "Um pouco de Química">
+<kmlIndexButton3 "Jogar">
+
+
+<kmlSobreTitle "Sobre o Jogo">
+<kmlSobreParagraph1 "<span>Este jogo tem por objetivo apresentar novas maneiras de atrair a curiosidade dos jovens e incentivá-los a buscar conhecimento de maneira empolgante e desafiadora. O jogador tem a oportunidade de reunir diversão e conhecimento em um só lugar.</span>
+<span>Ele é formado por dez fases e a cada etapa o jogador terá que analisar diversas figuras que apresentarão diferentes usos de uma mesma substância química, descobrindo assim de qual composto se trata.</span>
+<span>Esse é o KI-Molécula. Maneiro, né?</span>
+<span>Divirtam-se e bom jogo!</span>
+<i>Desenvolvimento: Larissa Bento</i>
+<i>Programação: Luigui Delyer</i>
+<i>Ilustração: Raphael Eckhard</i>">
+
+
+
+<kmlPoucoTitle "Um pouco<br>de Química">
+<kmlPoucoParagraph1 "<span>A química está em tudo: roupas, carros, computadores, alimentos, cosméticos, nosso organismo e por aí vai. Consegue imaginar um mundo sem química? Como seriam possíveis o tratamento e a produção dos tecidos? Como um carro seria produzido sem os polímeros que compõem toda sua carcaça? E os alimentos resistiriam nas prateleiras dos mercados de que maneira sem os conservantes necessários?</span>
+<span>O homem, desde o início de sua existência, utiliza conhecimentos químicos para seu desenvolvimento, produzindo tecidos, alimentos, bebidas e manipulando metais para produção de armamentos, por exemplo.</span>
+<span>Essa ciência estuda a capacidade de modificar e rearranjar a ordem dos elementos existentes na natureza gerando outros compostos que satisfaçam diversas necessidades. É uma ciência em constante pesquisa e desenvolvimento, que utiliza tecnologia de ponta nos diversos estudos.</span>
+<span>A química começa nos átomos, que são as menores partes existentes da matéria e compõem tudo que podemos enxergar. Diversas são as áreas específicas da química, tais como: orgânica, inorgânica, termoquímica, bioquímica, físico-química, dentre outras.</span>
+<span>Os primórdios da química se deram por meio dos estudos da alquimia. Estes estudiosos antigos queriam produzir a pedra filosofal, que prolongaria a vida eternamente e transformaria tudo em ouro, e o que conseguiram no decorrer desse caminho foi a descoberta de muitas substâncias essenciais para a vida humana.</span>
+<span>Temos dentre os principais cientistas que promoveram descobertas e avanços para a química: Antoine Lavoisier, que desenvolveu a lei da conservação da matéria; Louis Pasteur, que descobriu a ação dos micro-organismos; John Dalton, Joseph Thomson, Ernest Rutherford e Niels Bohr que são responsáveis pela evolução do modelo atômico.</span>
+
+<b>Referências:</b>
+<b>Sua Pesquisa.com; Disponível em: http://www.suapesquisa.com/quimica; Acesso em: 05 jul. 2016.</b>
+<b>A Graça da Química; Disponível em: http://www.agracadaquimica.com.br/index.php?&ds=1&acao=quimica/ms2&i=12&id=599; Acesso em: 05 jul. 2016.</b>
+<b>FOGAÇA, Jennifer Rocha Vargas; Evolução dos Modelos Atômicos; Disponível em: http://mundoeducacao.bol.uol.com.br/quimica/evolucao-dos-modelos-atomicos.htm; Acesso em: 05 jul. 2016.</b>">
+
+
+<kmlNomeTitle "quem é você?">
+<kmlNomeParagraph "Para começarmos, insira seu nome no campo abaixo e clique em Ok.">
+
+
+<kmlInstruTitle "Instruções">
+<kmlInstruParagraph "<span>1 – Ao iniciar o game, você verá 4 imagens referentes a um composto específico e seus usos;</span>
+<span>2 – Seu objetivo é descobrir a fórmula molecular<b>1</b> do composto apresentado nas imagens. Os elementos serão organizados no campo da fórmula de acordo com a ordem dos cliques. Tome cuidado pois você terá 6 tentativas por fase para descobrir cada composto;</span>
+<span>3 – As moedas nesse jogo são bambus. Eles alimentam o Professor Panda e compram dicas. As “Dicas” são utilizadas para receber ajuda extra sobre a fórmula molecular que precisa ser descoberta. A primeira dica vale 1, a segunda vale 2 e a terceira 3 bambus;</span>
+<span>4 – Dentro da mesma fase você tem a opção de “Pular” o composto químico, trocando por um outro. Mas cada vez que fizer isso perderá 1 bambu;</span>
+<span>5 – Uma lista com elementos da tabela periódica estará disponível para consulta a qualquer hora. Ela te ajudará a lembrar o nome, símbolo e o número atômico (Z) de cada elemento;</span>
+<span>6 – Quanto mais bambus acumulados ao terminar o jogo maior sua pontuação. Você começa o jogo com 6 bambus e ganha 3 a cada fase que passar. O jogo tem 10 fases. Cuidado para não deixar o Professor Panda faminto e perder o jogo! Quanto mais acertos, mais bambus você acumula e ajuda a alimentar o Panda, salvando-o da extinção.</span>
+<b>1 Fórmula Molecular é aquela que indica o número de átomos de cada elemento presente em uma determinada molécula. Por exemplo: C<u>23</u>H<u>12</u>O<u>16</u> (molécula fictícia).  A ordem dos elementos é quase sempre a mesma, porém, existem moléculas em que a disposição é diferente. Ao saber de qual molécula a fase se trata, o jogador naturalmente saberá a ordem de seus elementos.<b>">
+<kmlInstruButton1 "Entendi!">
+<kmlInstruButton2 "Voltar">
+
+
+<kmlJogoParagraph1 "Fase 1">
+<kmlJogoButton1 "Pular">
+<kmlJogoButton2 "Parar">
+<kmlJogoButton4 "Instruções">
+<kmlJogoParagraph1 "Informação sobre a molécula abaixo">
+<kmlJogoParagraph2 "Contador de Bambus">
+<kmlJogoButton3 "Dica">
+<kmlJogoParagraph3 "Alguns elementos<br>da tabela periódica">
+
+
+<kmlExcTitle "Número máximo de tentativas excedido!">
+<kmlExcParagraph "Mensagem do panda dizendo que o jogador excedeu o número máximo de tentativas e aconselha ele a jogar novamente.">
+
+
+<kmlFimTitle "Fim">
+<kmlFimParagraph "Mensagem e expressão do Panda referente a pontuação do jogador.">
+
+<kmlWelcomePlayer "Olá,">
+<kmlLevel "Fase">
+<kmlMetaisAlcalinos "Metais Alcalinos">
+<kmlMetaisAlcalinoTerrosos "Metais Alcalino-Terrosos">
+<kmlFamiliaBoro "Família do Boro">
+<kmlFamiliaCarbono "Família do Carbono">
+<kmlFamiliaNitrogenio "Família do Nitrogênio">
+<kmlCalcogenios "Calcogênios">
+<kmlHalogenios "Halogênios">
+<kmlGasesNobres "Gases Nobres">
+<kmlUnique "Único não metal dessa família">
+<kmlFamilyOne "Família 1A/Grupo 1">
+<kmlFamilyTwo "Família 2A/Grupo 2">
+<kmlFamilyThree "Família 3A/Grupo 13">
+<kmlFamilyFour "Família 4A/Grupo 14">
+<kmlFamilyFive "Família 5A/Grupo 15">
+<kmlFamilySix "Família 6A/Grupo 16">
+<kmlFamilySeven "Família 7A/Grupo 17">
+<kmlFamilyEight "Família 8A/Grupo 18">
+<kmlElementH "Hidrogênio (H), Z = 1">
+<kmlElementLi "Lítio (Li), Z = 3">
+<kmlElementNa "Sódio (Na), Z = 11">
+<kmlElementK "Potássio (K), Z = 19">
+<kmlElementRb "Rubídio (Rb), Z = 37">
+<kmlElementCs "Césio (Cs), Z = 55">
+<kmlElementFr "Frâncio (Fr), Z = 87">
+<kmlElementBe "Berílio (Be), Z = 4">
+<kmlElementMg "Magnésio (Mg), Z = 12">
+<kmlElementCa "Cálcio (Ca), Z = 20">
+<kmlElementSr "Estrôncio (Sr), Z = 38">
+<kmlElementBa "Bário (Ba), Z = 56">
+<kmlElementRa "Rádio (Ra), Z = 88">
+<kmlElementB "Boro (B), Z = 5">
+<kmlElementAl "Alumínio (Al), Z = 13">
+<kmlElementGa "Gálio (Ga), Z = 31">
+<kmlElementIn "Índio (In), Z = 49">
+<kmlElementPo "Tálio (Po), Z = 81">
+<kmlElementUut "Ununtrio (Uut), Z = 113">
+<kmlElementC "Carbono (C), Z = 6">
+<kmlElementSi "Silício (Si), Z = 14">
+<kmlElementGe "Germânio (Ge), Z = 32">
+<kmlElementSn "Estanho (Sn), Z = 50">
+<kmlElementPb "Chumbo (Pb), Z = 82">
+<kmlElementFl "Fleróvio (Fl), Z = 114">
+<kmlElementN "Nitrogênio (N), Z = 7">
+<kmlElementP "Fósforo (P), Z = 15">
+<kmlElementAs "Arsênio (As), Z = 33">
+<kmlElementSb "Antimônio (Sb), Z = 51">
+<kmlElementBi "Bismuto (Bi), Z = 83">
+<kmlElementUup "Ununpentio (Uup), Z = 115">
+<kmlElementO "Oxigênio (O), Z = 8">
+<kmlElementS "Enxofre (S), Z = 16">
+<kmlElementSe "Selênio (Se), Z = 34">
+<kmlElementTe "Telúrio(Te), Z = 52">
+<kmlElementPo "Polônio (Po), Z = 84">
+<kmlElementLv "Livermório (Lv), Z = 116">
+<kmlElementF "Flúor (F), Z = 9">
+<kmlElementCl "Cloro (Cl), Z = 17">
+<kmlElementBr "Bromo (Br), Z = 35">
+<kmlElementI "Iodo (I), Z = 53">
+<kmlElementAt "Astato (At), Z = 85">
+<kmlElementUus "Ununséptio (Uus), Z = 117">
+<kmlElementHe "Hélio (He), Z = 2">
+<kmlElementNe "Neônio (Ne), Z = 10">
+<kmlElementAr "Argônio (Ar), Z = 18">
+<kmlElementKr "Criptônio (Kr), Z = 36">
+<kmlElementXe "Xenônio (Xe), Z = 54">
+<kmlElementRn "Radônio (Rn), Z = 86">
+<kmlElementUuo "Ununóctio (Uuo), Z = 118">
+
+<kmlEndButton1 "Voltar ao início">
+<kmlEndButton2 "Jogar de novo">

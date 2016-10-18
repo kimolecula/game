@@ -1,0 +1,129 @@
+{
+    "level": [
+        {
+            "imgFile": [
+                "lvl1-mol1-img1",
+                "lvl1-mol1-img2",
+                "lvl1-mol1-img3",
+                "lvl1-mol1-img4"
+            ],
+            "rightAnswer": [
+                "Na",
+                "Cl"
+            ],
+            "wrongAnswer": [
+                "H2",
+                "O2",
+                "Cl3",
+                "Na2",
+                "N",
+                "H"
+            ],
+            "tips": [
+                "Muito utilizado como tempero",
+                "Em excesso causa retenção de líquido e faz mal para saúde",
+                "É extraído da água salgada"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl1-mol2-img1",
+                "lvl1-mol2-img2",
+                "lvl1-mol2-img3",
+                "lvl1-mol2-img4"
+            ],
+            "rightAnswer": [
+                "C",
+                "O2"
+            ],
+            "wrongAnswer": [
+                "C2",
+                "Mn3",
+                "Cl4",
+                "Na",
+                "K",
+                "H2"
+            ],
+            "tips": [
+                "Liberado na queima de combustíveis fósseis",
+                "Um dos gases de efeito estufa",
+                "As plantas o absorvem no processo de fotossíntese"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl1-mol3-img1",
+                "lvl1-mol3-img2",
+                "lvl1-mol3-img3",
+                "lvl1-mol3-img4"
+            ],
+            "rightAnswer": [
+                "H",
+                "Cl"
+            ],
+            "wrongAnswer": [
+                "C",
+                "K2",
+                "S",
+                "Cl4",
+                "H6",
+                "Ba"
+            ],
+            "tips": [
+                "Está presente em produtos de limpeza para piso sendo chamado por ácido muriático",
+                "Ácido presente no suco gástrico do estômago",
+                "É formado pelo gás cloreto de hidrogênio dissolvido em água"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl1-mol4-img1",
+                "lvl1-mol4-img2",
+                "lvl1-mol4-img3",
+                "lvl1-mol4-img4"
+            ],
+            "rightAnswer": [
+                "C",
+                "H4"
+            ],
+            "wrongAnswer": [
+                "H5",
+                "Cl",
+                "O3",
+                "N",
+                "C2",
+                "Na3"
+            ],
+            "tips": [
+                "Uma de suas fontes é a decomposição anaeróbica de resíduo/lixo orgânico",
+                "Por ter um odor nada agradável e característico quando uma fruta está apodrecendo, é conhecido como gás dos pântanos",
+                "Está presente no processo de digestão de animais herbívoros, carnívoros e onívoros e por isso é conhecido como o 'gás da flatulência da vaca'"
+            ]
+        },
+        {
+            "imgFile": [
+                "lvl1-mol5-img1",
+                "lvl1-mol5-img2",
+                "lvl1-mol5-img3",
+                "lvl1-mol5-img4"
+            ],
+            "rightAnswer": [
+                "S",
+                "O2"
+            ],
+            "wrongAnswer": [
+                "I",
+                "Ba",
+                "H",
+                "O4",
+                "S3",
+                "Na2"
+            ],
+            "tips": [
+                "Um dos gases provenientes da queima de combustíveis fósseis",
+                "É um dos mais perigosos poluentes do ar por ser tóxico e causar ardência/irritação em contato com olhos e mucosas",
+                "É um gás que ao reagir com a água, forma o ácido sulfúrico e resulta na chuva ácida"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+<div class="game-disposition container-column row">
+    <div id="game-body" class="top-content">
+        <div class="game-headerbar">
+            <div class="welcome-player">
+                <span data-l20n="kmlWelcomePlayer"></span> {{game.user}}!
+            </div>
+            <div class="buttons-options">
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton4" ng-click="instructions()"></a>
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton1" ng-click="changeMolecule()"></a>
+                <a class='button button--border-white button--super-width' data-l20n="kmlJogoButton2" ng-click="quitGame()"></a>
+            </div>
+        </div>
+        <div class="center-content game-quiz">
+            <div class="actual-level">
+                <div><span data-l20n="kmlLevel"></span> {{game.levelNow}}</div>
+                <div class="actual-attempt">Tentativa {{game.attemptsAnswer}}/{{game.maxAttemptsAnswer}}</div>
+            </div>
+            <div class="game-screen">
+                <div class="pictures" ng-if="game.levelData.images">
+                    <div ng-repeat="image in game.levelData.images" style="background-image: url('design/{{image}}.jpg')"></div>
+                </div>
+                <div class="answers-selected" ng-if="game.levelData.rightAnswer" ng-init="game.answerChoice = []">
+                    <span ng-repeat="right in game.levelData.rightAnswer" ng-bind-html="game.answerChoice[$index]"></span>
+                </div>
+                <div class="answers-all" ng-if="game.levelData.allAnswers">
+                    <span ng-repeat="answer in game.levelData.allAnswers" ng-click="letAnswer(answer)" ng-bind-html="answer"></span>
+                </div>
+            </div>
+
+            <div class="game-info">
+                <span class="mini-section">
+                    <span class='mini-section-title'>Contador de Bambus: {{game.bambooCounter}}</span>
+                    <div class="bamboo-counter">
+                        <img ng-repeat="bamboo in getBamboo(game.bambooCounter) track by $index" src="design/panda-bamboo-03.png" />
+                    </div>
+                </span>
+
+                <div class="buttons-helpers">
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 1, 'button--border-dark': game.tipCounter == 1}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 2, 'button--border-dark': game.tipCounter <= 2}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                    <a class='button button--super-width' ng-class="{'button--disabled': game.tipCounter > 3, 'button--border-dark': game.tipCounter <= 3}" data-l20n="kmlJogoButton3" ng-click="clainTip()"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-content game-help">
+            <div id="instrucoes-interna" class="center-content">
+                <div class="height-content">
+                    <h1 data-l20n="kmlInstruTitle"></h1>
+                    <p data-l20n="kmlInstruParagraph" class="text-full"></p>
+                    <a class='button button--full-color button--super-width' ng-click="instructions()" data-l20n="kmlInstruButton2"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="game-sidebar center-content column">
+        <span class="mini-section">
+            <span class='mini-section-title' data-l20n="kmlJogoParagraph3"></span>
+            <div class="chemical-elements">
+                <ul>
+                    <li class="group-elements"><span data-l20n="kmlFamilyOne"></span><br><div data-l20n="kmlMetaisAlcalinos"></div></li>
+                    <li data-l20n="kmlElementH"><br><span data-l20n="kmlUnique"></span></li>
+                    <li data-l20n="kmlElementLi"></li>
+                    <li data-l20n="kmlElementNa"></li>
+                    <li data-l20n="kmlElementK"></li>
+                    <li data-l20n="kmlElementRb"></li>
+                    <li data-l20n="kmlElementCs"></li>
+                    <li data-l20n="kmlElementFr"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilyTwo"></span><br><div data-l20n="kmlMetaisAlcalinoTerrosos"></div></li>
+                    <li data-l20n="kmlElementBe"></li>
+                    <li data-l20n="kmlElementMg"></li>
+                    <li data-l20n="kmlElementCa"></li>
+                    <li data-l20n="kmlElementSr"></li>
+                    <li data-l20n="kmlElementBa"></li>
+                    <li data-l20n="kmlElementRa"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilyThree"></span><br><div data-l20n="kmlFamiliaBoro"></div></li>
+                    <li data-l20n="kmlElementB"></li>
+                    <li data-l20n="kmlElementAl"></li>
+                    <li data-l20n="kmlElementGa"></li>
+                    <li data-l20n="kmlElementIn"></li>
+                    <li data-l20n="kmlElementPo"></li>
+                    <li data-l20n="kmlElementUut"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilyFour"></span><br><div data-l20n="kmlFamiliaCarbono"></div></li>
+                    <li data-l20n="kmlElementC"></li>
+                    <li data-l20n="kmlElementSi"></li>
+                    <li data-l20n="kmlElementGe"></li>
+                    <li data-l20n="kmlElementSn"></li>
+                    <li data-l20n="kmlElementPb"></li>
+                    <li data-l20n="kmlElementFl"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilyFive"></span><br><div data-l20n="kmlFamiliaNitrogenio"></div></li>
+                    <li data-l20n="kmlElementN"></li>
+                    <li data-l20n="kmlElementP"></li>
+                    <li data-l20n="kmlElementAs"></li>
+                    <li data-l20n="kmlElementSb"></li>
+                    <li data-l20n="kmlElementBi"></li>
+                    <li data-l20n="kmlElementUup"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilySix"></span><br><div data-l20n="kmlCalcogenios"></div></li>
+                    <li data-l20n="kmlElementO"></li>
+                    <li data-l20n="kmlElementS"></li>
+                    <li data-l20n="kmlElementSe"></li>
+                    <li data-l20n="kmlElementTe"></li>
+                    <li data-l20n="kmlElementPo"></li>
+                    <li data-l20n="kmlElementLv"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilySeven"></span><br><div data-l20n="kmlHalogenios"></div></li>
+                    <li data-l20n="kmlElementF"></li>
+                    <li data-l20n="kmlElementCl"></li>
+                    <li data-l20n="kmlElementBr"></li>
+                    <li data-l20n="kmlElementI"></li>
+                    <li data-l20n="kmlElementAt"></li>
+                    <li data-l20n="kmlElementUus"></li>
+                    <li class="group-elements"><span data-l20n="kmlFamilyEight"></span><br><div data-l20n="kmlGasesNobres"></div></li>
+                    <li data-l20n="kmlElementHe"></li>
+                    <li data-l20n="kmlElementNe"></li>
+                    <li data-l20n="kmlElementAr"></li>
+                    <li data-l20n="kmlElementKr"></li>
+                    <li data-l20n="kmlElementXe"></li>
+                    <li data-l20n="kmlElementRn"></li>
+                    <li data-l20n="kmlElementUuo"></li>
+                </ul>
+            </div>
+        </span>
+    </div>
+</div>
