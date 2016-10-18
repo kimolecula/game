@@ -16,7 +16,7 @@ kimolecula.controller('fimDoJogoController', function ($http, $rootScope, $scope
             }
             else if ($rootScope.levelScore.bamboo > 10 && $rootScope.levelScore.bamboo <= 18) {
                 $scope.finalPanda.image = 'panda-final-11.png';
-                $scope.finalPanda.text = 'Você conseguiu ' + $rootScope.levelScore.bamboo + ' bambus, mas ainda sim o Professor Panda está faminto! Vamos alimentar o Professor de novo? Assim a gente estuda mais um pouco.';
+                $scope.finalPanda.text = 'Você conseguiu ' + $rootScope.levelScore.bamboo + ' bambus, mas ainda assim o Professor Panda está faminto! Vamos alimentar o Professor de novo? Assim a gente estuda mais um pouco.';
             }
             else if ($rootScope.levelScore.bamboo > 18 && $rootScope.levelScore.bamboo <= 28) {
                 $scope.finalPanda.image = 'panda-final-13.png';
@@ -24,7 +24,7 @@ kimolecula.controller('fimDoJogoController', function ($http, $rootScope, $scope
             }
             else if ($rootScope.levelScore.bamboo > 28) {
                 $scope.finalPanda.image = 'panda-final-10.png';
-                $scope.finalPanda.text = 'Espetacular!! Talvez o Professor Panda nunca tenha visto tanta inteligência junta! Você conseguiu ' + $rootScope.levelScore.bamboo + ' bambus! Agora sim o Professor está totalmente satisfeito e muito feliz com você! Que tal agora chamar seus amigos?';
+                $scope.finalPanda.text = 'Espetacular! Talvez o Professor Panda nunca tenha visto tanta inteligência junta! Você conseguiu ' + $rootScope.levelScore.bamboo + ' bambus! Agora sim o Professor está totalmente satisfeito e muito feliz com você! Que tal chamar seus amigos para jogar também?';
             }
         }
     }
