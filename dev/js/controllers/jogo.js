@@ -327,7 +327,7 @@ kimolecula.controller('jogoController', function ($http, $rootScope, $scope, $ro
             else {
                 sweet.show({
                     title: 'Você não tem bambus suficientes',
-                    text: 'A quantidade de bambu que você tem não é suficiente para comprar dicas agora, o professor Panda está ficando faminto! Para continuar, responda a questão para voltar a ganhar bambús ou comece novamente.',
+                    text: 'A quantidade de bambu que você tem não é suficiente para comprar dicas agora, o professor Panda está ficando faminto! Para continuar, responda a questão para voltar a ganhar bambus ou comece novamente.',
                     imageUrl: 'design/panda-triste-04.png'
                 });
             }
